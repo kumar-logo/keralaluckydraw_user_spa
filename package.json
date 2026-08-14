@@ -1,0 +1,75 @@
+{
+  "name": "keralaluckydraw-spa",
+  "private": true,
+  "version": "1.0.4",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@playwright/test": "^1.49.1",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "4.3.4",
+    "@vitest/coverage-v8": "^2.1.9",
+    "autoprefixer": "10.4.20",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.26",
+    "globals": "^17.7.0",
+    "jsdom": "^25.0.1",
+    "postcss": "8.5.3",
+    "typescript": "5.7.3",
+    "typescript-eslint": "^8.62.0",
+    "vite": "6.1.0",
+    "vitest": "^2.1.9"
+  },
+  "dependencies": {
+    "@lottiefiles/lottie-player": "2.0.11",
+    "@lottiefiles/react-lottie-player": "^3.6.0",
+    "@nextui-org/react": "2.6.11",
+    "@tailwindcss/vite": "4.1.11",
+    "@types/qrcode": "^1.5.6",
+    "@types/react-slick": "^0.23.13",
+    "axios": "1.8.1",
+    "clsx": "2.1.1",
+    "firebase": "11.3.1",
+    "framer-motion": "12.4.7",
+    "i18next": "24.2.2",
+    "i18next-browser-languagedetector": "^8.2.1",
+    "i18next-http-backend": "3.0.2",
+    "lottie-web": "^5.13.0",
+    "motion-dom": "12.4.5",
+    "motion-utils": "12.0.0",
+    "qrcode": "^1.5.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-i18next": "15.4.1",
+    "react-router-dom": "7.2.0",
+    "react-slick": "^0.31.0",
+    "slick-carousel": "^1.8.1",
+    "socket.io-client": "^4.8.3",
+    "tailwindcss": "4.1.11",
+    "zustand": "5.0.3"
+  },
+  "overrides": {
+    "vitest": {
+      "vite": "$vite"
+    },
+    "@vitest/coverage-v8": {
+      "vite": "$vite"
+    }
+  }
+}

@@ -1,0 +1,1699 @@
+{
+  "agent": {
+    "title": "Agent Center",
+    "label": {
+      "commission": "Commission",
+      "today": "Today",
+      "total": "Total",
+      "subordinates": "Subordinates",
+      "level1": "Level 1",
+      "level2": "Level 2",
+      "todayRegister": "Today Register",
+      "todayFirstRecharge": "Today First Recharge",
+      "viewSubordinates": "View Subordinates",
+      "shareInvite": "Share Invite",
+      "inviteCode": "Invite Code",
+      "inviteLink": "Invite Link",
+      "rules": "Rules",
+      "totalCommission": "Total Commission",
+      "todayCommission": "Today Commission",
+      "inviteFriends": "Invite Friends",
+      "registered": "Registered",
+      "totalBet": "Total Bet",
+      "commissionRules": "Commission Rules"
+    },
+    "rule": {
+      "desc1": "Invite friends to join and earn commission on their bets.",
+      "desc2": "Level 1 subordinates: direct invites. Level 2: their invites.",
+      "desc3": "Commission is calculated daily and credited to your wallet."
+    }
+  },
+  "bets": {
+    "status": {
+      "pending": "Pending",
+      "won": "Won",
+      "lost": "Lost",
+      "settled": "Settled"
+    },
+    "label": {
+      "bet": "Bet",
+      "betAmount": "Bet Amount",
+      "betType": "Bet Type",
+      "game": "Game",
+      "orderDetail": "Order Detail",
+      "orderId": "Order ID",
+      "orderInfo": "Order Info",
+      "prize": "Prize",
+      "round": "Round",
+      "roundResult": "Round Result",
+      "time": "Time"
+    }
+  },
+  "cashReward": {
+    "label": {
+      "entryDesc": "મફત નકદ ઇનામ",
+      "myRewards": "મારા ઇનામો",
+      "nextRoundTime": "આગળનું રોકડ વરસાદનું સમય",
+      "otherUsers": "અન્ય યુઝર્સ",
+      "startNow": "હવે શરૂ કરો",
+      "title": "કેશ રેઇન"
+    },
+    "rule": {
+      "desc1": "દર મહિને 1 થી 7: 6 સત્રો દૈનિક",
+      "desc2": "પ્રતિ મહિને 8મું–અંત: 3 સત્રો દૈનિક",
+      "no1": "દરેક કેશ રેઇન ઇવેન્ટ કુલ ₹100,000 મફત વિતરે છે.",
+      "no2": "મહત્તમ નકદ વરસાદની રકમ: દરેક નકદ વરસાદ મફત આપવામાં આવે છે.",
+      "no3": "રીચાર્જ સભ્યો મફત ઇનામો માટે દાવો કરી શકે છે.",
+      "no4": "મિલેલા પૈસા રમતો રમવા માટે અથવા સીધા ઉપાડવા માટે ઉપયોગ કરી શકાય છે.",
+      "no5": "જેટલું વધુ તમે દરરોજ રમો છો, અને જેટલું લાંબું તમે રમો છો, તેટલું વધુ તમે કમાઈ શકો છો."
+    },
+    "tip": {
+      "alreadyPlayed": "તમે જોડાયા! કૃપા કરીને આગામી રાઉન્ડની રાહ જુઓ.",
+      "plsWait": "આગામી રાઉન્ડ માટે રાહ જુઓ.",
+      "rechargeFirst": "આ ઇવેન્ટમાં ભાગ લેવા માટે તમારે પહેલા ટોપ અપ કરવું પડશે."
+    }
+  },
+  "common": {
+    "label": {
+      "addDesk": "ડેસ્કટોપમાં ઉમેરો",
+      "agent": "એજન્ટ",
+      "all": "બધા",
+      "amount": "રકમ",
+      "AmuntStatus": {
+        "1": "સમીક્ષા",
+        "2": "બેંક ચકાસણી",
+        "3": "પૂર્ણ",
+        "4": "અસફળ"
+      },
+      "Awards": "એવોર્ડ્સ",
+      "backToHome": "ઘરે પાછા જાઓ",
+      "availableBalance": "Available Balance",
+      "backHome": "Back to Home",
+      "balance": "બેલેન્સ",
+      "bet": "બેટ",
+      "betAmount": "બેટ રકમ",
+      "betNow": "હવે બેટ કરો",
+      "betResult": "બેટ પરિણામ",
+      "bets": "બેટ્સ",
+      "betting": "બેટિંગ",
+      "bonus": "બોનસ",
+      "cancel": "રદ કરો",
+      "check": "ચકાસો",
+      "choese": "કૃપા કરીને પસંદ કરો",
+      "claim": "ક્લેમ",
+      "claimed": "ક્લેમ કરેલ",
+      "claimNow": "હવે દાવો કરો",
+      "clear": "સ્પષ્ટ",
+      "clearAll": "બધું સાફ કરો",
+      "close": "બંધ કરો",
+      "closed": "બંધ",
+      "collapse": "કોલેપ્સ",
+      "collect": "સંગ્રહિત કરો",
+      "confirm": "પુષ્ટિ કરો",
+      "confirmation": "પુષ્ટિ યાદી",
+      "copy": "કૉપી કરો",
+      "customer": "ગ્રાહક",
+      "cutDown": "લોટરી માટેની ગણીશ",
+      "day": "દિવસ",
+      "Day": "દિવસ",
+      "del": "મિટાવો",
+      "Details": "વિગતો",
+      "digit": "અંક",
+      "download": "ડાઉનલોડ",
+      "downloadApp": "એપ ડાઉનલોડ કરો",
+      "downloadSth": "{{sth}} ડાઉનલોડ કરો",
+      "drawResult": "ડ્રો પરિણામ",
+      "drawResults": "ડ્રૉ પરિણામો",
+      "earnMoney": "પૈસા કમાવો",
+      "edit": "સંપાદિત કરો",
+      "empty": "ખાલી",
+      "example": "ઉદાહરણ",
+      "exchange": "વિનિમય",
+      "expired": "સમય સમાપ્ત",
+      "favorites": "પ્રિય",
+      "filter": "ફિલ્ટર",
+      "finish": "સમાપ્ત",
+      "free": "મફત",
+      "sports": "Sports",
+      "games": {
+        "add": "જોડો",
+        "analyze": "વિશ્લેષણ કરો",
+        "betSlip": "બેટ સ્લિપ",
+        "bettingTime": "બેટિંગનો સમય",
+        "BETTYPE": "બેટ પ્રકાર",
+        "Big": "મોટું",
+        "box": "બોક્સ",
+        "casino": "કેસિનો",
+        "CreateTime": "સમય બનાવો",
+        "Delivery": "ડિલિવરી",
+        "digit": "3 અંક",
+        "double": "ડબલ",
+        "DRAWN": "ડ્રૉન",
+        "drawTime": "ડ્રો સમય",
+        "Even": "જોડું",
+        "EVEN": "સમાન",
+        "Fee": "ફી",
+        "five": "૫",
+        "four": "૪",
+        "FullInsurance": "પૂર્ણ વીમો",
+        "gameClosed": "ખેલ બંધ",
+        "kerala": "કેરળ",
+        "keralaStateLottery": "કેરળ રાજ્ય લોટરી",
+        "label": "ગેમ્સ",
+        "LastDraw": "છેલ્લો ડ્રો",
+        "LastDrawResult": "છેલ્લા ડ્રૉનું પરિણામ",
+        "live": "લાઇવ",
+        "liveCasino": "લાઇવ કાસિનો",
+        "lottery": "લોટરી",
+        "maxBet": "મહત્તમ બેટ",
+        "minBet": "ન્યૂનતમ બેટ",
+        "minutes": "મિનિટ",
+        "mixLotto": "રાજ્ય લોટરી",
+        "myBets": "મારા બેટ્સ",
+        "myNumbers": "મારા નંબર",
+        "myOrder": "મારો ઓર્ડર",
+        "nextDraw": "આગળનું ડ્રૉ",
+        "nextDrawTime": "આગામી ડ્રોનો સમય",
+        "numbers": "આંકડા",
+        "odd": "અસમાન",
+        "odds": "ઓડ્સ",
+        "orderId": "ઓર્ડર આઈડી",
+        "payment": "ચુકવણી",
+        "payNow": "હવે ચૂકવો",
+        "picks": "પિક્સ",
+        "punjab": "પંજાબ",
+        "quickAdd": "ઝડપી ઉમેરો",
+        "quickGuess": "ઝડપી અનુમાન",
+        "quickRace": "ઝડપી રેસ",
+        "remainTime": "બાકીનો સમય",
+        "rule": "નિયમ",
+        "rules": "નિયમો",
+        "shoppingCart": "ખરીદીની ગાડી",
+        "single": "એકલ",
+        "Small": "નાના",
+        "TICKETSETTLED": "ટિકિટ નિકાલ",
+        "TICKETSETTLING": "ટિકિટ સેટલિંગ...",
+        "totalPayment": "કુલ ચુકવણી",
+        "totalPrizes": "કુલ ઇનામો",
+        "triple": "ત્રણગણ",
+        "TYPE": "ટાઇપ",
+        "winner": "જીતનાર",
+        "winning": "જીતવું",
+        "straight": "Straight",
+        "emptyCart": "No bets selected",
+        "big": "Big",
+        "stopped": "Stopped",
+        "sport": "ક્રીડા"
+      },
+      "get": "મિલો",
+      "history": "ઇતિહાસ",
+      "home": "ઘર",
+      "hour": "કલાક",
+      "Hour": "કલાક",
+      "hours": "કલાક",
+      "Hours": "કલાક",
+      "howPlay": "કેમ રમવું",
+      "hrs": "કલાક",
+      "inProgress": "ચાલુ છે",
+      "invite": "આમંત્રણ આપો",
+      "invites": "આમંત્રણ",
+      "inviteToEarn": "આમંત્રણ આપો અને કમાવો",
+      "lastResult": "પહેલાંના ટોપ પ્રાઇઝ પરિણામો",
+      "lastWeek": "છેલ્લા અઠવાડિયે",
+      "loadMore": "વધુ લોડ કરો",
+      "locked": "લોકડ",
+      "login": "સાઇન ઇન",
+      "max": "મહત્તમ",
+      "MaxPrize": "મહત્તમ ઇનામ",
+      "menu": "મેનુ",
+      "min": "ન્યૂનતમ",
+      "mins": "મિનિટ",
+      "more": "વધુ",
+      "multiplier": "મલ્ટિપ્લાયર",
+      "noMoreData": "કોઈ વધુ ડેટા નથી",
+      "notAchieved": "પહોંચ્યું નથી",
+      "notEligible": "યોગ્ય નથી",
+      "notes": "નોટ્સ",
+      "notification": "સૂચના",
+      "notifications": "નોટિફિકેશન્સ",
+      "nowin": "કોઈ જીત નથી",
+      "ok": "બરાબર",
+      "open": "ખોલો",
+      "password": "પાસવર્ડ",
+      "pay": "ચુકવણી",
+      "payout": "પેઆઉટ",
+      "play": "ખેલવું",
+      "player": "ખિલાડી",
+      "players": "ખિલાડીઓ",
+      "playNow": "હવે રમો",
+      "previousResult": "પાછલા પરિણામ",
+      "price": "કિંમત",
+      "promotions": "પ્રમોશન્સ",
+      "random": "યાદ્રૂપ",
+      "rate": "દર",
+      "rcForm": {
+        "lastRecharge": "છેલ્લી રિચાર્જ",
+        "RechargeAmount": "રીચાર્જ રકમ"
+      },
+      "rebate": "રિફંડ",
+      "recent": "તાજેતરના",
+      "recharge": "રિચાર્જ",
+      "rechargeChannel": "રીચાર્જ ચેનલ",
+      "rechargeNow": "હવે રિચાર્જ કરો",
+      "refresh": "ફિરથી તાજું કરો",
+      "register": "સાઇન અપ",
+      "result": "પરિણામ",
+      "resultHistory": "પરિણામ ઇતિહાસ",
+      "save": "સાચવો",
+      "search": "શોધો",
+      "select": "કૃપા કરીને પસંદ કરો",
+      "selectMonth": "મહિનો પસંદ કરો",
+      "share": "શેર કરો",
+      "showMore": "વધુ બતાવો",
+      "spin": "સ્પિન",
+      "stay-tuned": "જોડાયેલા રહો",
+      "Success": "સફળતા",
+      "switchLanguage": "ભાષા બદલો",
+      "table": {
+        "betId": "બેટ આઈડી",
+        "gametype": "ગેમ પ્રકાર",
+        "issue": "ઇશ્યૂ",
+        "number": "નંબર",
+        "sum": "કુલ",
+        "time": "સમય",
+        "value": "મૂલ્ય"
+      },
+      "thisWeek": "આ સપ્તાહ",
+      "ticket": "ટિકિટ",
+      "tier": "ટિયર",
+      "timeRemain": "બાકીનો સમય",
+      "tip": "સૂચન",
+      "toBeDrawn": "કાઢવા માટે",
+      "topPrize": "ટોપ ઇનામ",
+      "total": "કુલ",
+      "transfer": "હસ્તાંતરણ",
+      "transferRecords": "ટ્રાન્સફર રેકોર્ડ",
+      "type": "ટાઇપ",
+      "unbound": "અબંધીત",
+      "unlock": "અનલોક કરો",
+      "unmet": "અપૂર્ણ",
+      "updateLater": "બાદમાં અપડેટ કરો",
+      "updateNow": "હવે અપડેટ કરો",
+      "userID": "યુઝર આઈડી",
+      "username": "યુઝરનેમ",
+      "userName": "વપરાશકર્તા નામ",
+      "viewAll": "બધા જુઓ",
+      "wager": "બેટ",
+      "win": "જીતો",
+      "withdraw": "પાછા ખેંચો",
+      "WithdrawNow": "હવે ઉપાડો",
+      "won": "જીત્યું",
+      "totalBalance": "Total Balance",
+      "phone": "Phone Number",
+      "smsCode": "SMS Code",
+      "sendCode": "Send Code",
+      "inviteCode": "Invite Code",
+      "confirmPassword": "Confirm Password",
+      "forgotPassword": "Forgot Password?",
+      "noAccount": "Don't have an account?",
+      "hasAccount": "Already have an account?",
+      "loginNow": "Login Now",
+      "registerNow": "Register Now",
+      "agree": "I agree to the",
+      "terms": "Terms of Service",
+      "newPassword": "New Password",
+      "setPassword": "Set Password",
+      "resetPassword": "Reset Password",
+      "transactions": "Transactions",
+      "submit": "Submit",
+      "pending": "Pending",
+      "success": "Success",
+      "failed": "Failed",
+      "rejected": "Rejected",
+      "approved": "Approved",
+      "processing": "Processing",
+      "completed": "Completed",
+      "bankCard": "Bank Card",
+      "addBankCard": "Add Bank Card",
+      "accountName": "Account Holder Name",
+      "bankName": "Bank Name",
+      "accountNumber": "Account Number",
+      "ifscCode": "IFSC Code",
+      "upiId": "UPI ID",
+      "minAmount": "Min",
+      "maxAmount": "Max",
+      "mainWallet": "Main Wallet",
+      "bonusWallet": "Bonus Wallet",
+      "from": "From",
+      "to": "To",
+      "date": "Date",
+      "status": "Status",
+      "detail": "Detail",
+      "orderNo": "Order No.",
+      "time": "Time",
+      "noData": "No Data",
+      "copied": "Copied!",
+      "delete": "Delete",
+      "inviteLink": "Invite Link",
+      "commission": "Commission",
+      "subordinates": "Subordinates",
+      "level": "Level",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "thisMonth": "This Month",
+      "checkin": "Check In",
+      "activity": "Activity",
+      "vip": "VIP",
+      "profile": "Profile",
+      "settings": "Settings",
+      "about": "About",
+      "language": "Language",
+      "darkMode": "Dark Mode",
+      "nickname": "Nickname",
+      "avatar": "Avatar",
+      "userId": "User ID",
+      "myOrders": "My Orders",
+      "myBets": "My Bets",
+      "records": "Records",
+      "rechargeRecords": "Recharge Records",
+      "withdrawRecords": "Withdraw Records",
+      "receive": "Receive",
+      "rebateRate": "Rebate Rate",
+      "totalRebate": "Total Rebate",
+      "unclaimed": "Unclaimed",
+      "gameType": "Game Type",
+      "round": "Round",
+      "prize": "Prize",
+      "results": "Results",
+      "drawTime": "Draw Time",
+      "gameList": "Game List",
+      "providers": "Providers",
+      "popular": "Popular",
+      "new": "New",
+      "hot": "Hot",
+      "lottery": "Lottery",
+      "casino": "Casino",
+      "slots": "Slots",
+      "live": "Live",
+      "install": "Install",
+      "cashRain": "Cash Rain",
+      "mysteryBox": "Mystery Box",
+      "draw": "Draw",
+      "cost": "Cost",
+      "freeSpin": "Free Spin",
+      "custom": "Custom",
+      "prizeTier": "Prize Tier",
+      "winners": "Winners",
+      "big": "Big",
+      "small": "Small",
+      "odd": "Odd",
+      "even": "Even",
+      "red": "Red",
+      "green": "Green",
+      "violet": "Violet",
+      "sum": "Sum",
+      "position": "Position"
+    },
+    "tip": {
+      "confirm": {
+        "bindAccount": "તમારા પાસે બાઇન્ડ કરવા માટે માત્ર એક તક છે, અને બાઇન્ડિંગ પછી તેને બદલવામાં નહીં આવે. શું તમે ખરેખર બાઇન્ડ કરવા માંગો છો?",
+        "changeBetsOne": "તમે આદેશ મૂક્યો છે",
+        "changeBetsTwo": "શું તમે ખરેખર તમારી અગાઉની પસંદગીઓ દૂર કરવા માંગો છો?",
+        "clearNumbers": "કૃપા કરીને ખાતરી કરો કે તમે બધા નંબર સાફ કરવા માંગો છો?",
+        "del": "શું તમે ખરેખર કાઢી નાખવા માંગો છો?",
+        "goCS": "તમે {{action}} કરવા માટે ગ્રાહક સેવા સાથે સંપર્ક કરવો પડશે.",
+        "newUpdate": "નવું અપડેટ ઉપલબ્ધ છે!",
+        "newUpdateApp": "તમે હવે અપડેટ કરી શકો છો, અથવા વર્તમાન પૃષ્ઠની કામગીરી પૂર્ણ કર્યા પછી એપ્લિકેશનને મેન્યુઅલી પુનઃપ્રારંભ કરી શકો છો.",
+        "newUpdateWeb": "તમે હવે અપડેટ કરી શકો છો, અથવા વર્તમાન પૃષ્ઠની કામગીરી પૂર્ણ કર્યા પછી પૃષ્ઠને હાથે રિફ્રેશ કરી શકો છો."
+      },
+      "info": {
+        "allEmpty": "બધું ખાલી",
+        "autoAuthTip": "અમે તમારા માટે એક મહેમાન ખાતું બનાવ્યું છે. કૃપા કરીને <span data-type=\"copy\">copy</span> લખાણ અથવા સ્ક્રીનશોટ લો તેને સાચવવા માટે. તમે આ ખાતું પછી ઇનામો દાવો કરવા, ફંડ ઉપાડવા અને વધુ માટે ઉપયોગ કરશો. તમે તમારા ફોન નંબરને લિંક કરવા, પાસવર્ડ બદલવા (લિંક કરેલા ફોન નંબર પછી), અથવા સરળ લોગિન માટે ત્રીજા પક્ષના ખાતાને લિંક કરવા માટે <span data-type=\"set-password\">here</span> ક્લિક કરી શકો છો.",
+        "bonusNotEnought": "અપર્યાપ્ત બોનસ બેલેન્સ",
+        "contactCsWithOrder": "આ રેકોર્ડ સાથે પ્રશ્નો? અહીં ક્લિક કરો.",
+        "contactCsWithRecharge": "મોટા જમા માટે, કૃપા કરીને ગ્રાહક સેવા સાથે સંપર્ક કરો જેથી ખાતામાં સંપૂર્ણ ક્રેડિટ સુનિશ્ચિત થાય.",
+        "copyText": "કૃપા કરીને લખાણને નકલ કરવા માટે 'નકલ' બટન પર ક્લિક કરો",
+        "customTickets": "તમારા ટિકિટને કસ્ટમાઇઝ કરો",
+        "dontShowAgainToday": "આજે ફરીથી ન બતાવો",
+        "dontShowTotay": "આજે ફરી ન બતાવો",
+        "downloadBannerDoc": "એપ ડાઉનલોડ કરો અને <span>5~1000</span> બોનસ મેળવો",
+        "FullInsurance": "જો જીતતા નથી, તો સમાનની વળતર મેળવો",
+        "fullInsuranceRule1": "વિમો આવરણની આવશ્યકતાઓ",
+        "fullInsuranceRule1-1": "ફક્ત AI સિસ્ટમ દ્વારા સૂચિત લોટરી ટિકિટો પર લાગુ પડે છે",
+        "fullInsuranceRule1-2": "એઆઈ દ્વારા ભલામણ કરેલા તમામ નંબરો ખરીદવા જરૂરી છે",
+        "fullInsuranceRule1-3": "વિશેષતા કવરેજ માટે ભલામણ કરેલ સંયોજનોની સંપૂર્ણ ખરીદી જરૂરી છે",
+        "fullInsuranceRule2": "ભંડોળ ટ્રિગર",
+        "fullInsuranceRule2-1": "જ્યારે તમામ AI-સૂચિત ટિકિટો ન જીતતી હોય ત્યારે આપમેળે પ્રેરિત થાય છે",
+        "fullInsuranceRule2-2": "પરિણામોની પુષ્ટિ પછી 24 કલાકની અંદર વળતર પ્રક્રિયા કરવામાં આવશે",
+        "fullInsuranceRule3": "કંપની લાભો",
+        "fullInsuranceRule3-1": "આગામી ડ્રૉ માટે 5 મફત ટિકિટ",
+        "fullInsuranceRule3-2": "મફત ટિકિટો એઆઈ સિસ્ટમ દ્વારા ઉત્પન્ન થાય છે",
+        "fullInsuranceRule3-3": "ટિકિટો આપોઆપ તમારા ખાતામાં ઉમેરવામાં આવે છે",
+        "fullInsuranceRule3-4": "\"મારો બેટ\" વિભાગમાં મફત ટિકિટ તપાસો",
+        "fullInsuranceRule4": "વધારાના નોંધો",
+        "fullInsuranceRule4-1": "મફત ટિકિટો ટ્રાન્સફર કરી શકાતી નથી",
+        "fullInsuranceRule4-2": "ફક્ત આગામી ડ્રૉ માટે માન્ય",
+        "fullInsuranceRule4-3": "પ્લેટફોર્મ અંતિમ વ્યાખ્યાના અધિકાર રાખે છે",
+        "gameNotActive": "માફ કરશો, રમત જાળવણી હેઠળ છે. કૃપા કરીને પછીથી ફરીથી પ્રયાસ કરો.",
+        "getAppBonusContent": "અમે તમારા માટે એક ભેટ તૈયાર કરી છે, જે <span>₹{{num}}</span> સુધી છે.",
+        "getAppBonusTitle": "સ્વાગત બોનસ",
+        "getShareBonusHtml": "પ્રથમ 5 શેર માટે દરરોજ <span style=\"color:#0BC952;font-size:1.125rem;\">₹{{num}}</span> ઇનામ મેળવો",
+        "giftCode": {
+          "getMore": "વધુ ભેટ કોડ મેળવો",
+          "ph": "તમારો ગિફ્ટ કોડ દાખલ કરો",
+          "success": "સફળતાપૂર્વક વિનિમય!"
+        },
+        "hasAccount": "હવે જ એકાઉન્ટ છે? લોગ ઇન કરવા જાઓ",
+        "initializin": "પ્રારંભિક, કૃપા કરીને રાહ જુઓ",
+        "iosInstallGuide": {
+          "guide1": "સફારીમાં ખોલો",
+          "guide1Decs": "જો તમે અન્ય બ્રાઉઝરનો ઉપયોગ કરી રહ્યા છો, તો કૃપા કરીને આ પૃષ્ઠને સફારીમાં ફરીથી ખોલો.",
+          "guide2": "\"શેર\" પર ટૅપ કરો",
+          "guide2Decs": "સ્ક્રીનના તળિયે શેર આઇકન પર ટેપ કરો. એક મેનુ દેખાશે.",
+          "guide3": "3. \"હોમ સ્ક્રીન પર ઉમેરો\" પસંદ કરો",
+          "guide3Decs": "હોમ સ્ક્રીન પર ઉમેરો પસંદ કરો, પછી ઉમેરવા માટે ટૅપ કરો.",
+          "title": "હોમ સ્ક્રીન માર્ગદર્શિકા ઉમેરો"
+        },
+        "loginFirst": "કૃપા કરીને પહેલા સાઇન ઇન કરો",
+        "needLogin": "કૃપા કરીને પહેલા સાઇન ઇન કરો, તમે સાઇન ઇન કર્યા પછી તેને પ્રાપ્ત કરી શકો છો.",
+        "noMoreContent": "વધુ સામગ્રી ઉપલબ્ધ નથી",
+        "noSthYet": "હજી {{sth}} નથી",
+        "openOnBrowser": "સારો અનુભવ માટે, કૃપા કરીને તમારા બ્રાઉઝરમાં ખોલવા માટે ઉપર-જમણા ખૂણામાં ક્લિક કરો",
+        "orderNoWin": "માફ કરશો, તમારું અનુમાન ખોટું છે, આગામી વખત પ્રયાસ કરો",
+        "orderWin": "અભિનંદન, તમે જીતી ગયા છો!",
+        "orderWinAmount": "કુલ ઇનામની રકમ",
+        "paidSuc": "તમારા ટિકિટ સફળતાપૂર્વક ખરીદવામાં આવ્યા છે. કૃપા કરીને ડ્રૉ સમય નોંધો અને પરિણામો તરત જ તપાસો.",
+        "plsWaitForLoad": "ડેટા લોડ થઈ રહ્યો છે, કૃપા કરીને રાહ જુઓ",
+        "recharge": {
+          "getHelp": "જો રિચાર્જ પ્રાપ્ત થયો નથી <0>10 મિનિટ પછી</0>, કૃપા કરીને <1>ગ્રાહક સેવા</1>ને સહાય માટે સફળ ચુકવણીનો સ્ક્રીનશોટ પ્રદાન કરો.",
+          "mehrere50": "રકમ 50 નો ગુણાકાર હોવો જોઈએ",
+          "money-error": "કૃપા કરીને સાચો રકમ દાખલ કરો",
+          "paymethod-error": "કૃપા કરીને ચુકવણી પદ્ધતિ પસંદ કરો",
+          "payMethodTip": "કૃપા કરીને જો વર્તમાન પદ્ધતિ નિષ્ફળ જાય તો બીજી પદ્ધતિમાં સ્વિચ કરો.",
+          "placeholder": "રીચાર્જ રકમ દાખલ કરો",
+          "step1": "દરેક રિચાર્જ પદ્ધતિ કાર્યરત છે, તમે કોઈપણ ચુકવણી પદ્ધતિ પસંદ કરી શકો છો.",
+          "step2": "બેંકની સમસ્યાઓને કારણે, જો એક ચેનલ કાર્યરત ન હોય તો કૃપા કરીને બીજું પ્રયાસ કરો.",
+          "step3": "કેમ કે કેટલાક પેમેન્ટ ગેટવે ક્યારેક સમસ્યા હોય છે, જો તમારું રિચાર્જ વોલેટમાં ઉમેરાતું નથી, તો કૃપા કરીને અમારી સેવા સાથે સંપર્ક કરો."
+        },
+        "selectNumber": "તમારો નંબર પસંદ કરો",
+        "selectNumberTip": "કૃપા કરીને ઓછામાં ઓછા {{num}} નંબર પસંદ કરો",
+        "shareBetBtn": "શેર કરો અને ₹{{num}} મેળવો",
+        "shareLink": "સામાજિક મીડિયા પર શેર કરો",
+        "unOpen": "હજી સક્રિય નથી",
+        "yourBalance": "તમારો ખાતા બેલેન્સ"
+      },
+      "success": {
+        "claim": "સફળતાપૂર્વક દાવો!",
+        "copy": "સફળતાપૂર્વક નકલ કરો!",
+        "copySite": "આ વેબસાઇટ લિંક નકલ કરવામાં આવી છે!",
+        "del": "સફળતાપૂર્વક કાઢી નાખ્યું!",
+        "download": "સફળતાપૂર્વક ડાઉનલોડ કરો!",
+        "login": "સફળતાપૂર્વક સાઇન ઇન કરો!",
+        "paid": "સફળતાપૂર્વક ચૂકવવામાં આવ્યું!",
+        "share": "સફળતાપૂર્વક શેર કરો!",
+        "success": "સફળતાપૂર્વક!",
+        "recharge": "Recharge submitted",
+        "withdraw": "Withdrawal submitted",
+        "transfer": "Transfer successful",
+        "checkin": "Check-in successful!",
+        "save": "Saved successfully",
+        "bankCard": "Bank card added",
+        "add": "Added successfully",
+        "update": "Updated successfully"
+      },
+      "warn": {
+        "betClosed": "વર્તમાન બેટિંગ સમયગાળો સમાપ્ત થઈ ગયો છે, કૃપા કરીને આગામી સમયગાળાની રાહ જુઓ",
+        "betUnable": "છેલ્લા {{time}} સેકન્ડમાં બેટિંગ બંધ છે",
+        "copy": "કોપી કરવામાં નિષ્ફળ!",
+        "gameClosed": "{{gameName}} હવે બંધ છે, કૃપા કરીને બીજું રમત પસંદ કરો.",
+        "gameClosedWithoutName": "ગેમ સમાપ્ત થઈ ગઈ છે, અને બેટિંગની મંજૂરી નથી. કૃપા કરીને અન્ય ગેમ્સ પર તમારા બેટ્સ મૂકો.",
+        "maxAmount": "તમારા બેટની મહત્તમ રકમ {{num}} છે",
+        "minAmount": "તમારા બેટ માટેની ન્યૂનતમ રકમ {{num}} છે",
+        "notAddNums": "તમે હજુ સુધી કોઈ આંકડા ઉમેર્યા નથી.",
+        "numberSlod": "આ ટિકિટ નંબર વેચાઈ ગયો છે, કૃપા કરીને બીજું પ્રયાસ કરો.",
+        "loginFirst": "Please login first",
+        "selectBet": "Please select a bet",
+        "enterAmount": "Please enter amount",
+        "insufficientBalance": "Insufficient balance"
+      },
+      "gameStopped": "This game is temporarily stopped"
+    }
+  },
+  "digit": {
+    "tip": {
+      "rule": {
+        "mixDigitDoc": "જો એક ખેલાડી {{num}}-અંકના નંબર ({{chars}}) પર બેટ લગાવે છે, તો જીતવા માટે ચાર તક છે:",
+        "mixDigitHowToPlay": "તમારા બેટ્સ કેવી રીતે મૂકવા",
+        "mixDigitHowToPlay1": "તમે કોઈપણ ખાલી અંક આપોઆપ ભરવા માટે <span>\"યાદ્ર\" </span> બટન પર ક્લિક કરી શકો છો. આ ક્રિયા <span>will not overwrite</span> તમે પહેલેથી જ દાખલ કરેલા કોઈપણ અંકને.",
+        "mixDigitHowToPlay2": "જો તમે બધા અંક ભરીને પહેલા <span>\"જોડો\"</span> બટન પર ક્લિક કરો છો, તો સિસ્ટમ આપેલા અંકના આધારે તમામ માન્ય સંયોજનો આપોઆપ બનાવશે.",
+        "mixDigitHowToPlayMinChar": "In <span>{{num1}}D games</span>, you must enter <span>at least {{num2}} digits</span> before you can use the <span>\"Add\"</span> button.",
+        "mixDigitMatch": "બધા {{num}} અંક ({{chars}}) મેળવો - ઇનામ: {{prize}}",
+        "mixDigitNotes1": "ઇનામ માટે લાયક થવા માટે આંકડાઓને ચોક્કસ ક્રમમાં મેળવો જોઈએ.",
+        "mixDigitNotes2": "બધા પરિણામો સંબંધિત કેરળ લોટરી ડ્રૉના પ્રથમ ઇનામના નંબર પર આધારિત છે.",
+        "mixDigitRuleEg": "જો પ્રથમ ઇનામ નંબર 13579 છે, તો આંકડા આ રીતે વ્યાખ્યાયિત કરવામાં આવે છે: A = 1, B = 3, C = 5, D = 7, E = 9",
+        "mixDigitTitle": "{{num}}-અંક રમત ({{chars}})"
+      },
+      "warn": {
+        "minlen": "તમે ઓછામાં ઓછા {{num}} નંબર દાખલ કરવા પડશે"
+      }
+    },
+    "label": {
+      "exact": "Exact",
+      "anyOrder": "Any Order",
+      "sumBet": "Sum"
+    }
+  },
+  "dubai": {
+    "label": {
+      "betSlip": "બેટ સ્લિપ ({{num}})",
+      "maxMultiple": "મહત્તમ 2000",
+      "pick": "તમારો સંકેત પસંદ કરો",
+      "rule": {
+        "instructions": "રમતના સૂચનો"
+      }
+    },
+    "tip": {
+      "info": {
+        "onlyOneCanSel": "એક સમયે ફક્ત એક જ નંબર પસંદ કરી શકાય છે",
+        "pencilEntry": "એક પ્રવેશ માટે {{price}} પ્રતિ પેન્સિલ"
+      },
+      "rule0": {
+        "total1": "આ લોટરી એમિરેટ્સ દ્વારા અધિકૃત છે!",
+        "total2": "કિંમત AED 5 (રૂપિયામાં રૂપાંતરિત કિંમત) 1 ટિકિટ (1 નંબર), પુરસ્કાર AED 100 (20 x Odds)",
+        "total3": "લોટરી ડ્રોઝ દર કલાકે ઘડિયાળ પર, 24 વખત 1 દિવસ 12AM થી 11PM"
+      },
+      "rule1": {
+        "total1": "આ એક ઝડપી લોટરી છે જે એમિરેટ્સ દ્વારા અધિકૃત છે, જે ફક્ત ભારતમાં ઓનલાઇન બુકિંગ માટે મંજૂર છે!",
+        "total2": "ઇનામ છે <span>10રૂ 1ટિકિટ</span> (1 નંબર), ઇનામ છે <span>300રૂ</span> (20 x Odds)",
+        "total3": "લોટરી ડ્રો દરેક 30 સેકન્ડે, 24 કલાક કાર્યરત રહેશે!"
+      },
+      "rule": {
+        "addBankCard": "કેશ ઉપાડવા માટે કૃપા કરીને તમારું બેંક ખાતું અપડેટ કરો",
+        "enjoy": "કૃપા કરીને જીતવાની મજા માણો!",
+        "instructions": "દર ટિકિટ પર 1 થી 36 વચ્ચે એક ચિહ્ન પસંદ કરો. અન્યથા, ટિકિટના ટોચે \"યાદ્રૂપ\" ચિહ્ન પર ક્લિક કરો જેથી તમારા માટે એક ચિહ્ન પસંદ કરવામાં આવે",
+        "multiplier": "મલ્ટિપ્લાયર જેટલો વધુ, તેટલો વધુ તમે જીતો!",
+        "payMethod": "તમે UPI, Paytm, Phonepe, Gpay રિચાર્જનો ઉપયોગ કરી શકો છો"
+      }
+    }
+  },
+  "earnMoney": {
+    "desc": {
+      "betComp": "હારેલા બેટ પછી, પ્લેટફોર્મ 30% સુધીની વળતર આપે છે",
+      "cashRain": "કોઈપણ રકમ રિચાર્જ કરો, મફત કેશ રમત રમો!",
+      "checkIn": "દૈનિક ઇનામો દાવો કરો",
+      "daily": "દૈનિક મફત ઇનામ, દાવો કરવા માટે તૈયાર",
+      "dailyBetComp": "હારવા પર રિફંડ કાલે સવારે 2 વાગ્યે નક્કી કરવામાં આવ્યું",
+      "dailyInvite": "1 નવા યુઝરને આમંત્રણ આપો",
+      "dailyRebate": "કાલે તમામ બેટ્સ પર બોનસ ક્લેમ કરો",
+      "dailyTasks": "નકદ કમાવવા માટે કાર્ય પૂર્ણ કરો",
+      "deposit": "તમારા એકમ જમા રકમના આધારે ઇનામ મેળવો",
+      "didNotRank": "લાગુ નથી (રેન્ક નથી કરી)",
+      "firstWithdrawal": "તમારા પ્રથમ ઉપાડ પર નાણકીય ઇનામ મેળવો",
+      "inviteFriends": "જ્યારે આમંત્રિત મિત્ર {{currency}}500 અથવા વધુ રિચાર્જ કરે છે ત્યારે બોનસ મેળવો",
+      "oneTimeTask": "મફત ઇનામો મેળવવા માટે કાર્ય પૂર્ણ કરો",
+      "rebate": "બેટમાં જોડાઓ અને તમારા બેટ રકમ પર 0.5% કેશબેક મેળવો",
+      "rebateEmpty": "ક્લેમ કરવા માટે કોઈ ઇનામ ઉપલબ્ધ નથી <br/> કેશબેક આગામી દિવસે સવારે 2:00 વાગ્યે નક્કી કરવામાં આવે છે",
+      "recall": "નિષ્ક્રિય વપરાશકર્તાઓને પાછા બોલાવો અને બોનસ ઇનામ મેળવો",
+      "reliefFunds": "રાહત ફંડ ત્રણ દિવસમાં વિતરણ કરવામાં આવશે",
+      "setlemetTime": "સેટલમેન્ટ સમય: દરેક સોમવારે, 2 AM",
+      "spin": "દરરોજ લોગ ઇન કરો 1 મફત લકી સ્પિન મેળવવા માટે",
+      "taskCompTip": "કાર્ય \"{{taskName}}\" પૂર્ણ થયું.",
+      "totalBets": "કુલ બેટ્સ ≥ {{amount}}",
+      "vipLevlLast1": "વિઆઈપી સ્તર છેલ્લી સોમવાર",
+      "yourLastWeekRanking": "તમારા છેલ્લા અઠવાડિયાના રેન્કિંગ બોનસ:"
+    },
+    "label": {
+      "addNow": "હવે ઉમેરો",
+      "addTg": "આધિકૃત ટેલિગ્રામ ઉમેરો",
+      "betComp": "યાદ રાખો દાવો ગુમાવવાની રિફંડ",
+      "bindNow": "હવે બાઇન્ડ કરો",
+      "changeNick": "નિકનેમ બદલો",
+      "checkIn": "ચેક ઇન",
+      "checkInEntryDec": "દૈનિક મફત બોનસ",
+      "compRate": "ભંડોળ દર",
+      "daily": "દૈનિક ઇનામો",
+      "dailyInvite": "દૈનિક આમંત્રણ",
+      "dailyTasks": "દૈનિક કાર્ય",
+      "deposit": "જમા ઇનામો",
+      "editAvatar": "એવતાર સંપાદિત કરો",
+      "editNow": "હવે સંપાદિત કરો",
+      "firstWithdrawal": "પ્રથમ ઉપાડ ઇનામ",
+      "goBet": "જાઓ બેટ કરો",
+      "inviteFriends": "મિત્રોને આમંત્રણ આપો",
+      "loseAmount": "હારેલ રકમ",
+      "losRefund": "હારવા પર રિફંડ",
+      "oneTimeTask": "એક વખતનું કાર્ય",
+      "playCasino": "કેસિનો રમતો રમો",
+      "playFish": "ફિશિંગ ગેમ્સ રમો",
+      "playLive": "લાઇવ રમતો રમો",
+      "playLotto": "લોટરી રમતો રમો",
+      "playSlot": "સ્લોટ ગેમ્સ રમો",
+      "rankingCashAwards": "રેન્કિંગ કેશ એવોર્ડ્સ",
+      "rebate": "રિફંડ બોનસ ક્લેમ કરવાનું યાદ રાખો",
+      "recall": "ફરીથી કૉલ કરો અને ઇનામ મેળવો",
+      "reliefFunds": "રિલીફ ફંડ",
+      "step": "કદમ",
+      "tag1": "મફત ગિફ્ટ કોડ",
+      "tag2": "મફત લોટરી ભવિષ્યવાણી",
+      "tag3": "પરિણામ ચર્ચા",
+      "tag4": "જીતવાની માર્ગદર્શિકા",
+      "tag5": "ટેલિગ્રામ વ્યક્તિગત સેવા",
+      "dailyCheckin": "Daily Check-in",
+      "day": "Day",
+      "checkin": "Check In",
+      "checked": "Checked In",
+      "activities": "Activities",
+      "noActivities": "No activities available",
+      "done": "Done",
+      "go": "Go",
+      "inviteDesc": "Earn commission for every friend who joins!",
+      "inviteNow": "Invite Now",
+      "reliefFundsDec": "Log in every day to claim relief funds",
+      "depositDec": "Make a deposit every day to earn bonus",
+      "firstWithdrawalDec": "Reach VIP level to get bonus on first withdrawal",
+      "dailyDec": "Complete daily tasks to earn rewards",
+      "dailyTasksDec": "Complete tasks to earn extra rewards",
+      "oneTimeTaskDec": "Complete these tasks once for bonus rewards",
+      "rankingDec": "Top players win cash prizes",
+      "winLose": "Bet Compensation",
+      "winLoseDec": "Get compensation based on your bets",
+      "claim": "Claim",
+      "claimed": "Claimed",
+      "locked": "Locked",
+      "expired": "Expired",
+      "bindPhone": "Bind Phone",
+      "downloadApp": "Download App",
+      "changeAvatar": "Change Avatar",
+      "addTG": "Join Telegram",
+      "cashRain": "Cash Rain",
+      "playLottery": "Play Lottery",
+      "playFishing": "Play Fishing",
+      "completed": "Completed"
+    },
+    "rule": {
+      "dailyRewards": {
+        "rule1": "યોગ્ય યુઝર્સ:",
+        "rule1desc": "બધા નોંધાયેલા વપરાશકર્તાઓ.",
+        "rule2": "ભાગીદારીની આવશ્યકતા:",
+        "rule2desc": "તમે છેલ્લા 6 દિવસમાં ઓછામાં ઓછા એક રિચાર્જ કર્યો હોવો જોઈએ.",
+        "rule3": "કેમ દાવો કરવો:",
+        "rule3desc1": "\"પૈસા કમાવો\" પૃષ્ઠ પર જાઓ.",
+        "rule3desc2": "તેને મફત મેળવવા માટે 【દાવો】 બટન પર ક્લિક કરો.",
+        "rule4desc1": "પ્રતિ દિવસ પ્રતિ યોગ્ય ખાતા માટે ઇનામો ઉપલબ્ધ છે.",
+        "rule4desc2": "આ દિવસે અપ્રાપ્ય ઇનામો સમાપ્ત થઈ શકે છે.",
+        "rule5": "પ્લેટફોર્મ દુષ્પ્રયોગ અથવા શરતોના ઉલ્લંઘનના કેસોમાં ઇનામો રદ કરવાની અધિકાર રાખે છે."
+      },
+      "deposit": {
+        "rule1": "કોણ જોડાઈ શકે છે?",
+        "rule1desc": "જે કોઈએ આ ઓફરમાં અગાઉ જોડાયા નથી.",
+        "rule2": "ઈનામ કેવી રીતે ગણવામાં આવે છે?",
+        "rule2desc": "અમે તમને આપતા છીએ બોનસ તે આધારે કે તમે કેટલું જમા કરો છો.",
+        "rule3": "તમારો ઇનામ કેવી રીતે મેળવવો?",
+        "rule3desc": "તમે તેને_claim_ કરવા માટે ક્લિક કરવું પડશે.",
+        "rule4": "કેમ ઉપાડવું?",
+        "rule4desc": "તમે તમારા જમા રકમને એકવાર જ રમવા માટે જરૂર છે. ત્યારબાદ, તમે તમામ પૈસા પાછા ખેંચી શકો છો.",
+        "rule5": "મહત્વપૂર્ણ નોંધ:",
+        "rule5desc": "જ્યારે તમે જમા કરો છો ત્યારે તમને તે દિવસે જોડાયેલું ગણવામાં આવે છે. તમે મધ્યરાત પહેલા કોઈપણ સમયે અલગ ઇનામની રકમ દાવો કરી શકો છો.",
+        "rule6": "બધી રકમ વાસ્તવિક છે, ઉપાડવા માટે ઘણી વખત રમવાની જરૂર નથી."
+      },
+      "dlTg": {
+        "step1": "નીચેના ડાઉનલોડ બટન પર ટૅપ કરો અને અધિકૃત એપ સ્ટોરમાં જાઓ અને અધિકૃત ટેલિગ્રામ એપ ડાઉનલોડ કરો.",
+        "step2": "ટેલિગ્રામ એપમાં નોંધણી કરો અને લોગ ઇન કરો",
+        "step3": "ટેલિગ્રામમાં લોગિન કર્યા પછી, આ પેજ પર પાછા જાઓ અને અમારી અધિકૃત ટેલિગ્રામ ચેનલમાં જોડાવા માટે “હવે ઉમેરો” પર ટૅપ કરો.",
+        "title": "જો તમારી પાસે અધિકૃત ટેલિગ્રામ એપ નથી, તો કૃપા કરીને તેને ડાઉનલોડ કરવા માટે નીચેની સૂચનાઓ અનુસરો."
+      },
+      "importantNotes": "મહત્વપૂર્ણ નોંધો:",
+      "inviteFriends": {
+        "rule1": "આમંત્રણકર્તા લાયકાત (તમારા માટેની આવશ્યકતાઓ):",
+        "rule1desc1": "ખાતાની માન્યતા: તમારી ખાતામાં સફળતાપૂર્વક બાઉન્ડ થયેલ મોબાઇલ ફોન નંબર હોવો જોઈએ.",
+        "rule1desc2": "રીચાર્જ થ્રેશોલ્ડ: તમારે ≥500 રૂપિયાની (અથવા સમકક્ષ ચલણની) કુલ રીચાર્જ પૂર્ણ કરવી જોઈએ.",
+        "rule2": "આમંત્રણ આપનારની યોગ્યતા (તમારા મિત્ર માટેની આવશ્યકતાઓ):",
+        "rule2desc": "રિચાર્જ થ્રેશોલ્ડ: ≥500 રૂ. (અથવા સમકક્ષ ચલણ) નો એકલ અથવા સંકુલ રિચાર્જ પૂર્ણ કરો.",
+        "rule3": "ઇનામના નિયમો:",
+        "rule3desc1": "ઈનામ ટ્રિગર: તમારું ઈનામ લાયકાત ફક્ત ત્યારે સક્રિય થાય છે જ્યારે તમારું આમંત્રણ આપેલું મિત્ર ઉપર દર્શાવેલ \"આમંત્રણ પાત્રતા\" વિભાગમાં તમામ શરતોને સંપૂર્ણપણે પૂર્ણ કરે છે.",
+        "rule3desc2": "ક્લેમ પદ્ધતિ: ઇનામો આપોઆપ વિતરણ કરવામાં આવતા નથી. તમને ઇવેન્ટ પેજ પર અથવા તમારા \"પૈસા કમાવો\" વિભાગમાં 【ક્લેમ】 બટન પર મેન્યુઅલી ક્લિક કરવું પડશે.",
+        "rule4": "કડક એન્ટી-ચીટિંગ અને સુરક્ષા પગલાં:",
+        "rule4desc1": "પ્લેટફોર્મ કડક સુરક્ષા પ્રણાલીઓનો ઉપયોગ કરે છે. એક જ ઉપકરણ, IP સરનામું, બેંક કાર્ડ, અથવા ઓળખ માહિતીનો ઉપયોગ કરીને અનેક આમંત્રણો અથવા નોંધણીઓ કરવામાં આવી હોય તો તે ધોખા વર્તન તરીકે ચિહ્નિત થઈ શકે છે.",
+        "rule4desc2": "પ્લેટફોર્મ કોઈપણ આમંત્રણ સંબંધો અથવા ખાતાઓની સમીક્ષા કરવાનો અધિકાર રાખે છે જે સુરક્ષા નિયમો (IP, ડિવાઇસ, વર્તન પેટર્ન, વગેરે સહિત પરંતુ મર્યાદિત નથી) આધારિત છે અને તેમના ઇનામની લાયકાત રદ કરી શકે છે.",
+        "rule5": "અંતિમ નિર્ણય અધિકાર: પ્લેટફોર્મ આ નિયમો, ઇનામો અને તમામ સુરક્ષા સંબંધિત નિર્ણયોની વ્યાખ્યા આપવા માટે અંતિમ અધિકાર રાખે છે."
+      },
+      "loseRefound": {
+        "rule1": "યોગ્યતા (કોણ મેળવી શકે?):",
+        "rule1desc1": "ગત કાલે માન્ય બેટ લગાવનાર સક્રિય વપરાશકર્તાઓ.",
+        "rule1desc2": "તમારી કુલ બેટ રકમ ગઈકાલે >100 હોવી જોઈએ.",
+        "rule1desc3": "તમારી કુલ નુકસાન રકમ ગઈકાલે >50 હોવી જોઈએ.",
+        "rule1desc4": "નુકસાનની રિફંડમાં તમામ અધિકૃત લોટરીઓ, 3D અધિકૃત, કેરલા લોટરીનો સમાવેશ થાય છે.",
+        "rule2": "રિફંડ ગણતરી (કેવી રીતે ગણવામાં આવે છે?):",
+        "rule2desc1": "યોગ્ય વપરાશકર્તાઓને રેન્ડમ રીતે રિફંડ દર (એક ટકા મૂલ્ય, 30% સુધી) મળશે.",
+        "rule2desc2": "ફેરફાર રકમ = તમારી કુલ નુકશાન રકમ × ફેરફાર દર.",
+        "rule3": "ક્લેમ & સમાપ્તિ (કેવી રીતે અને ક્યારે મેળવવું?):",
+        "rule3desc1": "ફિરથી ચૂકવણીનો ઇનામ તમારા ખાતામાં ઉપલબ્ધ રહેશે.",
+        "rule3desc2": "મહત્વપૂર્ણ: કોઈપણ અદાખલિત રિફંડ ઇનામ આગામી દિવસે સમાપ્ત થઈ જશે અને શૂન્ય પર પુનઃસેટ થશે.",
+        "rule4desc1": "પ્લેટફોર્મની \"માન્ય બેટ\" \"ગુમાવાની રકમ\" અને રેન્ડમ રિફંડ દરની નિર્ધારણ અંતિમ છે.",
+        "rule5": "આ એક પ્રમોશનલ લાભ છે, અને પ્લેટફોર્મને આ નિયમને બદલવા અથવા સમાપ્ત કરવાની અધિકાર છે."
+      }
+    },
+    "title": "Earn Money",
+    "tip": {
+      "alreadyChecked": "Already checked in today",
+      "checkinSuccess": "Check-in successful!"
+    }
+  },
+  "error": {
+    "title": "Something went wrong",
+    "subtitle": "Please try again later"
+  },
+  "errorPage": {
+    "label": {
+      "noData": "કોઈ ડેટા નથી",
+      "noResult": "કોઈ શોધ પરિણામ નથી",
+      "tryAgain": "ફરીથી પ્રયાસ કરો"
+    },
+    "tip": {
+      "error": {
+        "networkError": "કંઈક ખરાબ થયું!"
+      },
+      "info": {
+        "networkPoor": "વર્તમાન નેટવર્ક સંકેત ખરાબ છે",
+        "notFound": "પૃષ્ઠ મળ્યું નથી",
+        "plsCheckNetwokr": "કૃપા કરીને તમારી નેટવર્ક તપાસો",
+        "plsRefresh": "કૃપા કરીને તમારી પૃષ્ઠને રિફ્રેશ કરો"
+      }
+    }
+  },
+  "home": {
+    "label": {
+      "checkin": "દૈનિક ચેક-ઇન",
+      "deposit": "જમા ઓફર",
+      "fishing": "માછલી પકડવી",
+      "hotGame": "હોટ ગેમ",
+      "leaderboardRules": "લીડરબોર્ડ નિયમો",
+      "lobby": "લોબી",
+      "luckySpin": "Lucky Spin",
+      "officialChannel": "આધિકારીક ચેનલ",
+      "ranking": "રેન્કિંગ",
+      "rankingBasis": "રેન્કિંગ આધાર",
+      "rankingCycle": "રેન્કિંગ ચક્ર",
+      "rewardCollection": "ઈનામ એકત્રિત કરવું",
+      "rummy": "રમ્મી",
+      "slot": "સ્લોટ",
+      "suggested": "સૂચવેલ"
+    },
+    "tip": {
+      "foot1": "ભારતમાં શ્રેષ્ઠ ગેમિંગ પ્લેટફોર્મ, જેમાં તમામ લોકપ્રિય વિડિયો ગેમ્સ, બેટિંગ ગેમ્સ, સ્લોટ મશીનો અને તાજેતરના અને ગરમ ગેમ્સનો વ્યાપક પસંદગી છે.",
+      "foot2": "અમારા મૂલ્યવાન ગ્રાહકોને દરરોજ રોકડ ઇનામો આપવામાં આવે છે, ખાસ આભાર તરીકે રજાઓ દરમિયાન વધારાના ઇનામો સાથે.",
+      "foot3": "દરેક ખેલાડી માટે શ્રેષ્ઠ અને ઉચ્ચ ગુણવત્તાની સેવા પ્રદાન કરવા માટે વિશિષ્ટ ગ્રાહક સેવા.",
+      "foot4": "કૃપા કરીને અમારા અધિકૃત ટેલિગ્રામ ચેનલ, અધિકૃત વોટ્સએપ ચેનલ અને મીડિયા ચેનલનું પાલન કરો, જ્યાં અમે સમયાંતરે ઇનામો અને લાભો મોકલશું.",
+      "foot5": "કોઈપણ પ્રશ્નો માટે, કૃપા કરીને {{appName}}ના અધિકૃત ગ્રાહક સેવા સાથે સંપર્ક કરો, અને અમે તમને સૌથી સંતોષકારક ઉકેલ પ્રદાન કરવાની ખાતરી આપીએ છીએ.",
+      "notes": "રેન્કિંગ વાસ્તવિક સમયમાં અપડેટ થાય છે. ખેલાડીઓ તેમના રેન્કિંગ અને અન્ય ખેલાડીઓની બેટિંગ સ્થિતિ ગેમમાં કોઈપણ સમયે તપાસી શકે છે. કોઈપણ પ્રકારની ઠગાઈ પ્રતિબંધિત છે. એકવાર મળી આવ્યે, ઇનામ મેળવવાની લાયકાત પૂર્વ સૂચના વિના રદ કરવામાં આવશે.",
+      "notOnTheLeaderboard": "લીડરબોર્ડ પર નથી",
+      "rankingBasis": "રેન્કિંગ રંગ/ડાઇસ/રેસ અને ગેસ/સ્પિન પર એક સપ્તાહમાં કુલ બેટ રકમના આધારે છે. બેટિંગ રકમ જેટલી વધુ, રેન્કિંગ તેટલી વધુ.",
+      "rankingCycle": "રેન્કિંગ સોમવારે 0:00 AM થી શરૂ થાય છે અને રવિવારે 11:59 PM સુધી ચાલે છે.",
+      "rewardCollection": "તમે આ સપ્તાહમાં કોઈપણ સમયે અગાઉના સપ્તાહનો રેન્કિંગ ઇનામ એકત્રિત કરી શકો છો.",
+      "searchTip": "શોધ માટે ઓછામાં ઓછા 3 અક્ષરોની જરૂર છે."
+    }
+  },
+  "k3": {
+    "betting": {
+      "any3-modal": "કોઈપણ 3 સમાન સંખ્યાઓ પસંદ કરો. જો ડ્રૉ પરિણામો સમાન સંખ્યાઓમાંના કોઈ ત્રણ હોય, તો તમે જીતશો.",
+      "any3-tip": "એક જ નંબરના કોઈ 3: Odds ({{odds}})",
+      "different-modal": "3 અથવા વધુ અલગ નંબર પસંદ કરો. જો ડ્રો પરિણામો તમારી પસંદગીને મેળવે છે, તો તમે જીતી જશો.",
+      "different-tip": "3 અલગ નંબર: odds({{odds}})",
+      "same2-modal": "2 સમાન નંબર પસંદ કરો. જો ડ્રૉના પરિણામો તમારી પસંદગીને મેળ ખાતા હોય, તો તમે જીતો છો (જો 3 નંબર સમાન નથી).",
+      "same2-tip": "2 મેળ ખાતા નંબર: Odds({{odds}})",
+      "same3-modal": "3 સમાન નંબર પસંદ કરો. જો ડ્રો પરિણામો તમારી પસંદગીને મેળવે છે, તો તમે જીતશો.",
+      "same3-tip": "સમાન નંબરના 3: Odds({{odds}})"
+    },
+    "diceAnalyze": {
+      "round": "ગોળ"
+    },
+    "drawtimefor": "આકર્ષણ સમય:",
+    "resultfor": "પરિણામ માટે:",
+    "rule": {
+      "description": "વર્ણન",
+      "graph-1": "ડાઇસ રમત 3 ડાઇસના પોઈન્ટ પર આધાર રાખે છે. વપરાશકર્તા ડાઇસના પોઈન્ટનો અંદાજ લગાવી શકે છે અને બેટ પસંદ કરી શકે છે, વપરાશકર્તા કુલ પોઈન્ટની સંખ્યા, એકલ નંબર, ડબલ નંબર, ત્રિપલ નંબર પર બેટ કરી શકે છે.",
+      "graph-11": "આ રમત \"જેમ છે\" તરીકે આપવામાં આવી છે, કોઈપણ સ્પષ્ટ અથવા નિશ્ચિત વોરંટી વિના. આ રમતમાં ઉપયોગથી થતા નુકસાન માટે લેખક જવાબદાર નહીં હોય. વપરાશકર્તા આ રમતમાં ઉપયોગ સાથે સંકળાયેલા તમામ જોખમો માટે સંપૂર્ણ જવાબદારી લે છે. આ રમતમાં ઉપયોગ સાથે ચોકસાઈની કોઈ ગેરંટી આપવામાં આવતી નથી. આ રમત માત્ર 18 વર્ષથી વધુ વયના વપરાશકર્તાઓ માટે છે.",
+      "graph-2-1": "3 ડાઇસ રમતમાં, {{big}} અને {{small}} માટેના પોઈન્ટ મૂલ્યો નીચે મુજબ છે:",
+      "graph-2-2": "જે ખેલાડીઓ 'બિગ' અને 'સ્મોલ' પર બેટ લગાવે છે તેઓ આ સંખ્યાઓ સાથે મેચ થાય ત્યારે જીતશે ડાઇસ ડ્રોઅફ.",
+      "graph-2-big": "= 11, 12, 13, 14, 15, 16 અને 17",
+      "graph-2-small": "= 4, 5, 6, 7, 8, 9 અને 10",
+      "graph-3-1": "3 ડાઇસના પોઈન્ટ્સનો કુલ સંખ્યા ખેલાડીઓને \n{{odd}} અથવા {{even}} નંબર પર બેટ મૂકવા માટે મંજૂરી આપે છે.",
+      "graph-3-2": "3 ડાઇસના રમતમાં, {{odd}} અને \n{{even}} માટે પોઈન્ટ મૂલ્યો આ પ્રમાણે છે:",
+      "graph-3-3-title": "વિશિષ્ટ ત્રિપલ સિવાય :",
+      "graph-3-even": "= 4, 6, 8, 10, 12, 14 અને 16",
+      "graph-3-odd": "= 5, 7, 9, 11, 13, 15 અને 17",
+      "graph-4-1": "અંકનો કુલ જમા ખેલાડીઓને 3 ડાઇસમાંથી ખેંચાયેલા વિશિષ્ટ કુલ પર શરત લગાવવાની મંજૂરી આપે છે. આમાં ત્રિપલ્સનો સમાવેશ નથી.",
+      "graph-4-2": "4,5,6,7,8,9,10,11,12,13,14,15,16,17 પર બેટ કરો",
+      "graph-5-1": "એકલ ડાઇસ એ તે ડાઇસ પોઈન્ટની આગાહી છે જે ખેંચાશે\nકોઈ 1 માંથી 3 ડાઇસ.",
+      "graph-5-2": "1,2,3,4,5,6 પર બેટ કરો",
+      "graph-6-1": "ખિલાડીઓ 15 વિવિધ ડબલ ડાઇસ સંયોજનોમાં 1 અથવા વધુ બેટ્સ લગાવી શકે છે. બેટિંગના પરિણામો 3 ડાઇસમાંથી કોઈ 2 ડાઇસના પરિણામો પર આધાર રાખે છે.",
+      "graph-6-2": "2 ડાઇસ નંબર પર બેટ કરો: 12,13,14,15,16,23,24,25,26,34,35,36,45,46,56",
+      "graph-7-1": "વિશિષ્ટ ડબલ ખેલાડીઓને 3માંથી 2 ડાઇસમાં ખેંચાયેલા વિશિષ્ટ પોઈન્ટ પેર પર બેટ કરવા દે છે.",
+      "graph-7-2": "11,22,33,44,55,66 પર બેટ કરો",
+      "graph-8-1": "કોઈપણ ત્રિપલ ખેલાડીઓને ત્રિપલ્સના 6 સંયોજનો માટે શરત લગાવવાની મંજૂરી આપે છે.",
+      "graph-8-2": "બેટ તમામ ત્રિપલ પર: (111,222,333,444,555,666)",
+      "graph-9-1": "વિશિષ્ટ ટ્રિપલ ખેલાડીઓને ચોક્કસ ટ્રિપલ સંયોજનો પર બેટ લગાવવાની મંજૂરી આપે છે\nજે ડાઇસમાંથી ખેંચવામાં આવશે.",
+      "graph-9-2": "વિશિષ્ટ ત્રિપલને અલગથી બેટ કરો =111/222/333/444/555/666",
+      "graph-9-3": "ત્રણગણક કિલ:",
+      "graph-9-4": "જો પરિણામ કોઈ ત્રિપલ નંબર હોય, તો અન્ય વિકલ્પો પર તમારા બેટને નુકસાન તરીકે ગણવામાં આવશે",
+      "subtitle-1": "ડાઇસ રમતનું વર્ણન",
+      "subtitle-10": "ગેમ ઓડ્સ",
+      "subtitle-11": "અસ્વીકૃતિ",
+      "subtitle-2": "મોટું / નાનું",
+      "subtitle-3": "વિશમ / સમ",
+      "subtitle-4": "અંકનો કુલ",
+      "subtitle-5": "એકલ ડાઇસ",
+      "subtitle-6": "ડબલ ડાઈસ",
+      "subtitle-7": "વિશિષ્ટ ડબલ",
+      "subtitle-8": "કોઈ ત્રિગણિત",
+      "subtitle-9": "વિશિષ્ટ ટ્રિપલ",
+      "table-4-17": "4 અથવા 17 ના કુલ પોઈન્ટ્સ",
+      "table-5-16": "5 અથવા 16 ના કુલ પોઈન્ટ્સ",
+      "table-6-15": "6 અથવા 15 ના કુલ પોઈન્ટ",
+      "table-7-14": "7 અથવા 14 ના કુલ પોઈન્ટ",
+      "table-8-13": "8 અથવા 13 ના કુલ પોઈન્ટ્સ",
+      "table-9-12": "9 અથવા 10 અથવા 11 અથવા 12 ના કુલ પોઈન્ટ્સ",
+      "table-any": "એકસમાન મૂલ્ય ધરાવતા 3 ડાઇસનું કોઈપણ સંયોજન.",
+      "table-big": "કુલ પોઈન્ટ 11 થી 17 વચ્ચે, ટ્રિપલને છોડી",
+      "table-double": "વિશિષ્ટ સંયોજન સાથેના ડાઇસનો જોડી",
+      "table-even": "અંકનો કુલ (સમ સંખ્યા)",
+      "table-odd": "અંકનો કુલ (વિશમ સંખ્યા)",
+      "table-single": "1 વિશિષ્ટ મૂલ્ય સાથે ડાઇસ ખેંચવામાં આવે છે",
+      "table-small": "ત્રિપલ્સને છોડી 4 થી 10 વચ્ચે કુલ પોઈન્ટ્સ",
+      "table-spe-double": "સમાન મૂલ્ય સાથે 2 ડાઇસનું વિશિષ્ટ સંયોજન",
+      "table-triple": "એકસરખી કિંમત સાથે 3 ડાઇસનું વિશિષ્ટ સંયોજન",
+      "table-bet": "Bet Type",
+      "table-rule": "Rule",
+      "table-odds": "Odds"
+    },
+    "title": {
+      "default": "ડાઇસ",
+      "main": "ડાઇસ-{{cycle}} મિનિટ",
+      "myOrder": "મારો ઓર્ડર"
+    },
+    "label": {
+      "sum": "Sum",
+      "triple": "Triple",
+      "double": "Double",
+      "single": "Single Number",
+      "size": "Size",
+      "parity": "Parity"
+    }
+  },
+  "luckyspin": {
+    "label": {
+      "freeSpin": "મફત સ્પિન",
+      "freeSpinRec": "મફત સ્પિન રેકોર્ડ",
+      "getFree": "મફત સ્પિન મેળવો",
+      "myInviteCode": "મારો આમંત્રણ કોડ",
+      "mySpin": "મારો સ્પિન",
+      "title": "લકી સ્પિન"
+    },
+    "rules": {
+      "rule1": "દરરોજ લોગ ઇન કરો 1 મફત સ્પિન મેળવવા માટે.",
+      "rule2": "1 વપરાશકર્તાને આમંત્રણ આપો 2 સ્પિન સુધી મેળવા માટે (1 સ્પિન નોંધણી માટે + 1 સ્પિન રિચાર્જ માટે).",
+      "rule3": "1 વપરાશકર્તાને આમંત્રણ આપો અને ઇનામ મેળવો - બહુવિધ આમંત્રણોની જરૂર નથી, પ્રતિ દિવસ 50 સ્પિન સુધી.",
+      "rule4": "100% જીતવાની દર. તમામ નકદ ઇનામો તરત જ ઉપાડવા માટે ઉપલબ્ધ છે.",
+      "rule5": "ભૌતિક વસ્તુઓના વિજેતાઓએ ડિલિવરી માટે મેલિંગ સરનામું પ્રદાન કરવા માટે ગ્રાહક સેવા સાથે સંપર્ક કરવો જોઈએ.",
+      "rule6": "ઘટનાને પૂર્ણ કર્યા પછી, તમારો બોનસ તમારા બેલેન્સમાં જમા કરવામાં આવશે અને “વિતરણ” બટન દ્વારા ઉપાડવામાં આવી શકે છે.",
+      "rule7": "આ ઇવેન્ટ પેસિફિક ઇન્શ્યોરન્સ કંપની ઓફ ઇન્ડિયા દ્વારા અંડરરાઇટ કરવામાં આવી છે.",
+      "rule8": "વાસ્તવિક ખેલાડીઓના અધિકારોની રક્ષા કરવા માટે, જો નકલી ખાતા, મોટા નોંધણી, અથવા અસામાન્ય વ્યવહારો જેવી ઠગાઈની પ્રવૃત્તિઓ શોધવામાં આવે, તો પ્લેટફોર્મ ભાગીદારીને સમાપ્ત કરવાનો અને ખાતાઓને જમાવવાનો અધિકાર રાખે છે.",
+      "rule9": "આ ઇવેન્ટની અંતિમ વ્યાખ્યાના અધિકાર {{appName}}ને છે."
+    }
+  },
+  "me": {
+    "list": {
+      "addFunds": "ફંડ ઉમેરો",
+      "agency": "એજન્સી કેન્દ્ર",
+      "contactAgent": "એજન્ટનો સંપર્ક કરો",
+      "giftCode": "ગિફ્ટ કોડ",
+      "languages": "ભાષાઓ",
+      "logout": "લોગ આઉટ",
+      "logoutTip": "શું તમે ખરેખર લોગ આઉટ કરવા માંગો છો?",
+      "service": "ગ્રાહક સેવા",
+      "theme": "થિમ",
+      "transactions": "મારી વ્યવહારો",
+      "update": "અપડેટ",
+      "withdrawFunds": "નકલી નાણાં કાઢો",
+      "referralCommission": "Referral commission"
+    },
+    "me": "હું",
+    "tip": {
+      "signin": "વધુ રસપ્રદ સામગ્રી માટે સાઇન ઇન કરો",
+      "wallet": {
+        "amount": "\"વાપરવા લાયક રકમ\" એ તમારી નાણાંની બેલેન્સનો તે ભાગ છે જે તમારા ખાતામાંથી ઉપાડવામાં આવી શકે છે. તે તે પૈસાને દર્શાવે છે જે વેજરિંગની આવશ્યકતાઓને પૂર્ણ કરે છે, જે ફંડને ઉપાડવા માટે પૂર્ણ કરવામાં આવવી જોઈએ.",
+        "balance": "\"કેશ બેલેન્સ\"નો અર્થ છે તમારા ખાતામાં ઉપલબ્ધ વાસ્તવિક કેશ ફંડ જે બેટિંગ અથવા અન્ય વ્યવહારો માટે ઉપયોગમાં લેવાઈ શકે છે.",
+        "bonus": "આ બોનસ ફક્ત બોનસ રમત રમવા માટે છે, જ્યારે તમે બોનસ રમત રમો છો ત્યારે બોનસ વોલેટમાં ઇનામ પ્રાપ્ત થાય છે. જ્યારે તમે બોનસ બેલેન્સનો ઉપયોગ કરીને રમત રમો છો, ત્યારે તમને કેશ વોલેટમાં 0.4% નકદ ઇનામ મળશે."
+      }
+    },
+    "wallet": {
+      "amount": "ઉપાડવા માટે",
+      "balance": "નકદ",
+      "title": "મારો વોલેટ"
+    },
+    "label": {
+      "bindPhone": "Bind Phone",
+      "bindTelegram": "Bind Telegram",
+      "bindGoogle": "Bind Google"
+    },
+    "share": {
+      "inviteCode": "Invite Code",
+      "inviteLink": "Invite Link"
+    }
+  },
+  "myBets": {
+    "details": {
+      "title": "ઓર્ડર વિગતો"
+    },
+    "dice": {
+      "drawn": "કાઢવામાં આવ્યું",
+      "drawn-results": " ડ્રોન પરિણામ:",
+      "my-numbers": "મારા નંબર",
+      "single": "એકલ",
+      "sumofpoints": "પોઈન્ટ્સનો કુલ",
+      "sumtype": "સમ પ્રકાર",
+      "triple": "ત્રણગણ"
+    },
+    "label": {
+      "1stPriz": "પ્રથમ ઇનામ",
+      "1stPrize": "પ્રથમ ઇનામ",
+      "2ndPriz": "બીજું ઇનામ",
+      "2ndPrize": "બીજું ઇનામ",
+      "drawnResults": "કઢાયેલા પરિણામો:",
+      "settled": "ટિકિટ સેટિંગ...",
+      "viewDetail": "વિગતો જુઓ"
+    }
+  },
+  "mysteryBox": {
+    "desc": {
+      "popularBox": "સૌથી લોકપ્રિય <br/> રહસ્ય બોક્સ",
+      "rule1": "1.અમે અનેક વિવિધ મિસ્ટ્રી બોક્સ પ્રદાન કરીએ છીએ, દરેક બોક્સમાં 9 ઉત્પાદનો હોય છે. તમારી જરૂરિયાતો અનુસાર મિસ્ટ્રી બોક્સ ખરીદો.",
+      "rule2": "2. તમે અનેક રહસ્યમય ભેટ બોક્સ ખરીદી શકો છો. તમે જેટલા વધુ ખરીદશો, તેટલી જ વધુ સંભાવના છે કે તમને ભાગ્યની દેવી દ્વારા પસંદ કરવામાં આવશે.",
+      "rule3": "3. મિસ્ટ્રી બોક્સમાં વેચાતા ઉત્પાદનો માટે, પ્લેટફોર્મ ઉત્પાદનની કિંમતના આધારે તેમને ખાતા的钱માં પાછા મોકલશે.",
+      "ruleSubTitle1": "મહંગા ભેટ મેળવવા માટે ભાગ્ય!",
+      "ruleSubTitle2": "અમારો ઉદ્દેશ દરેક ભારતીયને ભાગ્યશાળી વ્યક્તિ બનાવવો અને વધુ સારી જીંદગી જીવવા માટે છે!",
+      "ruleTitle": "યુનાઇટેડ સ્ટેટ્સનો તાજા મોડલ, તમને ફક્ત થોડા પૈસા ખર્ચવા પડશે, અને તમે લેડી દ્વારા પસંદ થવાની આશા રાખી શકો છો.",
+      "stillHasFree": "તમારા પાસે હજુ પણ <span class=\"text-xl font-black leading-6\" style=\"color:#F62B18\">{{num}} મફત તક છે</span> <br/>કૃપા કરીને તેમને બરબાદ ન કરો",
+      "stillLeave": "હું હવે તે નથી ઇચ્છતો, મહત્તમ <br/>હાનિ ₹20,175"
+    },
+    "label": {
+      "ContinuePlay": "ખેલ ચાલુ રાખો",
+      "guaranteed": "ગેરંટી આપેલ",
+      "openBox": "બોક્સ ખોલો",
+      "productName": "ઉત્પાદન નામ",
+      "title": "મિસ્ટ્રી બોક્સ",
+      "totalWin": "કુલ જીત",
+      "tryUrLuck": "તમારી નસીબ અજમાવો",
+      "draw": "Open Box",
+      "history": "My Draw History",
+      "possiblePrizes": "Possible Prizes",
+      "loadingItems": "Loading prizes..."
+    },
+    "title": "Mystery Box"
+  },
+  "order": {
+    "label": {
+      "drawnResult": "કાઢવામાં આવેલ પરિણામ",
+      "myBets": "મારા બેટ્સ"
+    },
+    "tip": {
+      "congratulation": "અભિનંદન, તમે જીતી ગયા છો!",
+      "settleSyncing": "સેટલમેન્ટ પ્રક્રિયામાં છે, કૃપા કરીને રાહ જુઓ..."
+    }
+  },
+  "pay": {
+    "label": {
+      "agree": "હું સહમત છું",
+      "forwarding": "ફોરવર્ડિંગ સક્રિય કરવું કે નહીં",
+      "money": "પૈસા",
+      "preSaleRule": "(પ્રિ-સેલ નિયમો)",
+      "quantity": "મલ્ટિપ્લાયર:",
+      "saleRules": {
+        "p1": "પ્રિ-સેલમાં ભાગ લેતા વપરાશકર્તાઓના કાનૂની અધિકારો અને હિતોને સુરક્ષિત કરવા અને પ્રિ-સેલના સામાન્ય કાર્યકારી ક્રમને જાળવવા માટે, આ નિયમો સંબંધિત કરારો અને કાયદા અને નિયમનકારી ધોરણો અનુસાર બનાવવામાં આવ્યા છે. દેશ અધ્યાય 1 વ્યાખ્યા.",
+        "p2": "1.1 પૂર્વ-વેચાણ વ્યાખ્યા: તે વેચાણ મોડલને દર્શાવે છે જેમાં એક વેચનાર એક ઉત્પાદન અથવા સેવા પેકેજ ઓફર કરે છે, વેચાણ પહેલાં ઉત્પાદન સાધનો દ્વારા ગ્રાહક ઓર્ડર એકત્ર કરે છે, અને તેને ગ્રાહકોને ઉપલબ્ધ બનાવે છે. માલ અને/અથવા સેવાઓના ગ્રાહકો દ્વારા પૂર્વ સંમતિ દ્વારા",
+        "p3": "1.2 પૂર્વ-વેચાણ મોડ \"જમા\" મોડ છે. \"કન્સાઇનમેન્ટ\"નો અર્થ વેચાણ પહેલાં નિશ્ચિત સંખ્યાના આઇટમ્સની પૂર્વ-ડિલિવરી છે. \"જમા\" સ્કેમ મીની રમતોમાં જોડાઓ વધુ જમાઓ જીતવા માટે. જમાઓને સીધા માલમાં બદલવામાં આવી શકે છે. જમા પાછું ન લેવામાં આવતું.",
+        "p4": "1.3 પૂર્વ-વેચાણ ઉત્પાદન: એક ઉત્પાદન જે વેચાણકર્તા દ્વારા પૂર્વ-વેચાણ ઉત્પાદન સાધનનો ઉપયોગ કરીને મોકલવામાં આવે છે. ઉત્પાદન નામ અથવા ઉત્પાદન વિગતો પૃષ્ઠ પર માત્ર 'પૂર્વ-વેચાણ' શબ્દને હાઇલાઇટ કરો, અને જે ઉત્પાદનો પૂર્વ-વેચાણ ઉત્પાદન સાધનનો ઉપયોગ નથી કરતા તે પૂર્વ-વેચાણ નથી.",
+        "p5": "1.4 પૂર્વ-વેચાણ સિસ્ટમ: તે સિસ્ટમ ઉત્પાદન સાધનને સંકેત આપે છે જે વેચાણ કરતા પહેલા નમૂનાઓ વેચવામાં મદદ કરે છે.",
+        "p6": "1.5 ઉત્પાદનની કિંમત વેચાણ પહેલાં: વેચાણ પહેલાંના ઉત્પાદનોની કિંમત બે ભાગોમાં વહેંચાય છે: જમા અને અંતિમ ચુકવણી.",
+        "title": "વેચાણ નિયમો"
+      },
+      "total": "કુલ કિંમત",
+      "channel": "Payment Channel",
+      "selectAmount": "Select Amount",
+      "customAmount": "Custom Amount"
+    },
+    "tip": {
+      "least": "ન્યૂનતમ રકમ {{money}}",
+      "paysuccess": "સફળતાપૂર્વક ચૂકવાયું",
+      "require": "જથ્થો જરૂરી છે"
+    }
+  },
+  "profile": {
+    "label": {
+      "boundNow": "હવે બંધ",
+      "boundPhoneNumber": "ફોન નંબર બાઇન્ડ કરો",
+      "boundThirdAccount": "ત્રીજા પક્ષના ખાતાને બાંધો",
+      "changePassword": "પાસવર્ડ બદલો",
+      "phoneNumber": "ફોન નંબર",
+      "thirdAccount": "તૃતીય પક્ષ ખાતું",
+      "avatar": "Avatar",
+      "nickname": "Nickname",
+      "phone": "Phone Number",
+      "bound": "Bound",
+      "notBound": "મળ્યું નથી"
+    },
+    "title": "મારું પ્રોફાઇલ",
+    "tip": {
+      "nicknameEmpty": "Nickname cannot be empty"
+    }
+  },
+  "race": {
+    "label": {
+      "1stBet": "ચેમ્પિયન પિક",
+      "champDec": "છેલ્લા 100 ઇવેન્ટ્સ માટે ચેમ્પિયન ડેટા વિશ્લેષણ",
+      "team1stBet": "રાજ્ય ચેમ્પિયન ભવિષ્યવાણી",
+      "top3any": "ટોપ 3 દાખલ કરો",
+      "top3bet": "સચોટ ટોપ 3",
+      "top3Ran": "ટોપ 3 બોક્સ"
+    },
+    "tip": {
+      "ruleChampion": "કયા એથલેટ (1–{{num}}) ચેમ્પિયનશિપ જીતી જશે તે ભવિષ્યવાણી કરો. સાચી ભવિષ્યવાણી તમને {{odds}}× તમારા બેટ સાથે ઇનામ આપે છે.",
+      "ruleDesc": "\"રન & ગેસ\" એક બેટિંગ રમત છે જ્યાં {{num}} એથલેટ્સ છ અલગ રાજ્યોમાંથી રેસમાં સ્પર્ધા કરે છે. રમત પરિણામની આગાહી કરવા માટે પાંચ રોમાંચક રીતો પ્રદાન કરે છે.",
+      "ruleEnd": "ઇનામો દરેક રમતના અંતે તમારા ખાતામાં આપોઆપ જમા થાય છે.",
+      "ruleState": "કયા રાજ્ય ચેમ્પિયનશિપ જીતીશે તે ભવિષ્યવાણી કરો. સાચી ભવિષ્યવાણી તમને {{odds}}× તમારા બેટ સાથે ઇનામ આપે છે.",
+      "ruleTitle": "ચાલાવો & અનુમાન નિયમો",
+      "ruleTop3Any": "કયા ખેલાડી ટોપ ત્રણમાં સમાપ્ત થશે તે ભવિષ્યવાણી કરો. જો તમારું પસંદગી ટોપ ત્રણમાં ક્યાંય આવે છે, તો તમે {{odds}}× તમારા બેટ જીતી જશો.",
+      "ruleTop3Fixed": "સાચા ક્રમમાં પ્રથમ, બીજું અને ત્રીજું - ચોક્કસ ટોચના ત્રણ ફિનિશર્સની આગાહી કરો. સંપૂર્ણ મેચ તમને {{odds}}× તમારા બેટ કમાવે છે.",
+      "ruleTop3Random": "ટોપ ત્રણ ફિનિશર્સની આગાહી કરો, ક્રમની પરवाह કર્યા વિના. જો તમારા પસંદ કરેલા ત્રણ ટોપ ત્રણમાં આવે છે, તો તમે {{odds}}× તમારા બેટ જીતશો."
+    }
+  },
+  "rebate": {
+    "betting": "અંદાજિત બેટિંગ:",
+    "completed": "પૂર્ણ",
+    "rebate": "અંદાજિત રિબેટ:",
+    "receive": "પ્રાપ્ત કરો",
+    "rewards": "જીતવા માટે બેટ કરો",
+    "rule": {
+      "activity": "ક્રિયાની વર્ણના:",
+      "activity-detail": "{{appName}} સુપર બોનસ રિબેટ પ્રવૃત્તિ તમારા માટે ખુલ્લી છે. દરેક બેટને રિબેટ બોનસ મળશે. તમે જીતો કે હારશો, તમે દરરોજ બોનસ મેળવો છો.",
+      "actrule": "ક્રિયાપ્રણાલીઓના નિયમો:",
+      "actrule-detail": "ખેલાડીઓ દરરોજ બેટિંગ રિબેટ બોનસનો દાવો કરી શકે છે, બોનસનો દાવો કરવાનો સમય 00:30 પછીના દિવસે છે.",
+      "betting": "બેટિંગ બોનસ:",
+      "betting-detail": "{{appName}} બેટિંગ રકમ અનુસાર વપરાશકર્તાઓને રિફંડ કરશે. તમે જેટલું વધુ બેટ કરો છો, તેટલું વધુ મળશે.",
+      "precaution": "સાવચેતી:",
+      "precaution-detail-1": "- ફક્ત લાયક {{appName}} સભ્યો જ પ્રવૃત્તિઓમાં ભાગ લઈ શકે છે. દરેક સભ્યએ રિબેટ બોનસનો દાવો કરવા માટે {{appName}} ખાતામાં ખાતા વિગતો પૂર્ણ કરવી પડશે.- કોઈપણ વપરાશકર્તા ગેરકાયદે પ્રવૃત્તિઓમાં સામેલ થવા માટે કડક પ્રતિબંધિત છે",
+      "precaution-detail-2": "-એક જ ફોન નંબર, બેંક ખાતા નંબર.ઇમેઇલ સરનામું, અને IP સરનામું અનેક ખાતાઓ માટે ઉપયોગમાં લેવામાં આવી શકતું નથી",
+      "precaution-detail-3": "-{{appName}}ને ખાતાઓને જમાવવાની અથવા ચુકવણી રદ કરવાની અધિકાર છે જો વ્યક્તિઓ અથવા જૂથો બોનસનો લાભ લેવા માટે ગેરકાયદેસર/ધોકાધડી પ્રવૃત્તિઓમાં સંલગ્ન હોય, (અંતિમ બોનસ નિર્ણય {{appName}}ને જ છે)"
+    },
+    "tabs": {
+      "collect": "સંગ્રહિત કરવા માટે",
+      "finish": "પૂર્ણ થવું",
+      "received": "પ્રાપ્ત થયું"
+    },
+    "today": "આજે",
+    "unclaimed": "અનક્લેમ્ડ",
+    "undone": "અપૂર્ણ",
+    "unfinished": "અપૂર્ણ",
+    "yesterday": "ગઈકાલે",
+    "label": {
+      "betAmount": "Bet Amount"
+    }
+  },
+  "recharge": {
+    "recharge": {
+      "onlyFixedAmount": "ફક્ત નિશ્ચિત રકમ",
+      "rechargeRecords": "રિચાર્જ રેકોર્ડ",
+      "scanToPay": "ચૂકવણી માટે સ્કેન કરો",
+      "youWillGet": "કુલ તમે મેળવી શકો છો",
+      "100credited": "100% Credited"
+    },
+    "record": {
+      "channel": "ચેનલ",
+      "commission": "પાછા ખેંચવાની ફી",
+      "failed": "બેંક નિષ્ફળ",
+      "in24": "24 કલાકની અંદર",
+      "orderNum": "ઓર્ડર નંબર",
+      "received": "પ્રાપ્ત રકમ",
+      "reward": "ઇનામ",
+      "withdrawChannel": "નકલી ચેનલ",
+      "withdrawRecords": "પૈસા ઉપાડવા માટેના રેકોર્ડ"
+    },
+    "transfer": {
+      "action": {
+        "received": "વાસ્તવિક રકમ પ્રાપ્ત થઈ: ",
+        "belowMin": "ન્યૂનતમ ટ્રાન્સફર રકમ {{min}} છે",
+        "insufficient": "પૂરતી ટ્રાન્સફર કરી શકાય તેવી બેલેન્સ નથી",
+        "overMax": "મહત્તમ ટ્રાન્સફર રકમ {{max}} છે",
+        "tip": "પ્રિય સર, તમે ઉપાડેલા વોલેટ પૈસાને નકદ વોલેટમાં બદલી શકો છો, સિસ્ટમ તમને ટ્રાન્સફર બોનસ આપશે.",
+        "title": "રીચાર્જ વોલેટમાં ટ્રાન્સફર કરો"
+      },
+      "balance": "હસ્તાંતરિત બેલેન્સ",
+      "channel": "રીચાર્જ ચેનલ",
+      "get": "મિલશે: ",
+      "placeholder": "ઉપાડવા માટે: ",
+      "suc": "પરિવર્તન સફળ",
+      "transferRecords": "ટ્રાન્સફર રેકોર્ડ"
+    },
+    "tip": {
+      "minAmount": "Minimum recharge amount is {{amount}}",
+      "maxAmount": "Maximum recharge amount is {{amount}}"
+    }
+  },
+  "referral": {
+    "docs": {
+      "agentLevelOverview": "કમિશન દર એજન્ટ સ્તર પર આધાર રાખે છે. તમે જે સૌથી વધુ કમિશન મેળવી શકો છો તે 12% બેટિંગ ઇનામ છે. ઉંચા સ્તરો વધુ કમિશન કમાય છે, અને તમારા સ્તરને અપગ્રેડ કરવું ખૂબ જ સરળ છે. અમે શ્રેષ્ઠ રમતો અને લોટરીઓ સાથે ઘણા પ્રકારના બોનસ ઓફર કરીએ છીએ. તમારા મિત્રો ને રમતો પર બેટ કરવા અને લોટરી બુક કરવા માટે આમંત્રણ આપો, અને તમે સરળતાથી પૈસા કમાઈ શકો છો!",
+      "agentRule": "વર્તમાન સ્તર 2 એજન્ટોની સંખ્યાને ઉદાહરણ તરીકે લેતા, Lv4 પર ₹1000 રિચાર્જ કરવાથી રિબેટ આ આકૃતિમાં દર્શાવેલ છે.",
+      "agentRuleDoc1": "ઉપર દર્શાવેલ છબી મુજબ: બધા સભ્યો તમારા સાથે સંકળાયેલા છે અને તમારા ટીમના ઉપકર્મીઓ છે.",
+      "agentRuleDoc2": "જ્યારે કોઈ વ્યક્તિ તમારી આમંત્રણ લિંક પર ક્લિક કરે છે, ત્યારે તેઓ તમારા સીધા ઉપાધ્યાય બની જાય છે.",
+      "agentRuleDoc3": "જ્યારે કોઈ વ્યક્તિ ઉપકર્મો લિંક પર ક્લિક કરે છે, ત્યારે તેઓ તમારા ટીમના ઉપકર્મો બની જાય છે.",
+      "betGamesGroupTitle": "જ્યારે તમારા ટીમના કોઈ સભ્ય રિચાર્જ કરે છે અથવા શરત લગાવે છે ત્યારે તમને કમિશન મળશે",
+      "commFootDoc1": "એક જ ઉપકરણ, IP સરનામું, મોબાઇલ નંબર, બેંક ખાતાની વિગતો અને અન્ય માહિતી સાથેના રમતના ખાતાઓ માત્ર એક જ વખત ભાગ લઈ શકે છે. ઉપરોક્ત નિયમોનું ઉલ્લંઘન કરનારને આ બોનસ નહીં મળે.",
+      "commFootDoc2": "જો કોઈ યુઝર અથવા જૂથ અસામાન્ય રીતે પૈસા કમાવા માટે પ્રયાસ કરે છે, તો પ્લેટફોર્મ પાસે કોઈ સૂચના વિના ખાતું બંધ અથવા જમાવવાની અધિકાર છે, જે તેમના ખાતાને પ્રતિબંધિત કરે છે.",
+      "commFootDoc3": "લેખન સમજણમાં વિમુખતા ટાળવા માટે, આ ઘટના interpreting નો અંતિમ અધિકાર {{appName}}ને છે. તેને કોઈપણ સમયે ઘટના બદલવા અથવા બંધ કરવાની અધિકાર છે.",
+      "title": "વધારાના પૈસા કમાવવા માટે તમારા એજન્ટ સ્તરને અપગ્રેડ કરો"
+    },
+    "label": {
+      "14Days": "14 દિવસ",
+      "3Days": "3 દિવસ",
+      "7Days": "7દિવસ",
+      "agentCenter": "એજન્ટ કેન્દ્ર",
+      "agentLevelOverview": "એજન્ટ સ્તર સમીક્ષા",
+      "agentRule": "એજન્ટ નિયમ",
+      "commission": "કમિશન",
+      "copyLink": "લિંક નકલ કરો",
+      "datePicker": "તારીખ પસંદકર્તા",
+      "directSubordinates": "સિદ્ધા અંડરલાઇન",
+      "directSubordinatesData": "સિદ્ધા ઉપાધિઓના ડેટા",
+      "every12AM": "દરરોજ મધ્યરાતે 12 વાગ્યે",
+      "facebook": "ફેસબુક",
+      "firstRecharge": "પ્રથમ રિચાર્જ",
+      "follow": "પાછો",
+      "inviteCode": "આમંત્રણ કોડ",
+      "join": "જોડાઓ",
+      "level": "સ્તર",
+      "nextLevelUpgradeCommission": "આગળના સ્તરનું અપગ્રેડ કમિશન",
+      "pendingComm": "પેન્ડિંગ કમિશન",
+      "settlementtime": "સેટલમેન્ટ સમય",
+      "team": "ટીમ",
+      "telegram": "ટેલિગ્રામ",
+      "totalBets": "કુલ બેટ્સ",
+      "totalComm": "કુલ કમિશન",
+      "totalFirstRecharge": "કુલ પ્રથમ રિચાર્જ",
+      "upgradeConditions": "અપગ્રેડની શરતો",
+      "whatsapp": "વોટ્સએપ",
+      "yesterdayComm": "ગયા દિવસની કમિશન",
+      "yesterdaySubo": "ગયા દિવસના ઉપાધ્યાય"
+    },
+    "tip": {
+      "activity": {
+        "alreadyClaimed": "તમે પહેલેથી જ આ ઇનામનો દાવો કર્યો છે",
+        "checkInBonus": "સતત {{num}} દિવસોમાં સાઇન ઇન કરો જેથી તમે મેળવો",
+        "notAchieved": "માફ કરશો, તમે આ ઇનામ મેળવવા માટેની શરતોને હજુ સુધી દાવો કર્યો નથી."
+      },
+      "rules": {
+        "checkinRule1": "આજે ઇનામો મેળવવા માટે, કૃપા કરીને દરરોજ તપાસો. ઇનામ એકત્રિત કરવાની સમયસીમા 0:00 AM થી 11:59 PM સુધી છે.",
+        "checkinRule2": "મફત કેરળ લોટરી ટિકિટ મેળવવા માટે 7 સતત દિવસો માટે તપાસો.",
+        "checkinRule3": "ચેક-ઇન પ્રગતિ દર સોમવારે ફરીથી શરૂ થાય છે.",
+        "checkinRule4": "તમે પ્રાપ્ત કરેલ મફત કેરલા લોટરી ટિકિટ \"મારા બેટ\" હેઠળ જોવામાં આવી શકે છે."
+      },
+      "share": {
+        "share1": "કમિશન કમાવવા માટે મિત્રો ને આમંત્રણ આપો.",
+        "share2": "એક રેન્ડમ ખેલાડીને આમંત્રણ મોકલો."
+      }
+    }
+  },
+  "result": {
+    "better": "આગામી ડ્રૉ માટે વધુ શુભકામનાઓ",
+    "betTime": "બેટ સમય",
+    "bonus": "બોનસ",
+    "congratulation": "અભિનંદન!",
+    "digit": {
+      "title": "3અંક"
+    },
+    "dubai": {
+      "title": "દુબઈ લોટરી"
+    },
+    "game": "ગેમ",
+    "havewon": "તમે જીત્યા છો",
+    "kerala": {
+      "placeholder": "તમે ખરીદેલ કોડ દાખલ કરો",
+      "winlist": "જીતની યાદી"
+    },
+    "label": {
+      "latestDrawDate": "તાજેતરની ડ્રો તારીખ:",
+      "drawTime": "Draw Time",
+      "game": "Game",
+      "numbers": "Numbers",
+      "prizeTiers": "Prize Tiers",
+      "round": "Round",
+      "roundInfo": "Round Info",
+      "totalWinners": "Total Winners",
+      "winners": "Winners"
+    },
+    "leaderboard": "આજનો લીડરબોર્ડ",
+    "lotteryOpeningTime": "લોટરી ખોલવાની સમયસીમા:",
+    "minute": "મિનિટ",
+    "mixDigit": {
+      "title": "4D & 5D"
+    },
+    "more": "વધુ",
+    "number": "નંબર",
+    "quickDigit": {
+      "title": "ઝડપી 3D"
+    },
+    "sorry": "માફ કરશો!",
+    "tips": {
+      "prizesSize": "1મેથી {{num}}મ પુરસ્કારો"
+    },
+    "user": "યુઝર",
+    "yourbets": "તમારા બેટ્સ",
+    "quickDigits": {
+      "title": "ઝડપી અંકો"
+    }
+  },
+  "signin": {
+    "label": {
+      "forgotPwd": "Forgot Password?",
+      "otpLogin": "ઓટિપિ સાઇન ઇન",
+      "rememberpwd": "પાસવર્ડ યાદ રાખો",
+      "resetPwd": "પાસવર્ડ ફરીથી સેટ કરો",
+      "sendOtp": "ઓટિપિ મોકલો",
+      "signinAs": "{{name}} તરીકે સાઇન ઇન કરો",
+      "signinWith": "{{channel}} સાથે સાઇન ઇન કરો"
+    },
+    "ph": {
+      "confirmpwd": "પાસવર્ડની પુષ્ટિ કરો",
+      "inviteCode": "આમંત્રણ કોડ (વૈકલ્પિક)",
+      "OTP": "6-અંકનો કોડ દાખલ કરો",
+      "phoneNum": "કૃપા કરીને ફોન નંબર દાખલ કરો",
+      "setPwd": "પાસવર્ડ સેટ કરો (અક્ષરો અથવા સંખ્યાઓ, 6+ અક્ષરો)",
+      "phone": "Enter phone number",
+      "otp": "Enter OTP",
+      "password": "Enter password",
+      "confirmPassword": "Confirm password",
+      "newPassword": "Enter new password"
+    },
+    "tip": {
+      "pg18": "હું 18 વર્ષથી વધુનો છું",
+      "pwdLenErr": "પાસવર્ડની લંબાઈ 6 કરતાં વધુ હોવી જોઈએ",
+      "pwdNotMath": "તમે બે વાર દાખલ કરેલા પાસવર્ડો મેળ ખાતા નથી",
+      "waitInit": "{{channel}} સેવાઓ પ્રારંભિક થઈ રહી છે, કૃપા કરીને રાહ જુઓ",
+      "phoneErr": "Please enter a valid phone number"
+    }
+  },
+  "stateLotto": {
+    "desc": {
+      "rule": {
+        "betOn": "\"{{betValue}}\" 1મો ઇનામ-{{num}}મો અંક માટે",
+        "betResult": "પ્રથમ પુરસ્કાર-{{num}}મ અંક \"{{result}}\" છે, જે \"{{betValue}}\" નંબર છે, તેથી બેટ જીતે છે.",
+        "desc1": "રાજ્ય લોટરી અધિકૃત લોટરીઓના પરિણામો દ્વારા નિર્ધારિત થાય છે જેમ કે કેરલા લોટરી, ડિયર લોટરી, પંજાબ ડિયર 10, અને અરુણાચલ રાજ્ય લોટરી, વગેરે. રાજ્ય લોટરી પ્રથમ ઇનામ નંબરના છેલ્લા ચાર અંક (A, B, C, D) ને અંતિમ ડ્રૉન પરિણામ તરીકે પસંદ કરે છે.",
+        "desc2": "ઉદાહરણ તરીકે, જો કેરલા લોટરીનો પ્રથમ ઇનામ પરિણામ WA 770249 છે, તો રાજ્ય લોટરીનું પરિણામ 0249 હશે, જેમાં A=0, B=2, C=4, અને D=9.",
+        "desc3": "જો સત્તાવાર લોટરી ન ખેંચાય, તો રાજ્ય લોટરી પણ ન ખેંચાશે, અને તમામ બેટિંગ ઓર્ડરો રદ કરવામાં આવશે. આ રમત માટેની ખેંચવાનો સમય સત્તાવાર લોટરીની ખેંચવાના સમય પર આધાર રાખે છે, તેથી તે સત્તાવાર ખેંચ્યા પછી જ થાશે.",
+        "desc4": "દરેક બેટમાંથી 2% સેવા શુલ્ક કાપવામાં આવે છે. ઉદાહરણ તરીકે, જો તમે રૂ. 100 બેટ કરો છો, તો બેટિંગ રકમ રૂ. 98 હશે. અંતિમ જીતનાર ઇનામ 98 * ઓડ્સ તરીકે ગણવામાં આવશે.",
+        "drawResult": "1મું ઇનામ {{result}} છે",
+        "FPCTitle": "એક એકલ અંક માટે \"માછલી\"/\"ઝીંગા\"/\"કર crab\" નંબર પર બેટ મૂકવામાં આવી છે.",
+        "howToPlay1": "જ્યારે તમે રમતમાં પ્રવેશ કરો છો, ત્યારે તમે સ્ક્રીન પર ઉપલબ્ધ કાઉન્ટર જોઈ શકો છો.",
+        "howToPlay2": "તમે જે કાઉન્ટર પર બેટ મૂકવા માંગો છો તેની પસંદગીને ક્લિક કરો. તમને એક બેટ સ્લિપ રજૂ કરવામાં આવશે જ્યાં તમે બેટ માટે તમારી રોકાણની રકમ દાખલ કરી શકો છો.",
+        "howToPlay3": "આગળ, તમે બેટ મૂકવા માટે વધુ પસંદગીઓ પસંદ કરી શકો છો અથવા તમારા તમામ બેટની પુષ્ટિ કરવા માટે \"બેટ મૂકો\" બટન પર ક્લિક કરી શકો છો. તમે એકલ અથવા તમામ બેટ્સ દૂર કરવા માટે \"હટાવો\" આઇકન પર પણ ક્લિક કરી શકો છો.",
+        "howToPlay4": "કોઈપણ બેટ જેની પુષ્ટિ કરવામાં આવી નથી તે સિસ્ટમ દ્વારા સ્વીકારવામાં નહીં આવે. તમે તમારા બેટના વિગતો જોવા માટે \"ઓપન બેટ્સ\" પેજનો ઉલ્લેખ કરી શકો છો. એકવાર બેટ નક્કી થઈ ગયા પછી, તમારું બેટ \"સ્ટેટમેન્ટ\" પેજમાં જોવા મળી શકે છે. જો ડ્રો રદ કરવામાં આવે છે, તો ડ્રો માટેની તમામ બેટ્સ અમાન્ય અને રદ કરવામાં આવશે.",
+        "howToPlay5": "અમારી Sdate લોટરી વેગર નીચે દર્શાવેલ બેટ પ્રકારો પર મૂકવામાં આવી શકે છે, દરેક બેટ પ્રકારની વધુ વિગત નીચે આપવામાં આવી છે",
+        "mixD": "ચાર નંબર પસંદ કરો જે પરિણામો સાથે મેળ ખાતા હોય. તેમને ચોક્કસ મેળ ખાવા જોઈએ. એટલે કે, જો બેટ {{num}} છે, તો પરિણામ પણ {{num}} હોવું જોઈએ.",
+        "mixX": "પરિણામો સાથે મેળ ખાતા ચાર નંબર પસંદ કરો. જો પરિણામ આ ચાર નંબરના સંયોજનનું હોય, તો તમે જીતશો.",
+        "towSide": {
+          "BSTitle": "એક એકલ અંક માટે \"મોટું\" અથવા \"નાનું\" નંબર પર બેટ મૂકવામાં આવી છે.",
+          "OETitle": "એક એકલ અંક માટે \"વિશમ\" અથવા \"સમાન\" સંખ્યામાં શરત લગાવવામાં આવી છે.",
+          "ODTitle": "Bet on whether the last digit is Odd (1,3,5,7,9) or Even (0,2,4,6,8)."
+        }
+      }
+    },
+    "label": {
+      "addToBetSlip": "બેટ સ્લિપમાં ઉમેરો",
+      "betAmount": "બેટિંગ રકમ",
+      "betSlipCount": "બેટ સ્લિપ ગણતરીઓ",
+      "Crab": "કરાબ",
+      "Fish": "માછલી",
+      "name": "એસડેટ લોટરી",
+      "Prawn": "ઝીંગો",
+      "rule": {
+        "betOn": "પ્લેયર બેટ પર",
+        "exapmle": "ઉદાહરણ",
+        "FPCTitle": "એકલ અંક માટે નંબર {{value}} છે",
+        "mixTitle": "{{num}} અંક માટે નંબર",
+        "singleSubTitle": "{{value}} એકલ અંક માટે",
+        "singleTitle": "એકલ અંક માટે નંબર",
+        "towSide": {
+          "BSTitle": "1. એકલ અંક માટે મોટું/નાનું",
+          "OETitle": "2. એકલ અંક માટે વિલંબ/સમાન"
+        }
+      }
+    },
+    "tip": {
+      "1digitModeTip": "કૃપા કરીને દરેક અંક માટે ઓછામાં ઓછા 1 નંબર પસંદ કરો.",
+      "beforePlay": "કૃપા કરીને ચુકવણી કરતા પહેલા ઉમેરો બટન પર ક્લિક કરો.",
+      "betMax": "માફ કરશો, તમે મૂકી શકો છો તે બેટ્સની મહત્તમ સંખ્યા {{num}} છે",
+      "cantAddToCart": "નીચેની સંયોજનો ખરીદીની ગાડીમાં ઉમેરવામાં નહીં આવે",
+      "disableTip": "માફ કરશો, તમે પુનરાવૃત્ત થયેલા નંબર પસંદ કરી શકતા નથી.",
+      "noSelectNumbers": "તમે હજુ સુધી કોઈ સંખ્યાઓ પસંદ કરી નથી.",
+      "numberModeTip": "કૃપા કરીને દરેક અંક માટે ઓછામાં ઓછા 1 નંબર પસંદ કરો. દરેક વખતે 100 બેટ સ્લિપની મહત્તમ સંખ્યા બનાવવામાં આવશે.",
+      "numUneven": "તમારે દરેક જૂથમાં ઓછામાં ઓછું એક નંબર પસંદ કરવું પડશે"
+    }
+  },
+  "transactions": {
+    "label": {
+      "game": "ખેલ",
+      "order": "ઓર્ડર",
+      "title": "લેણદેણ",
+      "totalAmount": "કુલ રકમ"
+    }
+  },
+  "vip": {
+    "cLevel": "વર્તમાન સ્તર",
+    "docs": {
+      "upLevel": "રીચાર્જ <span class=\"text-sec font-bold\">{{value}}</span> વધુ VIP{{level}} સ્તરે પહોંચવા માટે"
+    },
+    "level": "વીઆઈપી સ્તર",
+    "salary": {
+      "title": "સાપ્તાહિક પગાર",
+      "lastWeekRecharge": "ગત અઠવાડિયું રિચાર્જ",
+      "lock": "વિઆઈપી સ્તર પૂરતું ઊંચું નથી",
+      "lockTip": "રિવોર્ડ્સ VIP 1 પહોંચ્યા પછી ઉપલબ્ધ છે.",
+      "rules": {
+        "rule1": "દર અઠવાડિયે સોમવારે 2:00 PM નક્કી થયેલ વેતન.",
+        "rule2": "તમારી પગાર છેલ્લા સપ્તાહના સેટલમેન્ટ સમયે તમારા VIP સ્તર પર આધાર રાખે છે.",
+        "rule3": "પ્રિય વપરાશકર્તા, તમે સાપ્તાહિક રિચાર્જ કાર્ય પૂર્ણ કરવું પડશે પછી જ તમે પગાર મેળવી શકો છો.",
+        "rule4": "સાપ્તાહિક પગાર તમારા રિચાર્જ વોલેટમાં ઉમેરવામાં આવશે.",
+        "title": "સાપ્તાહિક પગાર નિયમો"
+      },
+      "setTime": "સોમવાર 2:00 PM નક્કી",
+      "weeklyRecharge": "સાપ્તાહિક રિચાર્જ"
+    },
+    "title": "વીઆઈપી",
+    "toBeCollected": "સંગ્રહિત કરવા માટે",
+    "toBeFinished": "પૂર્ણ થવા માટે",
+    "toVIP": "વીઆઈપી સ્તર સુધી પહોંચવા માટે વધુ",
+    "label": {
+      "currentLevel": "Current Level",
+      "nextLevel": "Next Level",
+      "progress": "Progress",
+      "benefits": "VIP Benefits",
+      "levelReward": "Level Reward",
+      "weeklyReward": "Weekly Reward",
+      "monthlyReward": "Monthly Reward",
+      "rebateBonus": "Rebate Bonus",
+      "betProgress": "Bet Progress",
+      "rechargeProgress": "Recharge Progress",
+      "claim": "Claim",
+      "claimed": "Claimed",
+      "requirements": "Level Up Requirements"
+    },
+    "table": {
+      "level": "Level",
+      "upgrade": "Upgrade",
+      "monthly": "Monthly",
+      "rebate": "Rebate",
+      "action": "Action"
+    },
+    "rule": {
+      "desc1": "VIP level is determined by total bet and recharge amounts.",
+      "desc2": "Higher VIP levels unlock better rewards and rebate rates.",
+      "desc3": "VIP rewards must be claimed manually before they expire."
+    }
+  },
+  "wingo": {
+    "rule": {
+      "bet-close": "બેટ બંધ:",
+      "graph-1-1": "કલર ગેમ ભારતની સૌથી લોકપ્રિય રમત છે, તે એક સરળ રમત છે, તમે રંગ પસંદ કરી શકો છો: લાલ, લીલો અને જાંબલી અથવા નંબર (1,2,3,4,5,6,7,8,9,0) પર બેટ કરવા માટે.",
+      "graph-2-1": "લાલ: 2x (બેટ રકમ x 2)",
+      "graph-2-2": "હરિત: 2x (બેટ રકમ x 2)",
+      "graph-2-3": "વાયલેટ: 4.5x (બેટ રકમ x 4.5)",
+      "graph-2-4": "*જો પરિણામ 🟣 વાયોલેટ છે, અને તે 🔴 લાલ અથવા 🟢 લીલું સમાન છે, જેમ કે 0 અથવા 5, તો 🔴 લાલ/🟢 લીલું પર બેટ કરનારાઓ 1.5x ઓડ્સ પ્રાપ્ત કરશે.",
+      "graph-3": "જીતવાની સંભાવનાઓ - કોઈપણ નંબર: 9x (બેટ રકમ x 9)",
+      "graph-4-1": "પ્લેટફોર્મ દરેક બેટ માટે 2% સેવા ફી વસૂલ કરશે. જો તમે 100 રૂપિયા બેટ કરવા પસંદ કરો છો, તો 2% સેવા ફી કાપ્યા પછી, તમારું અંતિમ બેટિંગ રકમ 98 રૂપિયા છે.",
+      "graph-4-2": "ઉદાહરણ: જો તમે 100 રૂપિયા બેટ કરો છો અને તમારા ઓડ્સ 2x છે, તો તમને 98 x 2 = 196 રૂપિયા મળશે.",
+      "second": "સેકંડ પહેલા",
+      "subtitle-1": "રંગ રમતના નિયમો",
+      "subtitle-2": "જીતવાની સંભાવના",
+      "subtitle-3": "અનુમાન નંબર",
+      "subtitle-4": "ચાર્જ:",
+      "game-type": "Game Type"
+    },
+    "table": {
+      "color": "રંગ",
+      "number": "નંબર"
+    },
+    "title": "રંગ",
+    "label": {
+      "color": "Color",
+      "number": "Number",
+      "size": "Size"
+    }
+  },
+  "withdraw": {
+    "label": {
+      "bankCard": "Bank Card",
+      "addCard": "Add Card",
+      "amount": "Withdraw Amount",
+      "todayRemainTimes": "Today Remaining",
+      "todayRemainAmount": "Today Remaining Amount",
+      "withdrawRecords": "Withdraw Records",
+      "viewRecords": "View Records"
+    },
+    "ph": {
+      "amount": "Enter withdrawal amount"
+    },
+    "tip": {
+      "noCard": "No bank card added yet",
+      "selectCard": "Please select a bank card",
+      "minAmount": "Minimum withdrawal amount is {{amount}}",
+      "maxAmount": "Maximum withdrawal amount is {{amount}}",
+      "insufficientBalance": "Insufficient balance",
+      "submitSuccess": "Withdrawal submitted successfully",
+      "successDesc": "Your withdrawal request has been submitted"
+    },
+    "bank-page": {
+      "del": {
+        "confirmText": "શું તમે ખરેખર આ બેંક કાર્ડને કાઢી નાખવા માંગો છો?",
+        "confirmTitle": "બેંક કાર્ડ કાઢી નાખો"
+      },
+      "error": {
+        "check-ifsc": "કૃપા કરીને તમારો IFSC કોડ તપાસો"
+      },
+      "label": {
+        "accountNum": "ખાતાની સંખ્યા",
+        "accountNumAgain": "ખાતું નંબર ફરીથી",
+        "bankName": "બેંકનું નામ",
+        "cardHolderName": "કાર્ડધારકનું નામ",
+        "current": "વર્તમાન ફોન નંબર",
+        "email": "ઈમેઇલ",
+        "get-otp": "ઓટિપિ મેળવો",
+        "IFSC": "IFSC કોડ",
+        "otp": "ઓટિપિ",
+        "UPI": "યુપીઆઈ સરનામું દાખલ કરો"
+      },
+      "placeholder": {
+        "accountNum": "9-17 નંબર, કોઈ જગ્યા નથી",
+        "bankName": "કૃપા કરીને બેંકનું નામ દાખલ કરો",
+        "cardHolderName": "કૃપા કરીને કાર્ડધારકનું નામ દાખલ કરો",
+        "email": "કૃપા કરીને ઇમેઇલ દાખલ કરો",
+        "IFSC": "ઉદાહરણ: SBIN0226432",
+        "otp": "કૃપા કરીને OTP દાખલ કરો",
+        "UPI": "કૃપા કરીને તમારું UPI ID દાખલ કરો"
+      },
+      "tip": {
+        "plsEnterRealName": "કૃપા કરીને ખાતરી કરો કે નામ અને બેંક વિગતો સાચી છે. અન્યથા, ફંડ્સ ક્રેડિટ ન થઈ શકે."
+      },
+      "title": "બેંક કાર્ડ ઉમેરો"
+    },
+    "withdraw-page": {
+      "error": {
+        "addAmount": "કૃપા કરીને રકમ દાખલ કરો",
+        "addCard": "કૃપા કરીને પહેલા બેંક કાર્ડ ઉમેરો"
+      },
+      "label": {
+        "addBank": "બેંક ખાતું ઉમેરો",
+        "edit": "સંપાદિત કરો",
+        "received": "વાસ્તવિક રકમ પ્રાપ્ત થઈ:",
+        "success": "પૈસા ઉપાડવું સફળ",
+        "transferTo": "બેંક ખાતામાં ટ્રાન્સફર કરો",
+        "withdrawAmount": "પાછા ખેંચી શકાય તેવા રકમ",
+        "withdraw-record": "ઉપાડા રેકોર્ડ"
+      },
+      "modal": {
+        "choose": "એક બેંક કાર્ડ પસંદ કરો"
+      },
+      "placeholder": {
+        "enterAmount": "રકમ દાખલ કરો (કમમાં: {{min}})",
+        "notEnoughMoney": "પૈસા પૂરતા નથી (કમથી: {{min}})"
+      },
+      "rules": {
+        "fee-1": "પ્રિય સર, કૃપા કરીને તમારી બેંક ખાતાની વિગતો, IFSC કોડ અને બેંકનું નામ સાચું છે કે નહીં તે પુષ્ટિ કરો, ખાતરી કરો કે તમે પૈસા પ્રાપ્ત કરી શકો છો.",
+        "fee-2": "દરેક ઉપાડમાં અમે કુલ રકમમાંથી {{rate}}% ફી તરીકે કાપીશું, ખાતરી કરો કે પૈસા ચૂકવવામાં આવી શકે છે.",
+        "limit": "અમે કેટલાક પૈસા ધૂળાણના વર્તન શોધી લીધા છે તેથી મર્યાદાઓ જે રિચાર્જ રકમ માટે બેટિંગ માટે જ ઉપયોગમાં લેવાઈ શકે છે. કમિશન અને જીતેલ રકમ તરત જ ઉપાડવામાં આવી શકે છે.",
+        "note": "* નોંધ: કેટલાક બેંક સમસ્યાઓને કારણે ઉપાડમાં વિલંબ થઈ શકે છે. આ સ્થિતિમાં, ઉપાડેલી રકમ તમારા વોલેટમાં પાછી ફરશે. તમારા ધીરજ માટે આભાર.",
+        "times-1": "દરેક વપરાશકર્તા ઉપાડ કરી શકે છે",
+        "times-2": "દિવસમાં વખત."
+      },
+      "success": {
+        "amount": "ઉપાડવા માટેની રકમ",
+        "message": "તમારી ઉપાડ વિનંતી પ્રાપ્ત થઈ છે, અને અમે 24 કલાકની અંદર તમારી વિનંતી પ્રક્રિયા કરીશું. આ સમય દરમિયાન, તમે કોઈપણ સમયે ઉપાડની સ્થિતિ તપાસી શકો છો.",
+        "title": "સબમિટ સફળ"
+      },
+      "tip": {
+        "bindPhone": "બેંક કાર્ડ ઉમેરવા પહેલાં તમારે તમારા મોબાઇલ નંબરને બાઇન્ડ કરવો પડશે",
+        "dontShareOTP": "આધિકૃત ગ્રાહક સેવા આ માહિતી માટે પૂછશે નહીં, જો કોઈ તમારી OTP કોડ અથવા પાસવર્ડ માટે પૂછે તો તે વ્યક્તિ એક ઠગ છે.",
+        "dontShareOTPTitle": "તમારો OTP કોડ અથવા પાસવર્ડ શેર ન કરો!",
+        "transfer": "કોઈ ઉપાડમાં રૂપાંતરિત કરવાથી કમાણી થઈ શકે છે",
+        "transferSubmit": "કન્ફર્મ પર ક્લિક કર્યા પછી, તમારી પાછા ખેંચી શકાય તેવી બેલેન્સ રિચાર્જ વોલેટમાં રૂપાંતરિત થશે અને તમને અનુરૂપ બોનસ મળશે.",
+        "withdrawalOpportunity": "આજે તમારી પાસે <span class=\"text-sec text-11\">{{withdrawCountLimit}}</span> વધુ ઉપાડની તક છે (<span class=\"text-sec text-11\">{{withdrawCountSurplus}}</span> વખત કુલ)",
+        "withdrawSubmitted": "તમારો ઉપાડ સબમિટ કરવામાં આવ્યો છે કૃપા કરીને ધીરજ રાખો."
+      }
+    }
+  },
+  "bankcard": {
+    "label": {
+      "addCard": "Add Bank Card",
+      "holderName": "Account Holder Name",
+      "bankName": "Bank Name",
+      "accountNo": "Account Number",
+      "confirmAccountNo": "Confirm Account Number",
+      "ifsc": "IFSC Code"
+    },
+    "ph": {
+      "holderName": "Enter account holder name",
+      "bankName": "Enter bank name",
+      "accountNo": "Enter account number",
+      "confirmAccountNo": "Confirm account number",
+      "ifsc": "Enter IFSC code"
+    },
+    "tip": {
+      "accountNotMatch": "Account numbers do not match",
+      "ifscErr": "Please enter a valid IFSC code"
+    }
+  },
+  "bonus": {
+    "label": {
+      "bonusBalance": "Bonus Balance",
+      "rules": "Bonus Rules",
+      "wageringProgress": "Wagering Progress"
+    },
+    "rule": {
+      "desc1": "Bonus funds require wagering before withdrawal.",
+      "desc2": "Wagering requirement: {{multiplier}}x the bonus amount.",
+      "desc3": "Only bets on eligible games count toward wagering."
+    },
+    "tip": {
+      "wageringDesc": "Complete wagering to unlock bonus for withdrawal"
+    }
+  },
+  "cashRain": {
+    "title": "Cash Rain",
+    "label": {
+      "active": "Cash Rain Active!",
+      "collect": "Collect",
+      "nextEvent": "Next Event",
+      "lastEarnings": "Last Earnings",
+      "totalCollected": "Total Collected",
+      "rules": "Rules"
+    },
+    "rule": {
+      "desc1": "Cash Rain events happen at scheduled times.",
+      "desc2": "Tap to collect rewards during the event.",
+      "desc3": "Rewards are credited to your main wallet."
+    }
+  },
+  "transfer": {
+    "label": {
+      "from": "From",
+      "to": "To",
+      "amount": "Amount",
+      "mainWallet": "Main Wallet",
+      "bonusWallet": "Bonus Wallet"
+    },
+    "ph": {
+      "amount": "Enter transfer amount"
+    },
+    "tip": {
+      "insufficientBalance": "Insufficient balance"
+    }
+  },
+  "record": {
+    "label": {
+      "orderId": "Order ID"
+    },
+    "status": {
+      "pending": "Pending",
+      "success": "Success",
+      "failed": "Failed"
+    }
+  },
+  "search": {
+    "label": {
+      "recent": "Recent Searches"
+    },
+    "ph": {
+      "keyword": "Search games..."
+    }
+  },
+  "sports": {
+    "label": {
+      "noGames": "No games found",
+      "providers": "Providers"
+    },
+    "placeholder": {
+      "search": "Search games..."
+    }
+  },
+  "provider": {
+    "title": "Game Provider",
+    "label": {
+      "games": "Games"
+    }
+  },
+  "app": {
+    "title": "Download App",
+    "label": {
+      "description": "Download our app for a better experience",
+      "download": "Download",
+      "howToInstall": "How to Install",
+      "screenshots": "Screenshots"
+    },
+    "step": {
+      "download": "Download the APK file",
+      "allow": "Allow installation from unknown sources",
+      "install": "Install and open the app"
+    }
+  },
+  "land": {
+    "label": {
+      "downloadApp": "Download App",
+      "playNow": "Play Now"
+    },
+    "4d": {
+      "desc": "Play 4D lottery and win big prizes"
+    },
+    "game": {
+      "desc": "Play exciting games and earn rewards"
+    },
+    "safedear": {
+      "desc": "Safe and secure gaming platform"
+    },
+    "checken1": {
+      "desc": "Daily check-in for bonus rewards"
+    },
+    "checken2": {
+      "desc": "Complete tasks to earn more"
+    },
+    "checken3": {
+      "desc": "Invite friends for extra bonuses"
+    }
+  },
+  "fived": {
+    "label": {
+      "positionA": "Position A",
+      "positionB": "Position B",
+      "positionC": "Position C",
+      "positionD": "Position D",
+      "positionE": "Position E"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.keralaluckydraw.app",
+      "sha256_cert_fingerprints": [
+        "9A:47:36:BC:99:CF:A8:74:96:39:54:44:D8:43:36:72:C1:90:8C:1D:EE:3F:7B:1D:3B:13:F7:AD:18:6B:A4:FF"
+      ]
+    }
+  }
+]

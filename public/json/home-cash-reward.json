@@ -1,0 +1,5540 @@
+{
+  "v": "5.12.1",
+  "fr": 24,
+  "ip": 0,
+  "op": 48,
+  "w": 500,
+  "h": 500,
+  "nm": "合成 1",
+  "ddd": 0,
+  "assets": [
+    {
+      "id": "image_0",
+      "w": 455,
+      "h": 137,
+      "u": "../images/home/lottie/cash-reward/",
+      "p": "img_0.png",
+      "e": 0
+    },
+    {
+      "id": "image_1",
+      "w": 240,
+      "h": 114,
+      "u": "../images/home/lottie/cash-reward/",
+      "p": "img_1.png",
+      "e": 0
+    },
+    {
+      "id": "image_2",
+      "w": 254,
+      "h": 232,
+      "u": "../images/home/lottie/cash-reward/",
+      "p": "img_2.png",
+      "e": 0
+    },
+    {
+      "id": "image_3",
+      "w": 200,
+      "h": 200,
+      "u": "../images/home/lottie/cash-reward/",
+      "p": "img_3.png",
+      "e": 0
+    },
+    {
+      "id": "image_4",
+      "w": 384,
+      "h": 384,
+      "u": "../images/home/lottie/cash-reward/",
+      "p": "img_4.png",
+      "e": 0
+    },
+    {
+      "id": "comp_0",
+      "nm": "金币 合成 1",
+      "fr": 24,
+      "layers": [
+        {
+          "ddd": 0,
+          "ind": 1,
+          "ty": 2,
+          "nm": "80",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 28,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 2,
+          "ty": 2,
+          "nm": "79",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 1,
+          "op": 29,
+          "st": 1,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 3,
+          "ty": 2,
+          "nm": "78",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 2,
+          "op": 30,
+          "st": 2,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 4,
+          "ty": 2,
+          "nm": "77",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 3,
+          "op": 31,
+          "st": 3,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 5,
+          "ty": 2,
+          "nm": "76",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 4,
+          "op": 32,
+          "st": 4,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 6,
+          "ty": 2,
+          "nm": "75",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 5,
+          "op": 33,
+          "st": 5,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 7,
+          "ty": 2,
+          "nm": "74",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 6,
+          "op": 34,
+          "st": 6,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 8,
+          "ty": 2,
+          "nm": "73",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 7,
+          "op": 35,
+          "st": 7,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 9,
+          "ty": 2,
+          "nm": "72",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 8,
+          "op": 36,
+          "st": 8,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 10,
+          "ty": 2,
+          "nm": "71",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 9,
+          "op": 37,
+          "st": 9,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 11,
+          "ty": 2,
+          "nm": "70",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 10,
+          "op": 38,
+          "st": 10,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 12,
+          "ty": 2,
+          "nm": "69",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 11,
+          "op": 39,
+          "st": 11,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 13,
+          "ty": 2,
+          "nm": "68",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 12,
+          "op": 40,
+          "st": 12,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 14,
+          "ty": 2,
+          "nm": "67",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 13,
+          "op": 41,
+          "st": 13,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 15,
+          "ty": 2,
+          "nm": "66",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 14,
+          "op": 42,
+          "st": 14,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 16,
+          "ty": 2,
+          "nm": "65",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 15,
+          "op": 43,
+          "st": 15,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 17,
+          "ty": 2,
+          "nm": "64",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 16,
+          "op": 44,
+          "st": 16,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 18,
+          "ty": 2,
+          "nm": "63",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 17,
+          "op": 45,
+          "st": 17,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 19,
+          "ty": 2,
+          "nm": "62",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 18,
+          "op": 46,
+          "st": 18,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 20,
+          "ty": 2,
+          "nm": "61",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 19,
+          "op": 47,
+          "st": 19,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 21,
+          "ty": 2,
+          "nm": "60",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 20,
+          "op": 48,
+          "st": 20,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 22,
+          "ty": 2,
+          "nm": "59",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 21,
+          "op": 49,
+          "st": 21,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 23,
+          "ty": 2,
+          "nm": "58",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 22,
+          "op": 50,
+          "st": 22,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 24,
+          "ty": 2,
+          "nm": "57",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 28,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 25,
+          "ty": 2,
+          "nm": "56",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 1,
+          "op": 29,
+          "st": 1,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 26,
+          "ty": 2,
+          "nm": "55",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 2,
+          "op": 30,
+          "st": 2,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 27,
+          "ty": 2,
+          "nm": "54",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 3,
+          "op": 31,
+          "st": 3,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 28,
+          "ty": 2,
+          "nm": "53",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 4,
+          "op": 32,
+          "st": 4,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 29,
+          "ty": 2,
+          "nm": "52",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 5,
+          "op": 33,
+          "st": 5,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 30,
+          "ty": 2,
+          "nm": "51",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 6,
+          "op": 34,
+          "st": 6,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 31,
+          "ty": 2,
+          "nm": "50",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 7,
+          "op": 35,
+          "st": 7,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 32,
+          "ty": 2,
+          "nm": "49",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 8,
+          "op": 36,
+          "st": 8,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 33,
+          "ty": 2,
+          "nm": "48",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 9,
+          "op": 37,
+          "st": 9,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 34,
+          "ty": 2,
+          "nm": "47",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 10,
+          "op": 38,
+          "st": 10,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 35,
+          "ty": 2,
+          "nm": "46",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 11,
+          "op": 39,
+          "st": 11,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 36,
+          "ty": 2,
+          "nm": "45",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 12,
+          "op": 40,
+          "st": 12,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 37,
+          "ty": 2,
+          "nm": "44",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 13,
+          "op": 41,
+          "st": 13,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 38,
+          "ty": 2,
+          "nm": "43",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 14,
+          "op": 42,
+          "st": 14,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 39,
+          "ty": 2,
+          "nm": "42",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 15,
+          "op": 43,
+          "st": 15,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 40,
+          "ty": 2,
+          "nm": "41",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 16,
+          "op": 44,
+          "st": 16,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 41,
+          "ty": 2,
+          "nm": "40",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 17,
+          "op": 45,
+          "st": 17,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 42,
+          "ty": 2,
+          "nm": "39",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 18,
+          "op": 46,
+          "st": 18,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 43,
+          "ty": 2,
+          "nm": "38",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 19,
+          "op": 47,
+          "st": 19,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 44,
+          "ty": 2,
+          "nm": "37",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 20,
+          "op": 48,
+          "st": 20,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 45,
+          "ty": 2,
+          "nm": "36",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 21,
+          "op": 49,
+          "st": 21,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 46,
+          "ty": 2,
+          "nm": "35",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 22,
+          "op": 50,
+          "st": 22,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 47,
+          "ty": 2,
+          "nm": "34",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 28,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 48,
+          "ty": 2,
+          "nm": "33",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 1,
+          "op": 29,
+          "st": 1,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 49,
+          "ty": 2,
+          "nm": "32",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 2,
+          "op": 30,
+          "st": 2,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 50,
+          "ty": 2,
+          "nm": "31",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 3,
+          "op": 31,
+          "st": 3,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 51,
+          "ty": 2,
+          "nm": "30",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 4,
+          "op": 32,
+          "st": 4,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 52,
+          "ty": 2,
+          "nm": "29",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 5,
+          "op": 33,
+          "st": 5,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 53,
+          "ty": 2,
+          "nm": "28",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 6,
+          "op": 34,
+          "st": 6,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 54,
+          "ty": 2,
+          "nm": "27",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 7,
+          "op": 35,
+          "st": 7,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 55,
+          "ty": 2,
+          "nm": "26",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 8,
+          "op": 36,
+          "st": 8,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 56,
+          "ty": 2,
+          "nm": "25",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 9,
+          "op": 37,
+          "st": 9,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 57,
+          "ty": 2,
+          "nm": "24",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 10,
+          "op": 38,
+          "st": 10,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 58,
+          "ty": 2,
+          "nm": "23",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 11,
+          "op": 39,
+          "st": 11,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 59,
+          "ty": 2,
+          "nm": "22",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 12,
+          "op": 40,
+          "st": 12,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 60,
+          "ty": 2,
+          "nm": "21",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 13,
+          "op": 41,
+          "st": 13,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 61,
+          "ty": 2,
+          "nm": "20",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 14,
+          "op": 42,
+          "st": 14,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 62,
+          "ty": 2,
+          "nm": "19",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 15,
+          "op": 43,
+          "st": 15,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 63,
+          "ty": 2,
+          "nm": "18",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 16,
+          "op": 44,
+          "st": 16,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 64,
+          "ty": 2,
+          "nm": "17",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 17,
+          "op": 45,
+          "st": 17,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 65,
+          "ty": 2,
+          "nm": "16",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 18,
+          "op": 46,
+          "st": 18,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 66,
+          "ty": 2,
+          "nm": "15",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 19,
+          "op": 47,
+          "st": 19,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 67,
+          "ty": 2,
+          "nm": "14",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 20,
+          "op": 48,
+          "st": 20,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 68,
+          "ty": 2,
+          "nm": "13",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 21,
+          "op": 49,
+          "st": 21,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 69,
+          "ty": 2,
+          "nm": "12",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 22,
+          "op": 50,
+          "st": 22,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 70,
+          "ty": 2,
+          "nm": "11",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 28,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 71,
+          "ty": 2,
+          "nm": "10",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 1,
+          "op": 29,
+          "st": 1,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 72,
+          "ty": 2,
+          "nm": "9",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 2,
+          "op": 30,
+          "st": 2,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 73,
+          "ty": 2,
+          "nm": "8",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 3,
+          "op": 31,
+          "st": 3,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 74,
+          "ty": 2,
+          "nm": "7",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 4,
+          "op": 32,
+          "st": 4,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 75,
+          "ty": 2,
+          "nm": "6",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 5,
+          "op": 33,
+          "st": 5,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 76,
+          "ty": 2,
+          "nm": "5",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 6,
+          "op": 34,
+          "st": 6,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 77,
+          "ty": 2,
+          "nm": "4",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 7,
+          "op": 35,
+          "st": 7,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 78,
+          "ty": 2,
+          "nm": "3",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 8,
+          "op": 36,
+          "st": 8,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 79,
+          "ty": 2,
+          "nm": "2",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 9,
+          "op": 37,
+          "st": 9,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 80,
+          "ty": 2,
+          "nm": "85",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 10,
+          "op": 38,
+          "st": 10,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 81,
+          "ty": 2,
+          "nm": "84",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 11,
+          "op": 39,
+          "st": 11,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 82,
+          "ty": 2,
+          "nm": "83",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10,
+              "x": "var $bm_rt;\\nseedRandom(index, true);\\nvar spin = random(180, 720);\\n$bm_rt = $bm_sum(value, $bm_mul(spin, $bm_sub(time, inPoint)));"
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256,
+                186,
+                0
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\\nvar startPos, vx, vy, g, t, x, y;\\nstartPos = value;\\nseedRandom(index, true);\\nvx = $bm_mul(random(0, 150), random() < 0.5 ? -3 : 3);\\nvy = random(-900, -600);\\ng = 1800;\\nt = $bm_sub(time, inPoint);\\nx = $bm_mul(vx, t);\\ny = $bm_sum($bm_mul(vy, t), $bm_mul($bm_mul($bm_mul(0.5, g), t), t));\\n$bm_rt = [\\n    startPos[0] + x,\\n    startPos[1] + y\\n];"
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                25,
+                25,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ip": 12,
+          "op": 40,
+          "st": 12,
+          "bm": 0
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 2,
+      "nm": "文案.png",
+      "cl": "png",
+      "refId": "image_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            249.5,
+            189,
+            0
+          ],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            227.5,
+            68.5,
+            0
+          ],
+          "ix": 1,
+          "l": 2
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            109.614,
+            109.614,
+            100
+          ],
+          "ix": 6,
+          "l": 2
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 120,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 2,
+      "ty": 2,
+      "nm": "进行中.png",
+      "cl": "png",
+      "refId": "image_1",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            250,
+            374,
+            0
+          ],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            120,
+            57,
+            0
+          ],
+          "ix": 1,
+          "l": 2
+        },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.667,
+                  0.667,
+                  0.667
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333,
+                  0.333,
+                  0.333
+                ],
+                "y": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "t": 0,
+              "s": [
+                205.965,
+                212.281,
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.667,
+                  0.667,
+                  0.667
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333,
+                  0.333,
+                  0.333
+                ],
+                "y": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "t": 4.8,
+              "s": [
+                180,
+                185.52,
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.667,
+                  0.667,
+                  0.667
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333,
+                  0.333,
+                  0.333
+                ],
+                "y": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "t": 9.6,
+              "s": [
+                205.965,
+                212.281,
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.667,
+                  0.667,
+                  0.667
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333,
+                  0.333,
+                  0.333
+                ],
+                "y": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "t": 14.4,
+              "s": [
+                180,
+                185.52,
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.667,
+                  0.667,
+                  0.667
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333,
+                  0.333,
+                  0.333
+                ],
+                "y": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "t": 19.2,
+              "s": [
+                205.965,
+                212.281,
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.667,
+                  0.667,
+                  0.667
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333,
+                  0.333,
+                  0.333
+                ],
+                "y": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "t": 24,
+              "s": [
+                180,
+                185.52,
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.667,
+                  0.667,
+                  0.667
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333,
+                  0.333,
+                  0.333
+                ],
+                "y": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "t": 28.8,
+              "s": [
+                205.965,
+                212.281,
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.667,
+                  0.667,
+                  0.667
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333,
+                  0.333,
+                  0.333
+                ],
+                "y": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "t": 33.6,
+              "s": [
+                180,
+                185.52,
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.667,
+                  0.667,
+                  0.667
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333,
+                  0.333,
+                  0.333
+                ],
+                "y": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "t": 38.4,
+              "s": [
+                205.965,
+                212.281,
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.667,
+                  0.667,
+                  0.667
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333,
+                  0.333,
+                  0.333
+                ],
+                "y": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "t": 43.2,
+              "s": [
+                180,
+                185.52,
+                100
+              ]
+            },
+            {
+              "t": 48,
+              "s": [
+                205.965,
+                212.281,
+                100
+              ]
+            }
+          ],
+          "ix": 6,
+          "l": 2
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 120,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 3,
+      "ty": 2,
+      "nm": "罐子中间.png",
+      "cl": "png",
+      "refId": "image_2",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0.157,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            250,
+            250,
+            0
+          ],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            127,
+            116,
+            0
+          ],
+          "ix": 1,
+          "l": 2
+        },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.667,
+                  0.667,
+                  0.667
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333,
+                  0.333,
+                  0.333
+                ],
+                "y": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "t": 0,
+              "s": [
+                190,
+                190,
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.667,
+                  0.667,
+                  0.667
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333,
+                  0.333,
+                  0.333
+                ],
+                "y": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "t": 8,
+              "s": [
+                180,
+                180,
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.667,
+                  0.667,
+                  0.667
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333,
+                  0.333,
+                  0.333
+                ],
+                "y": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "t": 16,
+              "s": [
+                190,
+                190,
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.667,
+                  0.667,
+                  0.667
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333,
+                  0.333,
+                  0.333
+                ],
+                "y": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "t": 24,
+              "s": [
+                180,
+                180,
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.667,
+                  0.667,
+                  0.667
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333,
+                  0.333,
+                  0.333
+                ],
+                "y": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "t": 32,
+              "s": [
+                190,
+                190,
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.667,
+                  0.667,
+                  0.667
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333,
+                  0.333,
+                  0.333
+                ],
+                "y": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "t": 40,
+              "s": [
+                180,
+                180,
+                100
+              ]
+            },
+            {
+              "t": 48,
+              "s": [
+                190,
+                190,
+                100
+              ]
+            }
+          ],
+          "ix": 6,
+          "l": 2
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 120,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 4,
+      "ty": 0,
+      "nm": "金币",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            250,
+            250,
+            0
+          ],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            250,
+            250,
+            0
+          ],
+          "ix": 1,
+          "l": 2
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6,
+          "l": 2
+        }
+      },
+      "ao": 0,
+      "w": 500,
+      "h": 500,
+      "ip": 0,
+      "op": 120,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 5,
+      "ty": 2,
+      "nm": "花瓣素材_通用红色火圈燃烧的火焰圈元素贴纸_193289628 1.webp",
+      "cl": "webp",
+      "refId": "image_4",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            250,
+            250,
+            0
+          ],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            192,
+            192,
+            0
+          ],
+          "ix": 1,
+          "l": 2
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            130.339,
+            130.339,
+            100
+          ],
+          "ix": 6,
+          "l": 2
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 120,
+      "st": 0,
+      "bm": 0
+    }
+  ],
+  "markers": [],
+  "props": {}
+}

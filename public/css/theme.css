@@ -1,0 +1,179 @@
+:root {
+  --brand-h: 208;
+  --brand-s: 91%;
+  --brand-l: 56%;
+
+  --brand: hsl(var(--brand-h) var(--brand-s) var(--brand-l));
+  --brand-soft: hsl(var(--brand-h) var(--brand-s) 78%);
+  --brand-deep: hsl(var(--brand-h) var(--brand-s) 44%);
+  --brand-ink: hsl(var(--brand-h) var(--brand-s) 42%);
+  --brand-glow: hsl(var(--brand-h) var(--brand-s) var(--brand-l) / .45);
+  --brand-tint: hsl(var(--brand-h) var(--brand-s) var(--brand-l) / .10);
+  --brand-ripple: hsl(var(--brand-h) var(--brand-s) var(--brand-l) / .30);
+  --brand-wash: hsl(var(--brand-h) 70% 97%);
+  --brand-head: hsl(var(--brand-h) 100% 95%);
+  --brand-pale: hsl(var(--brand-h) 100% 93%);
+
+  --brand-fg: #ffffff;
+  --brand-surface: hsl(var(--brand-h) var(--brand-s) 43%);
+  --brand-surface-deep: hsl(calc(var(--brand-h) + 6) var(--brand-s) 34%);
+  --brand-sunk: hsl(calc(var(--brand-h) + 6) 100% 14% / .6);
+
+  --basic-color-primary: var(--brand);
+  --bg-color-second: var(--brand-deep);
+  --linear-primary-start: var(--brand-surface);
+  --linear-primary-end: var(--brand-surface-deep);
+
+  --heroui-primary: var(--brand-h) var(--brand-s) var(--brand-l);
+  --heroui-primary-400: var(--brand-h) var(--brand-s) 68%;
+  --heroui-primary-500: var(--brand-h) var(--brand-s) var(--brand-l);
+  --heroui-primary-600: var(--brand-h) var(--brand-s) 46%;
+  --heroui-focus: var(--brand-h) var(--brand-s) var(--brand-l);
+}
+
+:root.dark {
+  --brand-l: 64%;
+
+  --brand-ink: hsl(var(--brand-h) var(--brand-s) var(--brand-l));
+  --brand-wash: hsl(var(--brand-h) 30% 12%);
+  --brand-head: hsl(var(--brand-h) 12% 27%);
+
+  --brand-fg: #ffffff;
+  --brand-surface: hsl(var(--brand-h) var(--brand-s) 43%);
+  --brand-surface-deep: hsl(calc(var(--brand-h) + 6) var(--brand-s) 34%);
+
+  --basic-color-primary: var(--brand);
+  --bg-color-second: var(--brand-soft);
+  --linear-primary-start: var(--brand-surface);
+  --linear-primary-end: var(--brand-surface-deep);
+
+  --heroui-primary: var(--brand-h) var(--brand-s) var(--brand-l);
+  --heroui-primary-400: var(--brand-h) var(--brand-s) 74%;
+  --heroui-primary-500: var(--brand-h) var(--brand-s) var(--brand-l);
+  --heroui-primary-600: var(--brand-h) var(--brand-s) 54%;
+  --heroui-focus: var(--brand-h) var(--brand-s) var(--brand-l);
+}
+
+.brand-strip {
+  background-image: linear-gradient(
+    to right,
+    hsl(var(--brand-h) var(--brand-s) 46%),
+    hsl(calc(var(--brand-h) + 10) var(--brand-s) 34%)
+  );
+}
+
+.bg-primary { background-color: var(--brand-surface); }
+
+.bg-primary,
+.bg-linear-primary-tb,
+.bg-linear-primary-tr { color: var(--brand-fg); }
+
+.bg-primary.text-black,
+.bg-linear-primary-tb.text-black,
+.bg-linear-primary-tr.text-black,
+.bg-primary .text-black,
+.bg-linear-primary-tb .text-black,
+.bg-linear-primary-tr .text-black { color: var(--brand-fg) !important; }
+
+.brand-marquee {
+  color: var(--brand-fg);
+  background-image:
+    radial-gradient(120% 180% at 6% 50%, hsl(0 0% 100% / .14), transparent 42%),
+    linear-gradient(180deg, hsl(0 0% 100% / .15), hsl(0 0% 100% / 0) 58%),
+    linear-gradient(
+      100deg,
+      hsl(var(--brand-h) var(--brand-s) 33%) 0%,
+      hsl(var(--brand-h) var(--brand-s) 42%) 36%,
+      hsl(calc(var(--brand-h) + 8) var(--brand-s) 38%) 70%,
+      hsl(calc(var(--brand-h) + 4) var(--brand-s) 30%) 100%
+    );
+}
+
+.brand-checkin {
+  background-image: radial-gradient(
+    90% 80% at 90% 65%,
+    hsl(var(--brand-h) var(--brand-s) 55%) 10%,
+    hsl(var(--brand-h) 90% 92%) 100%
+  );
+}
+
+:root.dark .brand-checkin {
+  background-image: radial-gradient(
+    55% 85% at 70% 70%,
+    #bb2514 0%,
+    #362f2a 100%
+  );
+}
+
+.brand-tab {
+  background-image: radial-gradient(
+    120% 120% at top center,
+    hsl(var(--brand-h) var(--brand-s) 62%) 0%,
+    #fff 90%
+  );
+}
+
+:root.dark .brand-tab {
+  background-image: radial-gradient(
+    circle at top center,
+    hsl(var(--brand-h) var(--brand-s) var(--brand-l) / .9) 0%,
+    hsl(var(--brand-h) 38% 28%) 36%,
+    #323737 55%
+  );
+}
+
+.brand-sec-head {
+  background-image: linear-gradient(to bottom in oklab, var(--brand-head), transparent);
+}
+
+.brand-sec-wash {
+  background-image: linear-gradient(to bottom in oklab, var(--brand-head), transparent 40%);
+}
+
+.brand-rule-wash {
+  background-image: linear-gradient(to bottom in oklab, var(--brand-pale), transparent 26%);
+}
+
+:root.dark .brand-rule-wash {
+  background-image: none;
+}
+
+:root:not(.dark) .brand-panel-wash {
+  background-color: var(--brand-pale);
+}
+
+.brand-card-wash {
+  background-image: linear-gradient(
+    to bottom in oklab,
+    hsl(var(--brand-h) 100% 50% / .14),
+    transparent 3.375rem
+  );
+}
+
+.brand-info-panel {
+  background-image: linear-gradient(
+    to right in oklab,
+    hsl(calc(var(--brand-h) - 28) 100% 89%),
+    hsl(var(--brand-h) 100% 84%)
+  );
+}
+
+:root.dark .brand-info-panel {
+  background-image: linear-gradient(
+    to right in oklab,
+    hsl(calc(var(--brand-h) - 28) 100% 42%),
+    hsl(var(--brand-h) 85% 58%)
+  );
+}
+
+.brand-cta,
+button.brand-cta {
+  background-color: var(--brand-surface);
+  background-image: linear-gradient(
+    to bottom in oklab,
+    var(--brand-surface),
+    var(--brand-surface-deep)
+  );
+  color: var(--brand-fg);
+  box-shadow: inset 0 -2px 0 0 var(--brand-sunk);
+}

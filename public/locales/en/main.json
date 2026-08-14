@@ -1,0 +1,1701 @@
+{
+  "agent": {
+    "title": "Agent Center",
+    "label": {
+      "commission": "Commission",
+      "today": "Today",
+      "total": "Total",
+      "subordinates": "Subordinates",
+      "level1": "Level 1",
+      "level2": "Level 2",
+      "todayRegister": "Today Register",
+      "todayFirstRecharge": "Today First Recharge",
+      "viewSubordinates": "View Subordinates",
+      "shareInvite": "Share Invite",
+      "inviteCode": "Invite Code",
+      "inviteLink": "Invite Link",
+      "rules": "Rules",
+      "totalCommission": "Total Commission",
+      "todayCommission": "Today Commission",
+      "inviteFriends": "Invite Friends",
+      "registered": "Registered",
+      "totalBet": "Total Bet",
+      "commissionRules": "Commission Rules"
+    },
+    "rule": {
+      "desc1": "Invite friends to join and earn commission on their bets.",
+      "desc2": "Level 1 subordinates: direct invites. Level 2: their invites.",
+      "desc3": "Commission is calculated daily and credited to your wallet."
+    }
+  },
+  "bets": {
+    "status": {
+      "pending": "Pending",
+      "won": "Won",
+      "lost": "Lost",
+      "settled": "Settled"
+    },
+    "label": {
+      "bet": "Bet",
+      "betAmount": "Bet Amount",
+      "betType": "Bet Type",
+      "game": "Game",
+      "orderDetail": "Order Detail",
+      "orderId": "Order ID",
+      "orderInfo": "Order Info",
+      "prize": "Prize",
+      "round": "Round",
+      "roundResult": "Round Result",
+      "time": "Time"
+    }
+  },
+  "cashReward": {
+    "label": {
+      "entryDesc": "Free Cash Reward",
+      "myRewards": "My Rewards",
+      "nextRoundTime": "Next Cash Rain Time",
+      "otherUsers": "OtherUsers",
+      "startNow": "Start Now",
+      "title": "Cash Rain"
+    },
+    "rule": {
+      "desc1": "1st–7th of each month: 6 sessions daily",
+      "desc2": "8th–end of each month: 3 sessions daily",
+      "no1": "Each Cash Rain event distributes a total of ₹100,000 for free.",
+      "no2": "Maximum Cash Rain Amount: Every Cash Rain is given out free of charge.",
+      "no3": "Recharge members can claim rewards for free.",
+      "no4": "The money received can be used to play games or withdrawn directly.",
+      "no5": "The more you play each day, and the longer you play, the higher the amount you can earn."
+    },
+    "tip": {
+      "alreadyPlayed": "You joined! Please wait next round.",
+      "plsWait": "Please wait for the next round.",
+      "rechargeFirst": "You need to top up first to participate in this event."
+    }
+  },
+  "common": {
+    "label": {
+      "addDesk": "Add to Desktop",
+      "agent": "Agent",
+      "all": "All",
+      "amount": "Amount",
+      "AmuntStatus": {
+        "1": "Review",
+        "2": "Bank Verification",
+        "3": "Completed",
+        "4": "Failed"
+      },
+      "Awards": "Awards",
+      "backToHome": "Back To Home",
+      "availableBalance": "Available Balance",
+      "backHome": "Back to Home",
+      "balance": "Balance",
+      "bet": "Bet",
+      "betAmount": "Bet Amount",
+      "betNow": "Bet Now",
+      "betResult": "Bet Result",
+      "bets": "Bets",
+      "betting": "Betting",
+      "bonus": "bonus",
+      "cancel": "Cancel",
+      "check": "Check",
+      "choese": "Please Choese",
+      "claim": "Claim",
+      "claimed": "Claimed",
+      "claimNow": "Claim Now",
+      "clear": "Clear",
+      "clearAll": "Clear All",
+      "close": "Close",
+      "closed": "Closed",
+      "collapse": "Collapse",
+      "collect": "Collect",
+      "confirm": "Confirm",
+      "confirmation": "Confirmation Reminder",
+      "copy": "Copy",
+      "customer": "Customer",
+      "cutDown": "Countdown to lottery",
+      "day": "day",
+      "Day": "Day",
+      "del": "Delete",
+      "Details": "Details",
+      "digit": "Digit",
+      "download": "Download",
+      "downloadApp": "Download App",
+      "downloadSth": "Download {{sth}}",
+      "drawResult": "Draw Result",
+      "drawResults": "Draw Results",
+      "earnMoney": "Earn Money",
+      "edit": "edit",
+      "empty": "Empty",
+      "example": "Example",
+      "exchange": "Exchange",
+      "expired": "Expired",
+      "favorites": "Favorites",
+      "filter": "Filter",
+      "finish": "Finish",
+      "free": "Free",
+      "sports": "Sports",
+      "games": {
+        "add": "Add",
+        "analyze": "Analyze",
+        "betSlip": "Bet Slip",
+        "bettingTime": "Betting time",
+        "BETTYPE": "BET TYPE",
+        "Big": "Big",
+        "box": "BOX",
+        "casino": "Casino",
+        "CreateTime": "Create Time",
+        "Delivery": "Delivery",
+        "digit": "3 Digit",
+        "double": "Double",
+        "DRAWN": "DRAWN",
+        "drawTime": "Draw time",
+        "Even": "Even",
+        "EVEN": "EVEN",
+        "Fee": "Fee",
+        "five": "5",
+        "four": "4",
+        "FullInsurance": "Full Insurance",
+        "gameClosed": "Game Closed",
+        "kerala": "Kerala",
+        "keralaStateLottery": "Kerala State Lottery",
+        "label": "Games",
+        "LastDraw": "Last draw",
+        "LastDrawResult": "Last draw result",
+        "live": "Live",
+        "liveCasino": "Live Casino",
+        "lottery": "Lottery",
+        "maxBet": "Max Bet",
+        "minBet": "Min Bet",
+        "minutes": "minutes",
+        "mixLotto": "State Lottery",
+        "myBets": "My Bets",
+        "myNumbers": "My Numbers",
+        "myOrder": "My Order",
+        "nextDraw": "Next Draw",
+        "nextDrawTime": "Next Draw Time",
+        "numbers": "Numbers",
+        "odd": "Odd",
+        "odds": "Odds",
+        "orderId": "Order ID",
+        "payment": "Payment",
+        "payNow": "Pay Now",
+        "picks": "Picks",
+        "punjab": "Punjab",
+        "quickAdd": "QuickAdd",
+        "quickGuess": "Quick Guess",
+        "quickRace": "Quick Race",
+        "remainTime": "Remaining Time",
+        "rule": "Rule",
+        "rules": "Rules",
+        "shoppingCart": "Shopping Cart",
+        "single": "Single",
+        "Small": "Small",
+        "TICKETSETTLED": "TICKET SETTLED",
+        "TICKETSETTLING": "TICKET SETTLING...",
+        "totalPayment": "Total payment",
+        "totalPrizes": "Total prizes",
+        "triple": "Triple",
+        "TYPE": "TYPE",
+        "winner": "Winner",
+        "winning": "winning",
+        "straight": "Straight",
+        "emptyCart": "No bets selected",
+        "big": "Big",
+        "stopped": "Stopped"
+      },
+      "get": "Get",
+      "history": "History",
+      "home": "Home",
+      "hour": "hour",
+      "Hour": "Hour",
+      "hours": "hours",
+      "Hours": "Hours",
+      "howPlay": "How to play",
+      "hrs": "hrs",
+      "inProgress": "In Progress",
+      "invite": "Invite",
+      "invites": "Invites",
+      "inviteToEarn": "Invite to Earn",
+      "lastResult": "Previous Top Prize Results",
+      "lastWeek": "Last Week",
+      "loadMore": "Load More",
+      "locked": "Locked",
+      "login": "Sign In",
+      "max": "max",
+      "MaxPrize": "Max Prize",
+      "menu": "Menu",
+      "min": "min",
+      "mins": "mins",
+      "more": "more",
+      "multiplier": "multiplier",
+      "noMoreData": "No more data",
+      "notAchieved": "Not reached",
+      "notEligible": "Not Eligible",
+      "notes": "Notes",
+      "notification": "Notification",
+      "notifications": "Notifications",
+      "nowin": "No Win",
+      "ok": "OK",
+      "open": "Open",
+      "password": "Password",
+      "pay": "pay",
+      "payout": "Payout",
+      "play": "play",
+      "player": "player",
+      "players": "players",
+      "playNow": "Play Now",
+      "previousResult": "Previous Result",
+      "price": "Price",
+      "promotions": "Promotions",
+      "random": "Random",
+      "rate": "Rate",
+      "rcForm": {
+        "lastRecharge": "Last Recharge",
+        "RechargeAmount": "Recharge Amount"
+      },
+      "rebate": "Rebate",
+      "recent": "Recent",
+      "recharge": "Recharge",
+      "rechargeChannel": "Recharge Channel",
+      "rechargeNow": "Recharge Now",
+      "refresh": "Refresh",
+      "register": "Sign Up",
+      "result": "Result",
+      "resultHistory": "Result history",
+      "save": "save",
+      "search": "Search",
+      "select": "Please Select",
+      "selectMonth": "Select Month",
+      "share": "Share",
+      "showMore": "Show more",
+      "spin": "Spin",
+      "stay-tuned": "Stay tuned",
+      "Success": "Success",
+      "switchLanguage": "Switch language",
+      "table": {
+        "betId": "BET ID",
+        "gametype": "Game type",
+        "issue": "Issue",
+        "number": "Number",
+        "sum": "Sum",
+        "time": "Time",
+        "value": "Value"
+      },
+      "thisWeek": "This Week",
+      "ticket": "Ticket",
+      "tier": "Tier",
+      "timeRemain": "Time remaining",
+      "tip": "tip",
+      "toBeDrawn": "To Be Drawn",
+      "topPrize": "Top Prize",
+      "total": "Total",
+      "transfer": "Transfer",
+      "transferRecords": "Transfer Records",
+      "type": "Type",
+      "unbound": "Unbound",
+      "unlock": "Unlock",
+      "unmet": "Unmet",
+      "updateLater": "Update Later",
+      "updateNow": "Update Now",
+      "userID": "User ID",
+      "username": "Username",
+      "userName": "User Name",
+      "viewAll": "View All",
+      "wager": "Wager",
+      "win": "win",
+      "withdraw": "Withdraw",
+      "WithdrawNow": "Withdraw Now",
+      "won": "Won",
+      "totalBalance": "Total Balance",
+      "phone": "Phone Number",
+      "smsCode": "SMS Code",
+      "sendCode": "Send Code",
+      "inviteCode": "Invite Code",
+      "confirmPassword": "Confirm Password",
+      "forgotPassword": "Forgot Password?",
+      "noAccount": "Don't have an account?",
+      "hasAccount": "Already have an account?",
+      "loginNow": "Login Now",
+      "registerNow": "Register Now",
+      "agree": "I agree to the",
+      "terms": "Terms of Service",
+      "newPassword": "New Password",
+      "setPassword": "Set Password",
+      "resetPassword": "Reset Password",
+      "transactions": "Transactions",
+      "submit": "Submit",
+      "pending": "Pending",
+      "success": "Success",
+      "failed": "Failed",
+      "rejected": "Rejected",
+      "approved": "Approved",
+      "processing": "Processing",
+      "completed": "Completed",
+      "bankCard": "Bank Card",
+      "addBankCard": "Add Bank Card",
+      "accountName": "Account Holder Name",
+      "bankName": "Bank Name",
+      "accountNumber": "Account Number",
+      "ifscCode": "IFSC Code",
+      "upiId": "UPI ID",
+      "minAmount": "Min",
+      "maxAmount": "Max",
+      "mainWallet": "Main Wallet",
+      "bonusWallet": "Bonus Wallet",
+      "from": "From",
+      "to": "To",
+      "date": "Date",
+      "status": "Status",
+      "detail": "Detail",
+      "orderNo": "Order No.",
+      "time": "Time",
+      "noData": "No Data",
+      "copied": "Copied!",
+      "delete": "Delete",
+      "inviteLink": "Invite Link",
+      "commission": "Commission",
+      "subordinates": "Subordinates",
+      "level": "Level",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "thisMonth": "This Month",
+      "checkin": "Check In",
+      "activity": "Activity",
+      "vip": "VIP",
+      "profile": "Profile",
+      "settings": "Settings",
+      "about": "About",
+      "language": "Language",
+      "darkMode": "Dark Mode",
+      "nickname": "Nickname",
+      "avatar": "Avatar",
+      "userId": "User ID",
+      "myOrders": "My Orders",
+      "myBets": "My Bets",
+      "records": "Records",
+      "rechargeRecords": "Recharge Records",
+      "withdrawRecords": "Withdraw Records",
+      "receive": "Receive",
+      "rebateRate": "Rebate Rate",
+      "totalRebate": "Total Rebate",
+      "unclaimed": "Unclaimed",
+      "gameType": "Game Type",
+      "round": "Round",
+      "prize": "Prize",
+      "results": "Results",
+      "drawTime": "Draw Time",
+      "gameList": "Game List",
+      "providers": "Providers",
+      "popular": "Popular",
+      "new": "New",
+      "hot": "Hot",
+      "lottery": "Lottery",
+      "casino": "Casino",
+      "slots": "Slots",
+      "live": "Live",
+      "install": "Install",
+      "cashRain": "Cash Rain",
+      "mysteryBox": "Mystery Box",
+      "draw": "Draw",
+      "cost": "Cost",
+      "freeSpin": "Free Spin",
+      "custom": "Custom",
+      "prizeTier": "Prize Tier",
+      "winners": "Winners",
+      "big": "Big",
+      "small": "Small",
+      "odd": "Odd",
+      "even": "Even",
+      "red": "Red",
+      "green": "Green",
+      "violet": "Violet",
+      "sum": "Sum",
+      "position": "Position"
+    },
+    "tip": {
+      "confirm": {
+        "bindAccount": "You only have one chance to bind, and it cannot be changed after binding. Are you sure you want to bind?",
+        "changeBetsOne": "You have placed an order for the",
+        "changeBetsTwo": "Are you sure you want to remove your previous selections?",
+        "clearNumbers": "Please confirm you want to clear all numbers?",
+        "del": "Are you sure delete?",
+        "goCS": "You need to contact customer service to {{action}}.",
+        "newUpdate": "New update available!",
+        "newUpdateApp": "You can update now, or restart the app manually after you have completed the current page operation.",
+        "newUpdateWeb": "You can update now, or refresh the page manually after you have completed the current page operation."
+      },
+      "info": {
+        "allEmpty": "All Empty",
+        "autoAuthTip": "We have created a guest account for you. Please <span data-type=\"copy\">copy</span> the text or take a screenshot to save it. You will use this account later to claim rewards, withdraw funds, and more. You can also click <span data-type=\"set-password\">here</span> to link your phone number, change your password (after linked phone number), or link a third-party account for easier login.",
+        "bonusNotEnought": "Insufficient bonus balance",
+        "contactCsWithOrder": "Questions with this record? Click here.",
+        "contactCsWithRecharge": "For large deposits, please contact customer service to ensure full account credit.",
+        "copyText": "Please click the 'Copy' button to copy the text",
+        "customTickets": "Customize your tickets",
+        "dontShowAgainToday": "Do not show again today",
+        "dontShowTotay": "Don't Show Again Today",
+        "downloadBannerDoc": "Download app to get <span>5~1000</span> bonus",
+        "FullInsurance": "If not win, receive compensation of equal",
+        "fullInsuranceRule1": "Insurance Coverage Requirements",
+        "fullInsuranceRule1-1": "Only applies to lottery tickets recommended by AI system",
+        "fullInsuranceRule1-2": "Must purchase all numbers recommended by AI",
+        "fullInsuranceRule1-3": "Full purchase of recommended combinations required for insurance coverage",
+        "fullInsuranceRule2": "Compensation Trigger",
+        "fullInsuranceRule2-1": "Automatically triggered when all AI-recommended tickets are non-winning",
+        "fullInsuranceRule2-2": "Compensation will be processed within 24 hours after results confirmation",
+        "fullInsuranceRule3": "Compensation Benefits",
+        "fullInsuranceRule3-1": "5 free tickets for the next draw",
+        "fullInsuranceRule3-2": "Free tickets are generated by AI system",
+        "fullInsuranceRule3-3": "Tickets automatically added to your account",
+        "fullInsuranceRule3-4": "Check free tickets in \"My Bet\" section",
+        "fullInsuranceRule4": "Additional Notes",
+        "fullInsuranceRule4-1": "Free tickets are non-transferable",
+        "fullInsuranceRule4-2": "Valid for next draw only",
+        "fullInsuranceRule4-3": "Platform reserves the right of final interpretation",
+        "gameNotActive": "Sorry, the game is under maintenance. Please try again later.",
+        "getAppBonusContent": "We have prepared a gift for you, up to <span>₹{{num}}</span>.",
+        "getAppBonusTitle": "WELLCOME BONUS",
+        "getShareBonusHtml": "Get <span style=\"color:#0BC952;font-size:1.125rem;\">₹{{num}}</span> reward for the first 5 shares every day",
+        "giftCode": {
+          "getMore": "Get More Gift Code",
+          "ph": "Enter your gift code",
+          "success": "Exchange Successfully!"
+        },
+        "hasAccount": "Already have an account? Go to log in",
+        "initializin": "Initializing, please wait",
+        "iosInstallGuide": {
+          "guide1": "Open In Safari",
+          "guide1Decs": "If you're using another browser, please reopen this page in Safari.",
+          "guide2": "Tap \"Share\"",
+          "guide2Decs": "Tap the Share icon at the bottom of the screen. A menu will appear.",
+          "guide3": "3.Select \"Add to Home Screen\"",
+          "guide3Decs": "Choose Add to Home Screen, then tap Add to finish.",
+          "title": "Add to Home Screen Guide"
+        },
+        "loginFirst": "Please sign in first",
+        "needLogin": "Please sign in first, you can receive it after sign in.",
+        "noMoreContent": "No More Content Available",
+        "noSthYet": "No {{sth}} yet",
+        "openOnBrowser": "For a better experience, please click the top-right corner to open in your browser",
+        "orderNoWin": "Sorry, Your guessing is wrong, Try next time",
+        "orderWin": "Congratulations, You have won!",
+        "orderWinAmount": "Total Prize Amount",
+        "paidSuc": "Your tickets have been successfully purchased. Please take note of the draw time and check the results promptly.",
+        "plsWaitForLoad": "Data is loading, please wait",
+        "recharge": {
+          "getHelp": "If there the recharge has not been received <0>after 10 minutes</0>, Please provide <1>customer service</1> with a screenshot of the successful payment for assistance.",
+          "mehrere50": "The amount must be a multiple of 50",
+          "money-error": "Please enter the correct amount",
+          "paymethod-error": "Please select pay method",
+          "payMethodTip": "Please switch to another method if the current method failed.",
+          "placeholder": "Enter Recharge Amount",
+          "step1": "Every recharg way all working, you can choose any payment way.",
+          "step2": "Because of bank problems, if one chanel not working please try anther one.",
+          "step3": "Because some payment gateway sometime have problem, if your recharge not add in wallet, please must contact our service."
+        },
+        "selectNumber": "Select your number",
+        "selectNumberTip": "Please select at least {{num}} numbers",
+        "shareBetBtn": "Share To Get ₹{{num}}",
+        "shareLink": "share on social media",
+        "unOpen": "Not yet enabled",
+        "yourBalance": "Your account balance"
+      },
+      "success": {
+        "claim": "Claim Successfully!",
+        "copy": "Copy successfully!",
+        "copySite": "This website link has been copied!",
+        "del": "Delete successfully!",
+        "download": "Download Successfully!",
+        "login": "Sign in Successfully!",
+        "paid": "Paid successfully!",
+        "share": "Share Successfully!",
+        "success": "Successfully!",
+        "recharge": "Recharge submitted",
+        "withdraw": "Withdrawal submitted",
+        "transfer": "Transfer successful",
+        "checkin": "Check-in successful!",
+        "save": "Saved successfully",
+        "bankCard": "Bank card added",
+        "add": "Added successfully",
+        "update": "Updated successfully"
+      },
+      "warn": {
+        "betClosed": "The current betting period has ended, please wait for the next period",
+        "betUnable": "Betting closed in the last {{time}} seconds",
+        "copy": "Copy failed!",
+        "gameClosed": "{{gameName}} is closed now, please choose another game.",
+        "gameClosedWithoutName": "The game has ended, and betting is not allowed. Please place your bets on other games.",
+        "maxAmount": "The maximum amount you can bet is {{num}}",
+        "minAmount": "The minimum amount you can bet is {{num}}",
+        "notAddNums": "You haven't added any numbers yet.",
+        "numberSlod": "This ticket number has beed slod, Please try anotherone.",
+        "loginFirst": "Please login first",
+        "selectBet": "Please select a bet",
+        "enterAmount": "Please enter amount",
+        "insufficientBalance": "Insufficient balance"
+      },
+      "gameStopped": "This game is temporarily stopped"
+    }
+  },
+  "digit": {
+    "tip": {
+      "rule": {
+        "mixDigitDoc": "If a player places a bet on a {{num}}-digit number ({{chars}}), there are four chances to win:",
+        "mixDigitHowToPlay": "How to Place Your Bets",
+        "mixDigitHowToPlay1": "You can click the <span>\"Random\"</span> button to automatically fill in any empty digits. This action <span>will not overwrite</span> any digits you've already entered.",
+        "mixDigitHowToPlay2": "If you click the <span>\"Add\"</span> button before filling in all digits, the system will automatically generate all valid combinations based on the numbers you've already entered.",
+        "mixDigitHowToPlayMinChar": "In <span>{{num1}}D games</span>, you must enter <span>at least {{num2}} digits</span> before you can use the <span>\"Add\"</span> button.",
+        "mixDigitMatch": "Match all {{num}} digits ({{chars}}) - Prize: {{prize}}",
+        "mixDigitNotes1": "Digits must be matched in exact order to qualify for a prize.",
+        "mixDigitNotes2": "All results are based on the First Prize number of the respective KERALA Lottery draw.",
+        "mixDigitRuleEg": "If the First Prize number is 13579, then the digits are defined as: A = 1, B = 3, C = 5, D = 7, E = 9",
+        "mixDigitTitle": "{{num}}-Digit Game ({{chars}})"
+      },
+      "warn": {
+        "minlen": "You need to enter at least {{num}} numbers"
+      }
+    },
+    "label": {
+      "exact": "Exact",
+      "anyOrder": "Any Order",
+      "sumBet": "Sum"
+    }
+  },
+  "dubai": {
+    "label": {
+      "betSlip": "Bet Slip ({{num}})",
+      "maxMultiple": "Max 2000",
+      "pick": "Pick your sign",
+      "rule": {
+        "instructions": "Gameplay instructions"
+      }
+    },
+    "tip": {
+      "info": {
+        "onlyOneCanSel": "Only one number can be selected at a time",
+        "pencilEntry": "{{price}} per pencil for one entry"
+      },
+      "rule0": {
+        "total1": "This lottery is authorized by Emirates!",
+        "total2": "The prise is AED 5(price converted into rupees) 1ticket(1 number),Prize is AED 100(20 x odds)",
+        "total3": "Lottery draws will be held every hour on the hour,24 times 1 day 12AM to 11PM"
+      },
+      "rule1": {
+        "total1": "This is a quick lottery authorized by Emirates, just allowed in India online booking!",
+        "total2": "The prise is <span>10Rs 1ticket</span> (1 number), Prize is <span>300Rs</span> (20 x odds)",
+        "total3": "Lottery draws will be held every 30s, 24 hours working!"
+      },
+      "rule": {
+        "addBankCard": "Please update your bank account for withdraw cash",
+        "enjoy": "Please enjoy winning time!",
+        "instructions": "Pick a sign between 1 to 36 per ticket. Otherwise, click on the \"RANDOMISE\" icon at the top of the ticket to have a sign selected for you",
+        "multiplier": "The higher the multiplier, the more you win!",
+        "payMethod": "You can use UPI, Paytm, Phonepe, Gpay recharge"
+      }
+    }
+  },
+  "earnMoney": {
+    "desc": {
+      "betComp": "After a lost bet, the platform gives compensation, up to 30%",
+      "cashRain": "Recharge Any Amount, Play Free Cash Game!",
+      "checkIn": "Claim Daily Rewards",
+      "daily": "Daily free rewards, ready to claim",
+      "dailyBetComp": "Lose refund settled at 2 AM tomorrow",
+      "dailyInvite": "Invite 1 new user",
+      "dailyRebate": "Claim bonus on all bets tomorrow",
+      "dailyTasks": "Complete tasks to earn cash",
+      "deposit": "Get rewards based on your Single deposit amount",
+      "didNotRank": "Not applicable (did not rank)",
+      "firstWithdrawal": "Get a cash reward on your first withdrawal",
+      "inviteFriends": "get bonus when an invited friend recharges {{currency}}500 or more",
+      "oneTimeTask": "Complete tasks to claim free rewards",
+      "rebate": "Join a bet to get 0.5% cashback on your bet amount",
+      "rebateEmpty": "No rewards available to claim <br/> Cashback is settled at 2:00 AM the next day",
+      "recall": "Call back inactive users and earn bonus rewards together",
+      "reliefFunds": "The relief funds will be distributed over three days",
+      "setlemetTime": "Settlement time: Every Monday, 2 AM",
+      "spin": "Log in daily to get 1 free Lucky Spin",
+      "taskCompTip": "Task \"{{taskName}}\" completed.",
+      "totalBets": "Total bets ≥ {{amount}}",
+      "vipLevlLast1": "VIP Level Last Monday",
+      "yourLastWeekRanking": "Your ranking bonus for last week:"
+    },
+    "label": {
+      "addNow": "Add Now",
+      "addTg": "Add The Official Telegram",
+      "betComp": "Remember claim lose refund",
+      "bindNow": "Bind Now",
+      "changeNick": "Change NickName",
+      "checkIn": "Check In",
+      "checkInEntryDec": "Daily Free Bonus",
+      "compRate": "Compensation Rate",
+      "daily": "Daily Rewards",
+      "dailyInvite": "Daily Invite",
+      "dailyTasks": "Daily Tasks",
+      "deposit": "Deposit Rewards",
+      "editAvatar": "Edit Avatar",
+      "editNow": "Edit Now",
+      "firstWithdrawal": "First Withdrawal Reward",
+      "goBet": "Go Bet",
+      "inviteFriends": "Invite Friends",
+      "loseAmount": "Lose Amount",
+      "losRefund": "Lose Refund",
+      "oneTimeTask": "One Time Task",
+      "playCasino": "Play Casino Games",
+      "playFish": "Play Fishing Games",
+      "playLive": "Play Live Games",
+      "playLotto": "Play Lottery Games",
+      "playSlot": "Play Slot Games",
+      "rankingCashAwards": "Ranking Cash Awards",
+      "rebate": "Remember claim rebate bonus",
+      "recall": "Reacll & Rewarded",
+      "reliefFunds": "Relief Funds",
+      "step": "Step",
+      "tag1": "Free Gift Code",
+      "tag2": "Free Lottery Prediction",
+      "tag3": "Result Discussion",
+      "tag4": "Winning Guidance",
+      "tag5": "Telegram Personal Service",
+      "dailyCheckin": "Daily Check-in",
+      "day": "Day",
+      "checkin": "Check In",
+      "checked": "Checked In",
+      "activities": "Activities",
+      "noActivities": "No activities available",
+      "done": "Done",
+      "go": "Go",
+      "inviteDesc": "Earn commission for every friend who joins!",
+      "inviteNow": "Invite Now",
+      "reliefFundsDec": "Log in every day to claim relief funds",
+      "depositDec": "Make a deposit every day to earn bonus",
+      "firstWithdrawalDec": "Reach VIP level to get bonus on first withdrawal",
+      "dailyDec": "Complete daily tasks to earn rewards",
+      "dailyTasksDec": "Complete tasks to earn extra rewards",
+      "oneTimeTaskDec": "Complete these tasks once for bonus rewards",
+      "rankingDec": "Top players win cash prizes",
+      "winLose": "Bet Compensation",
+      "winLoseDec": "Get compensation based on your bets",
+      "claim": "Claim",
+      "claimed": "Claimed",
+      "locked": "Locked",
+      "expired": "Expired",
+      "bindPhone": "Bind Phone",
+      "downloadApp": "Download App",
+      "changeAvatar": "Change Avatar",
+      "addTG": "Join Telegram",
+      "cashRain": "Cash Rain",
+      "playLottery": "Play Lottery",
+      "playFishing": "Play Fishing",
+      "completed": "Completed"
+    },
+    "rule": {
+      "dailyRewards": {
+        "rule1": "Eligible Users:",
+        "rule1desc": "All registered users.",
+        "rule2": "Participation Requirement:",
+        "rule2desc": "You must have made at least one recharge within the past 6 days.",
+        "rule3": "How to Claim:",
+        "rule3desc1": "Visit the \"Earn Money\" page.",
+        "rule3desc2": "Click the 【Claim】 button to receive it for free.",
+        "rule4desc1": "Rewards are available once per day per eligible account.",
+        "rule4desc2": "Unclaimed rewards for the day may expire.",
+        "rule5": "The platform reserves the right to cancel rewards in cases of abuse or violation of terms."
+      },
+      "deposit": {
+        "rule1": "Who can join?",
+        "rule1desc": "Anyone who hasn't joined this offer before.",
+        "rule2": "How the reward is calculated?",
+        "rule2desc": "We give you bo nu based on how much you deposit.",
+        "rule3": "How to get your reward?",
+        "rule3desc": "You need to click to claim it yourself.",
+        "rule4": "How to withdraw?",
+        "rule4desc": "You only need to play through your deposit amount once. After that, you can withdraw all the money.",
+        "rule5": "Important note:",
+        "rule5desc": "Once you make a deposit, you are counted as having joined for that day. You can claim different reward amounts any time before midnight.",
+        "rule6": "All the money is real amount do not need make many times play to withdraw."
+      },
+      "dlTg": {
+        "step1": "Tap the download button below to go to the official app store and download the official Telegram app.",
+        "step2": "Register and log in to Telegram App",
+        "step3": "After logging in to Telegram, return to this page and tap “Add Now” to join our official Telegram channel.",
+        "title": "If you don’t have the official Telegram app, please follow the instructions below to download it."
+      },
+      "importantNotes": "Important Notes:",
+      "inviteFriends": {
+        "rule1": "Inviter Eligibility (Requirements for You):",
+        "rule1desc1": "Account Verification: Your account must have a successfully bound mobile phone number.",
+        "rule1desc2": "Recharge Threshold: You must have completed a cumulative Recharge of ≥500 rupees (or equivalent currency).",
+        "rule2": "Invitee Eligibility (Requirements for Your Friend):",
+        "rule2desc": "Recharge Threshold: Complete a single or cumulative recharge of ≥500 Rs (or equivalent currency).",
+        "rule3": "Reward Rules:",
+        "rule3desc1": "Reward Trigger: Your reward qualification is activated only after your invited friend fully meets all the conditions listed in the \"Invitee Eligibility\" section above.",
+        "rule3desc2": "Claim Method: Rewards are not distributed automatically. You must manually click the 【Claim】 button on the event page or in your \"Earn Money\" section.",
+        "rule4": "Strict Anti-Cheating & Security Measures:",
+        "rule4desc1": "The platform employs strict security systems for monitoring. Any activity involving the same device, IP address, bank card, or identity information used for multiple invitations or registrations within a short period may be flagged as cheating behavior.",
+        "rule4desc2": "The platform reserves the right to review any invite relationships or accounts suspected of cheating based on security rules (including but not limited to IP, device, behavioral patterns, etc.) and cancel their reward eligibility.",
+        "rule5": "Final Decision Authority: The platform reserves the final right to interpret these rules, the rewards, and all security-related decisions."
+      },
+      "loseRefound": {
+        "rule1": "Eligibility (Who can get it?):",
+        "rule1desc1": "Active users who placed valid bets yesterday.",
+        "rule1desc2": "Your total bet amount yesterday must be >100.",
+        "rule1desc3": "Your total loss amount yesterday must be >50.",
+        "rule1desc4": "The loss refund unclude all the official lotteris，3D official，Kerala Lottery.",
+        "rule2": "Refund Calculation (How is it calculated?):",
+        "rule2desc1": "Eligible users will randomly receive a Refund Rate (a percentage value, up to 30%).",
+        "rule2desc2": "Refund Amount = Your Total Loss Amount × Refund Rate.",
+        "rule3": "Claim & Expiry (How and when to get it?):",
+        "rule3desc1": "The refund reward will be available in your account.",
+        "rule3desc2": "Important: Any unclaimed refund reward will expire and be reset to zero the next day.",
+        "rule4desc1": "The platform's determination of \"valid bets\" \"loss amount\" and the random Refund Rate is final.",
+        "rule5": "This is a promotional benefit, and the platform reserves the right to modify or terminate this rule."
+      }
+    },
+    "title": "Earn Money",
+    "tip": {
+      "alreadyChecked": "Already checked in today",
+      "checkinSuccess": "Check-in successful!"
+    }
+  },
+  "error": {
+    "title": "Something went wrong",
+    "subtitle": "Please try again later"
+  },
+  "errorPage": {
+    "label": {
+      "noData": "No Data",
+      "noResult": "No search result",
+      "tryAgain": "Try Again"
+    },
+    "tip": {
+      "error": {
+        "networkError": "Something went terribly wrong!"
+      },
+      "info": {
+        "networkPoor": "The current network signal is poor",
+        "notFound": "Page Not Found",
+        "plsCheckNetwokr": "Please check your network",
+        "plsRefresh": "Please refresh your page"
+      }
+    }
+  },
+  "home": {
+    "label": {
+      "checkin": "Daily Check-In",
+      "deposit": "Deposit Offer",
+      "fishing": "Fishing",
+      "hotGame": "Hot Game",
+      "leaderboardRules": "Leaderboard Rules",
+      "lobby": "Lobby",
+      "luckySpin": "Lucky Spin",
+      "officialChannel": "Official Channel",
+      "ranking": "Ranking",
+      "rankingBasis": "Ranking Basis",
+      "rankingCycle": "Ranking Cycle",
+      "rewardCollection": "Reward Collection",
+      "rummy": "Rummy",
+      "slot": "Slot",
+      "suggested": "Suggested"
+    },
+    "tip": {
+      "foot1": "The best gaming platform in India, featuring a comprehensive selection of all popular video games, betting games, slot machines, and the latest and hottest games.",
+      "foot2": "Cash rewards are provided daily to our valued customers, with additional rewards during holidays as a special thank-you.",
+      "foot3": "Exclusive customer service to offer the best and highest quality service to every player.",
+      "foot4": "Please follow our official Telegram channel, official WhatsApp channel, and media channel, where we will periodically send rewards and benefits.",
+      "foot5": "For any questions, please contact {{appName}} official customer service, and we guarantee to provide you with the most satisfactory solution",
+      "notes": "The ranking is updated in real time. Players can check their ranking and other players' betting status in the game at any time. Any form of cheating is prohibited. Once found, the qualification to receive rewards will be revoked without prior intimation.",
+      "notOnTheLeaderboard": "Not on the leaderboard",
+      "rankingBasis": "The ranking is based on the cumulative bet amount of Color/Dice/Race&Guess/Spin within one week. The higher the betting amount, the higher the ranking.",
+      "rankingCycle": "The ranking is based on a weekly period, starting from 0:00 AM on Monday and ending at 11:59 PM on Sunday.",
+      "rewardCollection": "You can collect the ranking reward of the previous week at any time this week.",
+      "searchTip": "Search requires at least 3 characters."
+    }
+  },
+  "k3": {
+    "betting": {
+      "any3-modal": "Choose any 3 same numbers. lf the drawresults are any three of the same numbers.you win.",
+      "any3-tip": "Any 3 of the same number: odds({{odds}})",
+      "different-modal": "Choose 3 or more different numbers. If thedraw results match your selection, you win.",
+      "different-tip": "3 Different numbers: odds({{odds}})",
+      "same2-modal": "Choose 2 same numbers. lf the drawresults match your selection, you win(unless 3 numbers are the same).",
+      "same2-tip": "2 matching numbers: odds({{odds}})",
+      "same3-modal": "Choose 3 same numbers. lf the drawresults match your selection, you win.",
+      "same3-tip": "3 of the same number: odds({{odds}})"
+    },
+    "diceAnalyze": {
+      "round": "Round"
+    },
+    "drawtimefor": "Drawing Time for:",
+    "resultfor": "Result for:",
+    "rule": {
+      "description": "Description",
+      "graph-1": "Dice Game is depend on the 3 dices point to drawn. User can guess the dice points and select bet, user can bet total numbers of points, Single number, Double numbers, Triple numbers.",
+      "graph-11": "This game is provided \"as is\" without any express or implied\nwarranties. In no event shall the author be liable for any damages\nresulting from the use of this game. The user assumes all\nresponsibility for any and all risks associated with using this game.\nNo guarantee of accuracy is provided with the use of this game. This\ngame is intended for users over the age of 18 only.",
+      "graph-2-1": "In a 3 Dice game, the point values for {{big}} and {{small}} are as\nfollows:",
+      "graph-2-2": "The players who bet on 'BIG' and\n'SMALL' will win if points match these numb er after\nDice draw.",
+      "graph-2-big": "= 11, 12, 13, 14, 15, 16 and 17",
+      "graph-2-small": "= 4, 5, 6, 7, 8, 9 and 10",
+      "graph-3-1": "The sum of points of 3 Dice allows players to bet on \n{{odd}} or {{even}} numbers.",
+      "graph-3-2": "In a 3 Dice game, the point values for {{odd}} and \n{{even}} are as follows:",
+      "graph-3-3-title": "Except specific triple :",
+      "graph-3-even": "= 4, 6, 8, 10, 12, 14 and 16",
+      "graph-3-odd": "= 5, 7, 9, 11, 13, 15 and 17",
+      "graph-4-1": "The sum of points allows players to bet on the specific total of\npoints drawn from the 3 Dice. This does not include triples.",
+      "graph-4-2": "Bet on 4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+      "graph-5-1": "Single Dice is the prediction of the dice point that will be drawn\nany 1 out of 3 dice.",
+      "graph-5-2": "Bet on 1,2,3,4,5,6",
+      "graph-6-1": "Players can place 1 or more bets on any of the 15 different Double\nDice Combinations available. Betting results are based on any of the\n2 dice out of 3 dice results.",
+      "graph-6-2": "Bet on 2 dice numbers: 12,13,14,15,16,23,24,25,26,34,35,36,45,46,56",
+      "graph-7-1": "Specific Double allows players to bet on a specific point pair drawn\non any of the 2 Dice out of 3.",
+      "graph-7-2": "Bet on 11,22,33,44,55,66",
+      "graph-8-1": "Any Triple allows players to place bets for any of the 6\ncombinations of triples.",
+      "graph-8-2": "Bet on all triple:(111,222,333,444,555,666)",
+      "graph-9-1": "Specific Triple allows players to bet on specific triple\ncombinations that will be drawn from the Dice.",
+      "graph-9-2": "Bet separately specific triple =111/222/333/444/555/666",
+      "graph-9-3": "Triple Number Kill:",
+      "graph-9-4": "If the result is any triple number, your bets on other options will be considered as a loss",
+      "subtitle-1": "Dice Game Description",
+      "subtitle-10": "Game Odds",
+      "subtitle-11": "DISCLAIMER",
+      "subtitle-2": "Big / Small",
+      "subtitle-3": "Odd / Even",
+      "subtitle-4": "Sum of Points",
+      "subtitle-5": "Single Dice",
+      "subtitle-6": "Double Dice",
+      "subtitle-7": "Specific Double",
+      "subtitle-8": "Any Triple",
+      "subtitle-9": "Specific Triple",
+      "table-4-17": "Total points of 4 or 17",
+      "table-5-16": "Total points of 5 or 16",
+      "table-6-15": "Total points of 6 or 15",
+      "table-7-14": "Total points of 7 or 14",
+      "table-8-13": "Total points of 8 or 13",
+      "table-9-12": "Total points of 9 or 10 or 11 or 12",
+      "table-any": "Any combination of 3 Dice with identical Value.",
+      "table-big": "Total points between 11 to 17 excluding Triples",
+      "table-double": "Pair of Dice with specific combination",
+      "table-even": "Sum of points (Even number)",
+      "table-odd": "Sum of points (Odd number)",
+      "table-single": "1 Dice with specific value drawn",
+      "table-small": "Total points between 4 to 10 excluding Triples",
+      "table-spe-double": "Specific combination of 2 Dice with identical Value",
+      "table-triple": "Specific combination of 3 Dice with identical Value",
+      "table-bet": "Bet Type",
+      "table-rule": "Rule",
+      "table-odds": "Odds"
+    },
+    "title": {
+      "default": "Dice",
+      "main": "Dice-{{cycle}} Minutes",
+      "myOrder": "My order"
+    },
+    "label": {
+      "sum": "Sum",
+      "triple": "Triple",
+      "double": "Double",
+      "single": "Single Number",
+      "size": "Size",
+      "parity": "Parity"
+    }
+  },
+  "luckyspin": {
+    "label": {
+      "freeSpin": "Free Spin",
+      "freeSpinRec": "Free Spin Record",
+      "getFree": "Get Free Spin",
+      "myInviteCode": "My Invite Code",
+      "mySpin": "My Spin",
+      "title": "Lucky Spin"
+    },
+    "rules": {
+      "rule1": "Log in daily to receive 1 free spin.",
+      "rule2": "Invite 1 user to get up to 2 spins (1 spin for registration + 1 spin for recharge).",
+      "rule3": "Invite 1 user to receive rewards — no multiple invites needed, up to 50 spins per day.",
+      "rule4": "100% winning rate. All cash prizes can be withdrawn instantly.",
+      "rule5": "Winners of physical items must contact customer service to provide a mailing address for delivery.",
+      "rule6": "After completing the event, your bonus will be credited to your balance and can be withdrawn via the “Withdraw” button.",
+      "rule7": "This event is underwritten by Pacific Insurance Company of India.",
+      "rule8": "To protect the rights of real players, if fraudulent activities such as fake accounts, bulk registrations, or abnormal transactions are detected, the platform reserves the right to terminate participation and even freeze accounts.",
+      "rule9": "The final interpretation right of this event belongs to {{appName}}."
+    }
+  },
+  "me": {
+    "list": {
+      "addFunds": "Add Funds",
+      "agency": "Agency Center",
+      "contactAgent": "Contact Agent",
+      "giftCode": "Gift Code",
+      "languages": "Languages",
+      "logout": "LOG OUT",
+      "logoutTip": "Are you sure you want to log out?",
+      "service": "Customer Service",
+      "theme": "Theme",
+      "transactions": "My Transactions",
+      "update": "Update",
+      "withdrawFunds": "Withdraw Funds",
+      "referralCommission": "Referral commission"
+    },
+    "me": "Me",
+    "tip": {
+      "signin": "Sign in for more exciting content",
+      "wallet": {
+        "amount": "\"Withdrawable amount\" is the portion of your cash balance that can be withdrawn from your account. It represents the money that has met the wagering requirements, which need to be fulfilled before the funds can be withdrawn.",
+        "balance": "\"Cash balance\" refers to the actual cash funds available in your account that can be used for betting or other transactions.",
+        "bonus": "This bonus just can play bonus game, when you play bonus game prize received in bonus wallet. When you use bonus balance to play game, you will get 0.4% cash reward in cash wallet."
+      }
+    },
+    "wallet": {
+      "amount": "Withdrawable",
+      "balance": "Cash",
+      "title": "My Wallet"
+    },
+    "label": {
+      "bindPhone": "Bind Phone",
+      "bindTelegram": "Bind Telegram",
+      "bindGoogle": "Bind Google"
+    },
+    "share": {
+      "inviteCode": "Invite Code",
+      "inviteLink": "Invite Link"
+    }
+  },
+  "myBets": {
+    "details": {
+      "title": "Order details"
+    },
+    "dice": {
+      "drawn": "Drawn",
+      "drawn-results": " Drawn Results:",
+      "my-numbers": "My Numbers",
+      "single": "Single",
+      "sumofpoints": "Sum Of Points",
+      "sumtype": "Sum Type",
+      "triple": "Triple"
+    },
+    "label": {
+      "1stPriz": "1st Priz",
+      "1stPrize": "1st Prize",
+      "2ndPriz": "2nd Priz",
+      "2ndPrize": "2nd Prize",
+      "drawnResults": "Drawn Results:",
+      "settled": "Ticket Setting...",
+      "viewDetail": "View Details"
+    }
+  },
+  "mysteryBox": {
+    "desc": {
+      "popularBox": "Most popular <br/> mystery boxes",
+      "rule1": "1.We provide several different mystery boxes, each box contains 9 products. Purchase the mystery box according to your needs.",
+      "rule2": "2.You can buy multiple mysterious gift boxes. The more you buy, the higher the probability of being selected by the goddess of luck.",
+      "rule3": "3.For products sold in the Mystery Box, the platform will return them to the account wallet according to the price of the product.",
+      "ruleSubTitle1": "Luck to receive expensive gifts!",
+      "ruleSubTitle2": "Our aim is to make every Indian a lucky person and have a better life!",
+      "ruleTitle": "The latest model from the United States, you only need to spend a small amount of money, and you can hope to be selected by Lady.",
+      "stillHasFree": "You still have <span class=\"text-xl font-black leading-6\" style=\"color:#F62B18\">{{num}} free chances</span> <br/>please don't waste them",
+      "stillLeave": "I don't want it anymore, with a maximum <br/>loss of ₹20,175"
+    },
+    "label": {
+      "ContinuePlay": "Continue playing",
+      "guaranteed": "Guaranteed",
+      "openBox": "Open Box",
+      "productName": "Product Name",
+      "title": "Mystery Box",
+      "totalWin": "Total Win",
+      "tryUrLuck": "Try Your Luck",
+      "draw": "Open Box",
+      "history": "My Draw History",
+      "possiblePrizes": "Possible Prizes",
+      "loadingItems": "Loading prizes..."
+    },
+    "title": "Mystery Box"
+  },
+  "order": {
+    "label": {
+      "drawnResult": "Drawn Result",
+      "myBets": "My Bets"
+    },
+    "tip": {
+      "congratulation": "Congratulations,You have won!",
+      "settleSyncing": "Settlement in progress, please wait..."
+    }
+  },
+  "pay": {
+    "label": {
+      "agree": "I Agree",
+      "forwarding": "Whether to enable forwarding",
+      "money": "Money",
+      "preSaleRule": "(Pre-sale rules)",
+      "quantity": "Multiplier:",
+      "saleRules": {
+        "p1": "In order to protect the legitimate rights and interests of users participating in the pre-sale and maintain the normal operating order of the pre-sale, these rules are formulated in accordance with relevant agreements and laws and regulations. country Chapter 1 Definition.",
+        "p2": "1.1 Pre-sale definition: refers to a sales model in which a seller offers a bundle of a product or service, collects consumer orders through product tools before selling, and makes it available to customers. consumers of goods and/or services by prior agreement",
+        "p3": "1.2 Presale mode is \"deposit\" mode. \"Consignment\" refers to the pre-delivery of a fixed number of items prior to sale. \"Deposit\" Scam Join mini games for a chance to win more deposits. Deposits can be exchanged directly for goods. Deposit is not refundable.",
+        "p4": "1.3 Pre-sale product: A product that is shipped by the seller using the pre-sale product tool. Only highlight the word presale on the product name or product detail page, and products that do not use the presale product tool are not presale.",
+        "p5": "1.4 Pre-sale system: refers to the system product tool that helps sellers to sell samples before selling.",
+        "p6": "1.5 Product price before selling: is the selling price of the product before selling. The price of pre-sale items consists of two parts: deposit and final payment.",
+        "title": "Sale Rules"
+      },
+      "total": "Total Price",
+      "channel": "Payment Channel",
+      "selectAmount": "Select Amount",
+      "customAmount": "Custom Amount"
+    },
+    "tip": {
+      "least": "Minimum amount {{money}}",
+      "paysuccess": "Paid successfully",
+      "require": "Quantity is Required"
+    }
+  },
+  "profile": {
+    "label": {
+      "boundNow": "Bound Now",
+      "boundPhoneNumber": "Bind Phone Number",
+      "boundThirdAccount": "Bind Third-party Account",
+      "changePassword": "Change password",
+      "phoneNumber": "Phone Number",
+      "thirdAccount": "Third-party Account",
+      "avatar": "Avatar",
+      "nickname": "Nickname",
+      "phone": "Phone Number",
+      "bound": "Bound",
+      "notBound": "Not Found"
+    },
+    "title": "My Profile",
+    "tip": {
+      "nicknameEmpty": "Nickname cannot be empty"
+    }
+  },
+  "race": {
+    "label": {
+      "1stBet": "Champion Pick",
+      "champDec": "Champion Data Analysis for the Last 100 Events",
+      "team1stBet": "State Champion Prediction",
+      "top3any": "Enter Top 3",
+      "top3bet": "Exact Top 3",
+      "top3Ran": "Top 3 Box"
+    },
+    "tip": {
+      "ruleChampion": "Predict which athlete (1–{{num}}) will win the championship. A correct prediction rewards you with {{odds}}× your bet.",
+      "ruleDesc": "\"Run & Guess\" is a betting game where {{num}} athletes from six different states compete in a race. The game offers five exciting ways to predict the outcome.",
+      "ruleEnd": "Rewards are automatically credited to your account at the end of each game.",
+      "ruleState": "Predict which state will claim the championship. A correct prediction rewards you with {{odds}}× your bet.",
+      "ruleTitle": "Run & Guess Rules",
+      "ruleTop3Any": "Predict which athlete will finish in the top three. If your pick places anywhere in the top three, you’ll win {{odds}}× your bet.",
+      "ruleTop3Fixed": "Predict the exact top three finishers — first, second, and third — in the correct order. A perfect match earns you {{odds}}× your bet.",
+      "ruleTop3Random": "Predict the top three finishers, regardless of order. If your chosen three all appear in the top three, you’ll win {{odds}}× your bet."
+    }
+  },
+  "rebate": {
+    "betting": "Estimated Betting:",
+    "completed": "Completed",
+    "rebate": "Estimated Rebate:",
+    "receive": "Receive",
+    "rewards": "BET TO WIN REWARDS",
+    "rule": {
+      "activity": "Activity Description:",
+      "activity-detail": "{{appName}} super Bonus rebate activity is open foryou. Every bet will get a rebate Bonus. No matterif you win or lose, you will get Bonus Daily.",
+      "actrule": "Activity Rules:",
+      "actrule-detail": "Players can claim a betting rebate Bonus DailyBonus claim time is after 00:30 the Next Day.",
+      "betting": "Betting Bonus:",
+      "betting-detail": "{{appName}} will rebate users according to the betting amount. The more you bet, the more you get.",
+      "precaution": "Precautions:",
+      "precaution-detail-1": "-Only the qualified {{appName}} members couldparticipate in activities Every member has to complete account detailsin the {{appName}} Account to claim a rebate Bonus.- Any user involved in illegal activities is strictlyprohibited",
+      "precaution-detail-2": "-Same phone number, bank account number.Email address, and IP address can not be usedfor multiple accounts",
+      "precaution-detail-3": "-{{appName}} has the right to freeze accounts orcancel payments if found illegal/fraudulentactivities committed by individuals or groups intaking advantage of bonuses, (final bonusdecision belongs to {{appName}})"
+    },
+    "tabs": {
+      "collect": "To Be Collected",
+      "finish": "To Be Finished",
+      "received": "Received"
+    },
+    "today": "Today",
+    "unclaimed": "Unclaimed",
+    "undone": "Undone",
+    "unfinished": "Unfinished",
+    "yesterday": "Yesterday",
+    "label": {
+      "betAmount": "Bet Amount"
+    }
+  },
+  "recharge": {
+    "recharge": {
+      "onlyFixedAmount": "Only Fixed Amount",
+      "rechargeRecords": "Recharge Records",
+      "scanToPay": "Scan to Pay",
+      "youWillGet": "Total you can get",
+      "100credited": "100% Credited"
+    },
+    "record": {
+      "channel": "Channel",
+      "commission": "Withdraw Fee",
+      "failed": "Bank failed",
+      "in24": "within 24 hours",
+      "orderNum": "Order Number",
+      "received": "Received Amount",
+      "reward": "Reward",
+      "withdrawChannel": "Withdraw Channel",
+      "withdrawRecords": "Withdraw Records"
+    },
+    "transfer": {
+      "action": {
+        "received": "Actual amount received: ",
+        "belowMin": "Minimum transfer amount is {{min}}",
+        "insufficient": "Not enough transferable balance",
+        "overMax": "Maximum transfer amount is {{max}}",
+        "tip": "Dear Sir, you can exchange the withdrawn wallet money to cash wallet, system will give you transfer bonus.",
+        "title": "Transfer to Recharge Wallet"
+      },
+      "balance": "Transferable Balance",
+      "channel": "Recharge channel",
+      "get": "Will get: ",
+      "placeholder": "Withdrawable: ",
+      "records": {
+        "reward": "reward"
+      },
+      "suc": "conversion successful",
+      "transferRecords": "Transfer Records"
+    },
+    "tip": {
+      "minAmount": "Minimum recharge amount is {{amount}}",
+      "maxAmount": "Maximum recharge amount is {{amount}}"
+    }
+  },
+  "referral": {
+    "docs": {
+      "agentLevelOverview": "The commission rate depends on the agent level. The highest commission you can get is a 12% betting reward. Higher levels earn higher commissions, and upgrading your level is very easy. We offer the best games and lotteries, along with many kinds of bonuses. Invite your friends to bet on games and book lotteries, and you can easily earn money!",
+      "agentRule": "taking the current number of Level 2 agents as an example, recharging ₹1000 at Lv4, the rebate is as shown in the figure.",
+      "agentRuleDoc1": "As shown in the picture above: All members are associated with you and belong to your team subordinates.",
+      "agentRuleDoc2": "When someone clicks your invite link, they become your direct subordinates.",
+      "agentRuleDoc3": "When someone clicks the subordinates link, they become your team subordinates.",
+      "betGamesGroupTitle": "You will get commission when any member of your team recharge or bet",
+      "commFootDoc1": "Game accounts with the same device, IP address, mobile number, bank account details and other information can only participate once. Anyone who violates the above rules won't receive this Bonus.",
+      "commFootDoc2": "If any User or group attempts to earn money in an abnormal manner, then the platform reserves the right to freeze or close the account without any notice which results in banning their account.",
+      "commFootDoc3": "In order to avoid deviations in text understanding, the final right of interpretation of this event belongs to {{appName}}. It has the right to modify or close the event at any time.",
+      "title": "Upgrade Your Agent Level To Earn More Money"
+    },
+    "label": {
+      "14Days": "14Days",
+      "3Days": "3Days",
+      "7Days": "7Days",
+      "agentCenter": "Agent Center",
+      "agentLevelOverview": "Agent Level Overview",
+      "agentRule": "Agent Rule",
+      "commission": "Commission",
+      "copyLink": "Copy Link",
+      "datePicker": "Date Picker",
+      "directSubordinates": "Direct Subordinates",
+      "directSubordinatesData": "Direct Subordinates Data",
+      "every12AM": "Every Midnight 12 AM",
+      "facebook": "Facebook",
+      "firstRecharge": "First Recharge",
+      "follow": "Follow",
+      "inviteCode": "Invite Code",
+      "join": "Join",
+      "level": "Level",
+      "nextLevelUpgradeCommission": "Next Level Upgrade Commission",
+      "pendingComm": "Pending Commission",
+      "settlementtime": "Settlement Time",
+      "team": "Team",
+      "telegram": "Telegram",
+      "totalBets": "Total Bets",
+      "totalComm": "Total Commission",
+      "totalFirstRecharge": "Total First Recharge",
+      "upgradeConditions": "upgrade conditions",
+      "whatsapp": "Whatsapp",
+      "yesterdayComm": "Yesterday's Commission",
+      "yesterdaySubo": "Yesterday's Subordinates"
+    },
+    "tip": {
+      "activity": {
+        "alreadyClaimed": "You have already claim this reward",
+        "checkInBonus": "Sign in {{num}} days in a row to get",
+        "notAchieved": "Sorry, you have not yet claim the conditions to receive this reward."
+      },
+      "rules": {
+        "checkinRule1": "To claim the rewards for the day, please check daily. The reward collection time is from 0:00 AM to 11:59 PM.",
+        "checkinRule2": "Check for 7 consecutive days to receive a Free Kerala Lottery ticket.",
+        "checkinRule3": "The check-in progress resets every Monday.",
+        "checkinRule4": "The Free Kerala Lottery ticket you receive can be viewed under \"My Bets.\""
+      },
+      "share": {
+        "share1": "Invite friends to earn commission.",
+        "share2": "Send an invitation to a random player."
+      }
+    }
+  },
+  "result": {
+    "better": "Better luck for next draw",
+    "betTime": "Bet Time",
+    "bonus": "BONUS",
+    "congratulation": "Congratulations!",
+    "digit": {
+      "title": "3Digits"
+    },
+    "dubai": {
+      "title": "Dubai Lottery"
+    },
+    "game": "GAME",
+    "havewon": "You have Won",
+    "kerala": {
+      "placeholder": "Enter the code you purchased",
+      "winlist": "Winning List"
+    },
+    "label": {
+      "latestDrawDate": "Latest draw date:",
+      "drawTime": "Draw Time",
+      "game": "Game",
+      "numbers": "Numbers",
+      "prizeTiers": "Prize Tiers",
+      "round": "Round",
+      "roundInfo": "Round Info",
+      "totalWinners": "Total Winners",
+      "winners": "Winners"
+    },
+    "leaderboard": "Today's leaderboard",
+    "lotteryOpeningTime": "Lottery opening time:",
+    "minute": "Minute",
+    "mixDigit": {
+      "title": "4D & 5D"
+    },
+    "more": "More",
+    "number": "Number",
+    "quickDigit": {
+      "title": "Quick 3D"
+    },
+    "sorry": "Sorry!",
+    "tips": {
+      "prizesSize": "1st to {{num}}th prizes"
+    },
+    "user": "USER",
+    "yourbets": "Your Bets",
+    "quickDigits": {
+      "title": "Quick Digits"
+    }
+  },
+  "signin": {
+    "label": {
+      "forgotPwd": "Forgot Password?",
+      "otpLogin": "OTP Sign In",
+      "rememberpwd": "Remember password",
+      "resetPwd": "Reset Password",
+      "sendOtp": "Send OTP",
+      "signinAs": "Sign in as {{name}}",
+      "signinWith": "Sign in With {{channel}}"
+    },
+    "ph": {
+      "confirmpwd": "Confirm Password",
+      "inviteCode": "Invite Code(Optional)",
+      "OTP": "Enter the 6-digit code",
+      "phoneNum": "Please enter phone number",
+      "setPwd": "Set Password (letters or nums, 6+chars)",
+      "phone": "Enter phone number",
+      "otp": "Enter OTP",
+      "password": "Enter password",
+      "confirmPassword": "Confirm password",
+      "newPassword": "Enter new password"
+    },
+    "tip": {
+      "pg18": "I am over 18 years old",
+      "pwdLenErr": "The password length must be greater than 6",
+      "pwdNotMath": "The passwords you entered twice do not match",
+      "waitInit": "{{channel}} services are initializing, please wait",
+      "phoneErr": "Please enter a valid phone number"
+    }
+  },
+  "stateLotto": {
+    "desc": {
+      "rule": {
+        "betOn": "\"{{betValue}}\" for the 1st Prize-{{num}}rd digit",
+        "betResult": "The 1st Prize-{{num}}rd digit is \"{{result}}\", which is a \"{{betValue}}\" number, therefore the bet wins.",
+        "desc1": "The State Lottery is determined by the results of official lotteries such as the Kerala Lottery, Dear Lottery, Punjab Dear 10, and Arunachal State Lottery, among others. The State Lottery selects the last four digits (A, B, C, D) of the first prize number as the final drawn result.",
+        "desc2": "For example, if the Kerala Lottery's first prize result is WA 770249, the State Lottery result will be 0249, with A=0, B=2, C=4, and D=9.",
+        "desc3": "If the official lottery is not drawn, the State Lottery will also not be drawn, and all betting orders will be canceled. The drawing time for this game depends on the official lottery draw time, so it will occur shortly after the official draw.",
+        "desc4": "A 2% service fee is deducted from every bet. For example, if you bet Rs. 100, the betting amount will be Rs. 98. The final winning prize will be calculated as 98 * odds.",
+        "drawResult": "1st Prize is {{result}}",
+        "FPCTitle": "Bet placed on a \"Fish\"/\"Prawn\"/\"Crab\" number for a single digit.",
+        "howToPlay1": "When you enter the game, you can see counters available on the screen.",
+        "howToPlay2": "Click on the selection of the counter which you would like to place your bet on. You will be presented with a bet slip where you can key your stake for the bet.",
+        "howToPlay3": "Next, you can select more selection to place bet or click on the \"Place Bet\" button to confirm all your bet. You may also click on the \"Remove\" icon to remove single or all bets.",
+        "howToPlay4": "Any bet placed that has not been confirmed will not be accepted by the system. You can refer to \"Open Bets\" page to see the bet details of your bet. Once the bet has been settled, then your bet can be seen in \"Statement\" page. In the event that a draw has been cancelled, all bets for the draw will be voided and cancelled.",
+        "howToPlay5": "Our Sdate Lottery wager can be placed on the following bet types, each of the bet types is further explained below",
+        "mixD": "Choose four numbers to match the results. They need to match exactly. That is, if the bet is {{num}}, the result must also be {{num}}.",
+        "mixX": "Choose four numbers to match the results. If the result is a combination of these four numbers, you will win.",
+        "towSide": {
+          "BSTitle": "Bet placed on a \"Big\" or \"Small\" number for a single digit.",
+          "OETitle": "Bet placed on a \"Odd\" or \"Even\" number for a single digit.",
+          "ODTitle": "Bet on whether the last digit is Odd (1,3,5,7,9) or Even (0,2,4,6,8)."
+        }
+      }
+    },
+    "label": {
+      "addToBetSlip": "Add to bet slip",
+      "betAmount": "Betting amount",
+      "betSlipCount": "Bet Slip Counts",
+      "Crab": "Crab",
+      "Fish": "Fish",
+      "name": "Sdate Lottery",
+      "Prawn": "Prawn",
+      "rule": {
+        "betOn": "Player Bet On",
+        "exapmle": "Exapmle",
+        "FPCTitle": "Number for Single Digit is {{value}}",
+        "mixTitle": "Number for {{num}} Digit",
+        "singleSubTitle": "{{value}} for Single Digit",
+        "singleTitle": "Number for Single Digit",
+        "towSide": {
+          "BSTitle": "1. Big/Small for Single Digit",
+          "OETitle": "2. Odd/Even for Single Digit"
+        }
+      }
+    },
+    "tip": {
+      "1digitModeTip": "Please select at least 1 number for every digit.",
+      "beforePlay": "Please click the add button before making a payment.",
+      "betMax": "Sorry, the maximum number of bets you can place is {{num}}",
+      "cantAddToCart": "The following combinations will not be added to the shopping cart",
+      "disableTip": "Sorry, you cannot select numbers that are repeated.",
+      "noSelectNumbers": "You have not selected any numbers yet.",
+      "numberModeTip": "Please select at least 1 number(s) for each digit. Max 100 bet slip count to be created each time.",
+      "numUneven": "You must choose at least one number in each group"
+    }
+  },
+  "transactions": {
+    "label": {
+      "game": "Game",
+      "order": "Order",
+      "title": "Transactions",
+      "totalAmount": "Total Amount"
+    }
+  },
+  "vip": {
+    "cLevel": "Current Level",
+    "docs": {
+      "upLevel": "Recharge <span class=\"text-sec font-bold\">{{value}}</span> more to reach level VIP{{level}}"
+    },
+    "level": "VIP level",
+    "salary": {
+      "title": "Weekly salary",
+      "lastWeekRecharge": "Last Week Recharge",
+      "lock": "VIP level not high enough",
+      "lockTip": "Rewards are available after reaching VIP 1.",
+      "rules": {
+        "rule1": "Every Monday 2:00 PM settled weekly sallary.",
+        "rule2": "Your salary depends on your VIP level at the time of last week's settlement.",
+        "rule3": "Dear user, you must finished weekly recharge task then you can get the sallary.",
+        "rule4": "Weekly sallary will added in your recharge wallet.",
+        "title": "Weekly Salary Rules"
+      },
+      "setTime": "Monday 2:00 PM Settled",
+      "weeklyRecharge": "Weekly Recharge"
+    },
+    "title": "VIP",
+    "toBeCollected": "To be Collected",
+    "toBeFinished": "To be Finished",
+    "toVIP": "more to reach level VIP",
+    "label": {
+      "currentLevel": "Current Level",
+      "nextLevel": "Next Level",
+      "progress": "Progress",
+      "benefits": "VIP Benefits",
+      "levelReward": "Level Reward",
+      "weeklyReward": "Weekly Reward",
+      "monthlyReward": "Monthly Reward",
+      "rebateBonus": "Rebate Bonus",
+      "betProgress": "Bet Progress",
+      "rechargeProgress": "Recharge Progress",
+      "claim": "Claim",
+      "claimed": "Claimed",
+      "requirements": "Level Up Requirements"
+    },
+    "table": {
+      "level": "Level",
+      "upgrade": "Upgrade",
+      "monthly": "Monthly",
+      "rebate": "Rebate",
+      "action": "Action"
+    },
+    "rule": {
+      "desc1": "VIP level is determined by total bet and recharge amounts.",
+      "desc2": "Higher VIP levels unlock better rewards and rebate rates.",
+      "desc3": "VIP rewards must be claimed manually before they expire."
+    }
+  },
+  "wingo": {
+    "rule": {
+      "bet-close": "Bet close:",
+      "graph-1-1": "Color Game is the most popular game in India, it is a easy game, you can select the color :Red ,Greean and Purple or number(1,2,3,4,5,6,7,8,9,0) to bet. ",
+      "graph-2-1": "Red: 2x (Bet amount x 2)",
+      "graph-2-2": "Green: 2x (Bet amount x 2)",
+      "graph-2-3": "Violet: 4.5x (Bet amount x 4.5)",
+      "graph-2-4": "*If the result is 🟣 Violet, and it's the same as 🔴 Red or 🟢 Green, such as 0 or 5, players who bet on 🔴 Red/🟢 Green will receive 1.5x odds.",
+      "graph-3": "Winning Odds - Any number: 9x (Bet amount x 9)",
+      "graph-4-1": "The platform will charge a 2% service fee for each bet. If you choose to bet 100 rupees, after deducting the 2% service fee, your final betting amount is 98 rupees.",
+      "graph-4-2": "Example: If you bet 100 rupees and your odds are 2x, you will receive 98 x 2 = 196 rupees.",
+      "second": "seconds before",
+      "subtitle-1": "Color Game Rules",
+      "subtitle-2": "Winning Odds",
+      "subtitle-3": "Guess Number",
+      "subtitle-4": "Charges:",
+      "game-type": "Game Type"
+    },
+    "table": {
+      "color": "COLOR",
+      "number": "NUMBER"
+    },
+    "title": "Color",
+    "label": {
+      "color": "Color",
+      "number": "Number",
+      "size": "Size"
+    }
+  },
+  "withdraw": {
+    "label": {
+      "bankCard": "Bank Card",
+      "addCard": "Add Card",
+      "amount": "Withdraw Amount",
+      "todayRemainTimes": "Today Remaining",
+      "todayRemainAmount": "Today Remaining Amount",
+      "withdrawRecords": "Withdraw Records",
+      "viewRecords": "View Records"
+    },
+    "ph": {
+      "amount": "Enter withdrawal amount"
+    },
+    "tip": {
+      "noCard": "No bank card added yet",
+      "selectCard": "Please select a bank card",
+      "minAmount": "Minimum withdrawal amount is {{amount}}",
+      "maxAmount": "Maximum withdrawal amount is {{amount}}",
+      "insufficientBalance": "Insufficient balance",
+      "submitSuccess": "Withdrawal submitted successfully",
+      "successDesc": "Your withdrawal request has been submitted"
+    },
+    "bank-page": {
+      "del": {
+        "confirmText": "Are you sure you want to delete this bank card?",
+        "confirmTitle": "Delete bank card"
+      },
+      "error": {
+        "check-ifsc": "Please check your IFSC code"
+      },
+      "label": {
+        "accountNum": "Account Number",
+        "accountNumAgain": "Account Number Again",
+        "bankName": "Bank Name",
+        "cardHolderName": "Cardholder Name",
+        "current": "Current Phone Number",
+        "email": "Email",
+        "get-otp": "Get OTP",
+        "IFSC": "IFSC Code",
+        "otp": "OTP",
+        "UPI": "Enter UPI Address"
+      },
+      "placeholder": {
+        "accountNum": "9-17 number, no space",
+        "bankName": "Please enter the name of the bank",
+        "cardHolderName": "Please enter the cardholder name",
+        "email": "Please enter the Email",
+        "IFSC": "e.g. SBIN0226432",
+        "otp": "Please enter OTP",
+        "UPI": "Please enter your UPI ID"
+      },
+      "tip": {
+        "plsEnterRealName": "Please make sure the name and bank details are correct. Otherwise, the funds may not be credited."
+      },
+      "title": "Add Bank Card"
+    },
+    "withdraw-page": {
+      "error": {
+        "addAmount": "Please enter the amount",
+        "addCard": "Please add a bank card first"
+      },
+      "label": {
+        "addBank": "Add Bank Account",
+        "edit": "Edit",
+        "received": "Actual amount received:",
+        "success": "Withdrawal successful",
+        "transferTo": "Transfer to bank account",
+        "withdrawAmount": "Withdrawable Amount",
+        "withdraw-record": "Withdrawal records"
+      },
+      "modal": {
+        "choose": "Choose a bank card"
+      },
+      "placeholder": {
+        "enterAmount": "Enter amount (min: {{min}})",
+        "notEnoughMoney": "Not enough money (min: {{min}})"
+      },
+      "rules": {
+        "fee-1": "Dear sir, Please confirm your bank account, IFSC code and bank name correct, make sure the money you can received.",
+        "fee-2": "Every withdrawn we will deducted {{rate}}% of total amount as fee to give bank, confirm the money can be paid.",
+        "limit": "We have found some money laundry behaviorsSo limits that recharge amount should be used for betting only. The commission and winninoamount could be withdrawn immediately.",
+        "note": "*Note: withdraw may be delayed due to someBank issues. In this case, the withdrawn amount will be returned to your wallet. Thank you for your patience.",
+        "times-1": "Each user could withdraw ",
+        "times-2": " times per day."
+      },
+      "success": {
+        "amount": "Withdrawal amount",
+        "message": "Your withdrawal request has been received, and we will process your request within 24 hours. During this period, you can check the withdrawal status at any time.",
+        "title": "Submit Successful"
+      },
+      "tip": {
+        "bindPhone": "You need to bind your mobile number before adding a bank card",
+        "dontShareOTP": "Official customer services will not ask for this information, if anyone asks for your OTP code or password then that person is a scammer.",
+        "dontShareOTPTitle": "Do not share your OTP code or password!",
+        "transfer": "Converting to no withdrawal can earn an ",
+        "transferSubmit": "After clicking Confirm, your withdrawable balance will be converted into Recharge wallet and you will get the corresponding bonus.",
+        "withdrawalOpportunity": "You have <span class=\"text-sec text-11\">{{withdrawCountLimit}}</span> more withdrawal opportunity today (<span class=\"text-sec text-11\">{{withdrawCountSurplus}}</span> times in total)",
+        "withdrawSubmitted": "Your withdrawal has been submitted please be patient."
+      }
+    }
+  },
+  "bankcard": {
+    "label": {
+      "addCard": "Add Bank Card",
+      "holderName": "Account Holder Name",
+      "bankName": "Bank Name",
+      "accountNo": "Account Number",
+      "confirmAccountNo": "Confirm Account Number",
+      "ifsc": "IFSC Code"
+    },
+    "ph": {
+      "holderName": "Enter account holder name",
+      "bankName": "Enter bank name",
+      "accountNo": "Enter account number",
+      "confirmAccountNo": "Confirm account number",
+      "ifsc": "Enter IFSC code"
+    },
+    "tip": {
+      "accountNotMatch": "Account numbers do not match",
+      "ifscErr": "Please enter a valid IFSC code"
+    }
+  },
+  "bonus": {
+    "label": {
+      "bonusBalance": "Bonus Balance",
+      "rules": "Bonus Rules",
+      "wageringProgress": "Wagering Progress"
+    },
+    "rule": {
+      "desc1": "Bonus funds require wagering before withdrawal.",
+      "desc2": "Wagering requirement: {{multiplier}}x the bonus amount.",
+      "desc3": "Only bets on eligible games count toward wagering."
+    },
+    "tip": {
+      "wageringDesc": "Complete wagering to unlock bonus for withdrawal"
+    }
+  },
+  "cashRain": {
+    "title": "Cash Rain",
+    "label": {
+      "active": "Cash Rain Active!",
+      "collect": "Collect",
+      "nextEvent": "Next Event",
+      "lastEarnings": "Last Earnings",
+      "totalCollected": "Total Collected",
+      "rules": "Rules"
+    },
+    "rule": {
+      "desc1": "Cash Rain events happen at scheduled times.",
+      "desc2": "Tap to collect rewards during the event.",
+      "desc3": "Rewards are credited to your main wallet."
+    }
+  },
+  "transfer": {
+    "label": {
+      "from": "From",
+      "to": "To",
+      "amount": "Amount",
+      "mainWallet": "Main Wallet",
+      "bonusWallet": "Bonus Wallet"
+    },
+    "ph": {
+      "amount": "Enter transfer amount"
+    },
+    "tip": {
+      "insufficientBalance": "Insufficient balance"
+    }
+  },
+  "record": {
+    "label": {
+      "orderId": "Order ID"
+    },
+    "status": {
+      "pending": "Pending",
+      "success": "Success",
+      "failed": "Failed"
+    }
+  },
+  "search": {
+    "label": {
+      "recent": "Recent Searches"
+    },
+    "ph": {
+      "keyword": "Search games..."
+    }
+  },
+  "sports": {
+    "label": {
+      "noGames": "No games found",
+      "providers": "Providers"
+    },
+    "placeholder": {
+      "search": "Search games..."
+    }
+  },
+  "provider": {
+    "title": "Game Provider",
+    "label": {
+      "games": "Games"
+    }
+  },
+  "app": {
+    "title": "Download App",
+    "label": {
+      "description": "Download our app for a better experience",
+      "download": "Download",
+      "howToInstall": "How to Install",
+      "screenshots": "Screenshots"
+    },
+    "step": {
+      "download": "Download the APK file",
+      "allow": "Allow installation from unknown sources",
+      "install": "Install and open the app"
+    }
+  },
+  "land": {
+    "label": {
+      "downloadApp": "Download App",
+      "playNow": "Play Now"
+    },
+    "4d": {
+      "desc": "Play 4D lottery and win big prizes"
+    },
+    "game": {
+      "desc": "Play exciting games and earn rewards"
+    },
+    "safedear": {
+      "desc": "Safe and secure gaming platform"
+    },
+    "checken1": {
+      "desc": "Daily check-in for bonus rewards"
+    },
+    "checken2": {
+      "desc": "Complete tasks to earn more"
+    },
+    "checken3": {
+      "desc": "Invite friends for extra bonuses"
+    }
+  },
+  "fived": {
+    "label": {
+      "positionA": "Position A",
+      "positionB": "Position B",
+      "positionC": "Position C",
+      "positionD": "Position D",
+      "positionE": "Position E"
+    }
+  }
+}
