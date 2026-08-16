@@ -1,13 +1,15 @@
 .me-root {
-  --me-brand: var(--brand);
-  --me-brand-2: var(--brand-deep);
-  --me-brand-3: var(--brand-soft);
-  --me-glow: var(--brand-glow);
-  --me-tint: var(--brand-tint);
-  --me-hero-1: var(--brand);
-  --me-hero-2: hsl(calc(var(--brand-h) + 14) var(--brand-s) 44%);
-  --me-hero-a: hsl(var(--brand-h) var(--brand-s) 76% / .55);
-  --me-hero-b: hsl(var(--brand-h) var(--brand-s) 58% / .45);
+  --me-primary: var(--basic-color-primary);
+  --me-primary-deep: color-mix(in srgb, var(--basic-color-primary) 66%, #000);
+  --me-primary-strong: color-mix(in srgb, var(--basic-color-primary) 85%, #000);
+  --me-primary-soft: color-mix(in srgb, var(--basic-color-primary) 55%, #fff);
+  --me-glow: color-mix(in srgb, var(--basic-color-primary) 45%, transparent);
+  --me-tint: color-mix(in srgb, var(--basic-color-primary) 9%, transparent);
+  --me-tint-2: color-mix(in srgb, var(--basic-color-primary) 15%, transparent);
+  --me-hero-1: var(--me-primary);
+  --me-hero-2: var(--me-primary-deep);
+  --me-hero-a: color-mix(in srgb, var(--basic-color-primary) 55%, transparent);
+  --me-hero-b: color-mix(in srgb, var(--basic-color-primary) 38%, transparent);
   --me-card: rgba(255, 255, 255, .72);
   --me-rim: rgba(255, 255, 255, .85);
   --me-border: rgba(15, 20, 30, .08);
@@ -15,25 +17,27 @@
   --me-muted: #6f7683;
   --me-press: rgba(15, 20, 30, .05);
   --me-shadow: 0 0.5rem 1.5rem -0.75rem rgba(20, 28, 45, .35);
-  --me-wallet: linear-gradient(135deg,
-    hsl(var(--brand-h) var(--brand-s) 44%),
-    hsl(var(--brand-h) var(--brand-s) 34%) 55%,
-    hsl(calc(var(--brand-h) + 12) var(--brand-s) 30%));
-  --me-wallet-shadow: 0 0.9rem 2rem -0.9rem hsl(var(--brand-h) var(--brand-s) 26% / .75);
+  --me-wallet: linear-gradient(140deg, var(--me-primary), var(--me-primary-deep) 96%);
+  --me-wallet-shadow: 0 0.9rem 2rem -0.9rem var(--me-glow);
+  --me-danger: var(--basic-color-danger);
+  --me-danger-tint: color-mix(in srgb, var(--basic-color-danger) 8%, transparent);
+  --me-danger-rim: color-mix(in srgb, var(--basic-color-danger) 35%, transparent);
   --me-ease: cubic-bezier(.34, 1.40, .5, 1);
   --me-ripple-ease: cubic-bezier(.22, .61, .36, 1);
 }
 
 :root.dark .me-root {
-  --me-brand: var(--brand);
-  --me-brand-2: var(--brand-deep);
-  --me-brand-3: var(--brand-soft);
-  --me-glow: var(--brand-glow);
-  --me-tint: var(--brand-tint);
-  --me-hero-1: hsl(var(--brand-h) 62% 24%);
-  --me-hero-2: hsl(calc(var(--brand-h) + 12) 56% 12%);
-  --me-hero-a: hsl(var(--brand-h) var(--brand-s) var(--brand-l) / .30);
-  --me-hero-b: hsl(var(--brand-h) var(--brand-s) 52% / .24);
+  --me-primary: var(--basic-color-primary);
+  --me-primary-deep: color-mix(in srgb, var(--basic-color-primary) 60%, #000);
+  --me-primary-strong: color-mix(in srgb, var(--basic-color-primary) 78%, #000);
+  --me-primary-soft: color-mix(in srgb, var(--basic-color-primary) 60%, #fff);
+  --me-glow: color-mix(in srgb, var(--basic-color-primary) 42%, transparent);
+  --me-tint: color-mix(in srgb, var(--basic-color-primary) 14%, transparent);
+  --me-tint-2: color-mix(in srgb, var(--basic-color-primary) 22%, transparent);
+  --me-hero-1: color-mix(in srgb, var(--basic-color-primary) 40%, #000);
+  --me-hero-2: color-mix(in srgb, var(--basic-color-primary) 20%, #000);
+  --me-hero-a: color-mix(in srgb, var(--basic-color-primary) 30%, transparent);
+  --me-hero-b: color-mix(in srgb, var(--basic-color-primary) 22%, transparent);
   --me-card: rgba(28, 32, 40, .62);
   --me-rim: rgba(255, 255, 255, .10);
   --me-border: rgba(255, 255, 255, .08);
@@ -41,10 +45,9 @@
   --me-muted: #98a0ad;
   --me-press: rgba(255, 255, 255, .06);
   --me-shadow: 0 0.6rem 1.8rem -0.9rem rgba(0, 0, 0, .8);
-  --me-wallet: linear-gradient(135deg,
-    hsl(var(--brand-h) 70% 26%),
-    hsl(var(--brand-h) 70% 19%) 55%,
-    hsl(calc(var(--brand-h) + 12) 62% 17%));
+  --me-wallet: linear-gradient(140deg,
+    color-mix(in srgb, var(--basic-color-primary) 78%, #000),
+    color-mix(in srgb, var(--basic-color-primary) 45%, #000));
   --me-wallet-shadow: 0 0.9rem 2.2rem -1rem rgba(0, 0, 0, .85);
 }
 
@@ -97,7 +100,7 @@
 .me-avatar {
   border-radius: 50%;
   padding: 0.09rem;
-  background: linear-gradient(135deg, var(--me-brand-3), var(--me-brand), var(--me-brand-2));
+  background: linear-gradient(135deg, var(--me-primary-soft), var(--me-primary), var(--me-primary-deep));
   box-shadow: 0 0.35rem 1rem -0.35rem var(--me-glow);
 }
 
@@ -114,6 +117,21 @@
   font-size: 0.625rem;
   line-height: 1.2;
   white-space: nowrap;
+}
+
+.me-login-btn {
+  width: 4.375rem;
+  min-width: auto !important;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+  color: #fff !important;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--me-primary-soft), var(--me-primary), var(--me-primary-deep)) !important;
+  box-shadow: 0 0.4rem 0.95rem -0.4rem var(--me-glow);
 }
 
 .me-wallet {
@@ -249,53 +267,163 @@
   transition: none;
 }
 
-.me-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+.me-quick {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.625rem;
+}
 
-.me-art-btn {
+.me-quick-btn {
   position: relative;
   overflow: hidden;
-  min-width: 0 !important;
-  padding: 0 !important;
-  border-radius: 0.75rem !important;
-  background: transparent !important;
-  box-shadow: var(--me-shadow);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  height: 4.5rem;
+  padding: 0 0.9rem;
+  border: 0;
+  border-radius: 1rem;
+  text-align: left;
+  cursor: pointer;
   touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
   transition: transform .3s var(--me-ease), box-shadow .3s ease;
 }
 
-.me-art-btn::after {
+.me-quick-btn:active { transform: scale(.97); }
+
+.me-quick-ico {
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.75rem;
+  flex-shrink: 0;
+}
+
+.me-quick-ico svg { width: 1.4rem; height: 1.4rem; }
+
+.me-quick-label {
+  flex: 1;
+  min-width: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.me-quick-chev { flex-shrink: 0; }
+
+.me-quick-recharge {
+  color: #fff;
+  background: linear-gradient(135deg, var(--me-primary-soft), var(--me-primary) 45%, var(--me-primary-deep));
+  box-shadow: 0 0.75rem 1.6rem -0.8rem var(--me-glow);
+}
+
+.me-quick-recharge::before {
   content: "";
   position: absolute;
   inset: 0;
   border-radius: inherit;
-  background: radial-gradient(closest-side, rgba(255, 255, 255, .45), transparent 72%);
-  opacity: 0;
-  transform: scale(1.3);
+  background: linear-gradient(180deg, rgba(255, 255, 255, .18), transparent 48%);
   pointer-events: none;
-  transition: transform .5s var(--me-ripple-ease), opacity .5s ease;
 }
 
-.me-art-btn:active::after { opacity: 1; transform: scale(.5); transition: none; }
-.me-art-btn:active { transform: scale(.97); }
-
-.me-art {
-  display: block;
-  width: 100%;
-  height: 100%;
-  border-radius: inherit;
-  background-repeat: no-repeat;
-  pointer-events: none;
-  transition: filter .35s ease;
+.me-quick-recharge .me-quick-ico {
+  background: rgba(255, 255, 255, .18);
+  color: #fff;
 }
 
-.me-vip {
-  border-radius: 0.9rem;
-  overflow: hidden;
+.me-quick-recharge .me-quick-chev { color: rgba(255, 255, 255, .85); }
+
+.me-quick-withdraw {
+  color: var(--me-text);
+  background: var(--me-card);
+  border: 1px solid var(--me-border);
   box-shadow: var(--me-shadow);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  backdrop-filter: blur(18px) saturate(180%);
+}
+
+.me-quick-withdraw .me-quick-ico {
+  background: var(--me-tint-2);
+  color: var(--me-primary);
+}
+
+.me-quick-withdraw .me-quick-chev { color: var(--me-muted); }
+
+.me-vip-card {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid var(--me-border);
+  border-radius: 1rem;
+  text-align: left;
+  cursor: pointer;
+  color: var(--me-text);
+  background:
+    linear-gradient(120deg, var(--me-tint-2), transparent 60%),
+    var(--me-card);
+  box-shadow: var(--me-shadow);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  backdrop-filter: blur(18px) saturate(180%);
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
   transition: transform .3s var(--me-ease);
 }
 
-.me-vip:active { transform: scale(.98); }
+.me-vip-card:active { transform: scale(.98); }
+
+.me-vip-card::before {
+  content: "";
+  position: absolute;
+  right: -1.5rem;
+  top: -2rem;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, var(--me-tint-2), transparent 70%);
+  pointer-events: none;
+}
+
+.me-vip-ico {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 2.35rem;
+  height: 2.35rem;
+  border-radius: 0.7rem;
+  flex-shrink: 0;
+  color: #fff;
+  background: linear-gradient(135deg, var(--me-primary-soft), var(--me-primary-deep));
+  box-shadow: 0 0.35rem 0.85rem -0.35rem var(--me-glow);
+}
+
+.me-vip-ico svg { width: 1.35rem; height: 1.35rem; }
+
+.me-vip-title {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  min-width: 0;
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: .02em;
+  color: var(--me-primary);
+}
+
+.me-vip-chev {
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+  color: var(--me-muted);
+}
 
 .me-sec { animation: me-rise .5s var(--me-ease) both; }
 .me-sec-1 { animation-delay: .03s; }
@@ -389,7 +517,7 @@
   box-shadow: var(--me-shadow);
   -webkit-backdrop-filter: blur(18px) saturate(180%);
   backdrop-filter: blur(18px) saturate(180%);
-  color: #ff4d5e;
+  color: var(--me-danger);
   font-weight: 700;
   font-size: 0.875rem;
   display: grid;
@@ -403,13 +531,12 @@
 
 @media (hover: hover) and (pointer: fine) {
   .me-row:hover { background: var(--me-tint); }
-  .me-row:hover .me-chev { transform: translateX(0.15rem); color: var(--me-brand); }
+  .me-row:hover .me-chev { transform: translateX(0.15rem); color: var(--me-primary); }
 
-  .me-art-btn:hover { transform: translateY(-0.15rem); box-shadow: 0 0.9rem 1.8rem -0.9rem rgba(20, 28, 45, .55); }
-  .me-art-btn:hover .me-art { filter: brightness(1.06) saturate(1.04); }
-  .me-vip:hover { transform: translateY(-0.1rem); }
+  .me-quick-btn:hover { transform: translateY(-0.15rem); box-shadow: 0 0.9rem 1.8rem -0.9rem var(--me-glow); }
+  .me-vip-card:hover { transform: translateY(-0.1rem); }
 
-  .me-logout:hover { background: rgba(255, 77, 94, .08); border-color: rgba(255, 77, 94, .35); }
+  .me-logout:hover { background: var(--me-danger-tint); border-color: var(--me-danger-rim); }
   .me-refresh:hover { transform: rotate(180deg); }
 
   .me-stat:hover { background: rgba(255, 255, 255, .17); }
@@ -419,10 +546,8 @@
 @media (prefers-reduced-motion: reduce) {
   .me-row,
   .me-chev,
-  .me-art-btn,
-  .me-art,
-  .me-art-btn::after,
-  .me-vip,
+  .me-quick-btn,
+  .me-vip-card,
   .me-logout,
   .me-stat,
   .me-stat-info,

@@ -4,6 +4,8 @@ export interface LuckySpinInfoDto {
   price?: number
   freeCount?: number
   gameID?: number
+  image?: string
+  banner?: string
 }
 
 export interface LuckySpinDrawDto {

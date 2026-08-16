@@ -189,6 +189,42 @@ const HotBadge = () => (
   <div className="px-1.5 py-0.5 text-8 rounded-full flex items-center justify-center text-white bg-tip">HOT</div>
 )
 
+const RechargeActionIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="3" y="8.5" width="18" height="11.5" rx="2.4" stroke="currentColor" strokeWidth="1.8" />
+    <path d="M3 12.5H21" stroke="currentColor" strokeWidth="1.8" />
+    <path d="M12 2V7" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+    <path d="M9.5 4.8L12 7.3L14.5 4.8" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+)
+
+const WithdrawActionIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="3" y="8.5" width="18" height="11.5" rx="2.4" stroke="currentColor" strokeWidth="1.8" />
+    <path d="M3 12.5H21" stroke="currentColor" strokeWidth="1.8" />
+    <path d="M12 7.3V2.3" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+    <path d="M9.5 4.8L12 2.3L14.5 4.8" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+)
+
+const CrownIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M3 8.2L6.6 11.4L12 5L17.4 11.4L21 8.2L19.4 17.5H4.6L3 8.2Z" fill="currentColor" fillOpacity="0.92" stroke="currentColor" strokeWidth="1.4" strokeLinejoin="round" />
+    <path d="M4.6 20H19.4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+  </svg>
+)
+
+const VipLevelBadge = ({ level }: { level: number }) => (
+  <div
+    className="bg-no-repeat w-13 h-5 shrink-0"
+    style={{
+      backgroundImage: 'url(/images/vip/vip-level-sprite.webp)',
+      backgroundSize: '36.54rem 5.4rem',
+      backgroundPosition: `${-level * 4.625}rem -2.43rem`,
+    }}
+  />
+)
+
 const MenuItem = ({ icon, children, link, onClick, needLogin, rightNode, hiddenArrow }: {
   icon?: React.ReactNode
   children: React.ReactNode
@@ -358,16 +394,7 @@ export const MePage = () => {
               <>
                 <div className="flex items-center">
                   <p className="font-bold text-sm text-white mr-2">{userInfo?.nickName}</p>
-                  {userInfo?.vipLevel !== undefined && (
-                    <div
-                      className="bg-no-repeat w-13 h-5"
-                      style={{
-                        backgroundImage: 'url(/images/vip/vip-level-sprite.webp)',
-                        backgroundSize: '36.54rem 5.4rem',
-                        backgroundPosition: `${-userInfo.vipLevel * 4.625}rem -2.43rem`,
-                      }}
-                    />
-                  )}
+                  {userInfo?.vipLevel !== undefined && <VipLevelBadge level={userInfo.vipLevel} />}
                 </div>
                 <motion.div
                   className="flex items-center gap-2 text-xs text-white overflow-hidden origin-left"
@@ -386,7 +413,7 @@ export const MePage = () => {
                 <motion.div className="origin-left" style={{ scale: infoScale, height: loginBtnHeight }}>
                   <Button
                     onPress={() => navigate('/login')}
-                    className="mt-1 w-17.5 min-w-auto h-8 flex justify-center items-center rounded-3xl text-black text-xs font-bold bg-linear-primary-tb shadow-btn-primary"
+                    className="me-login-btn mt-1"
                   >
                     {t('common.label.login')}
                   </Button>
@@ -437,36 +464,42 @@ export const MePage = () => {
             </div>
           </div>
 
-          {vipEnabled && (
-            <div
-              className="me-vip me-sec me-sec-2 w-full h-20 -mt-7"
-              style={{ backgroundImage: 'url(/images/me/sprite-v2.webp)', backgroundSize: '23.4375rem 36.625rem', backgroundPosition: '0px -27.125rem', cursor: 'pointer' }}
-              onClick={() => { if (isLoggedIn) navigate('/vip'); else navigate('/login') }}
-            />
-          )}
         </div>
 
         <div className="px-3">
-          <div className="me-actions me-sec me-sec-2">
-            <Button
-              onPress={() => { if (isLoggedIn) navigate('/recharge'); else navigate('/login') }}
-              className="me-art-btn h-18"
+          <div className="me-quick me-sec me-sec-2">
+            <button
+              type="button"
+              className="me-quick-btn me-quick-recharge"
+              onClick={() => { if (isLoggedIn) navigate('/recharge'); else navigate('/login') }}
             >
-              <span
-                className="me-art"
-                style={{ backgroundImage: 'url(/images/me/sprite-v2.webp)', backgroundSize: '23.4375rem 36.625rem', backgroundPosition: 'left 0px bottom 0px' }}
-              />
-            </Button>
-            <Button
-              onPress={() => { if (isLoggedIn) navigate('/withdraw'); else navigate('/login') }}
-              className="me-art-btn h-18"
+              <span className="me-quick-ico"><RechargeActionIcon /></span>
+              <span className="me-quick-label">{t('common.label.recharge')}</span>
+              <ChevronRight className="me-quick-chev size-3.5 rtl:rotate-180" />
+            </button>
+            <button
+              type="button"
+              className="me-quick-btn me-quick-withdraw"
+              onClick={() => { if (isLoggedIn) navigate('/withdraw'); else navigate('/login') }}
             >
-              <span
-                className="me-art"
-                style={{ backgroundImage: 'url(/images/me/sprite-v2.webp)', backgroundSize: '23.4375rem 36.625rem', backgroundPosition: 'left -10.875rem bottom 0px' }}
-              />
-            </Button>
+              <span className="me-quick-ico"><WithdrawActionIcon /></span>
+              <span className="me-quick-label">{t('common.label.withdraw')}</span>
+              <ChevronRight className="me-quick-chev size-3.5 rtl:rotate-180" />
+            </button>
           </div>
+
+          {vipEnabled && (
+            <button
+              type="button"
+              className="me-vip-card me-sec me-sec-2 mt-3"
+              onClick={() => { if (isLoggedIn) navigate('/vip'); else navigate('/login') }}
+            >
+              <span className="me-vip-ico"><CrownIcon /></span>
+              <span className="me-vip-title">{t('vip.title')}</span>
+              {isLoggedIn && userInfo?.vipLevel !== undefined && <VipLevelBadge level={userInfo.vipLevel} />}
+              <ChevronRight className="me-vip-chev size-3.5 rtl:rotate-180" />
+            </button>
+          )}
 
           <div className="my-3">
             <div className="me-card me-sec me-sec-3">

@@ -1,7 +1,7 @@
 :root {
-  --brand-h: 208;
-  --brand-s: 91%;
-  --brand-l: 56%;
+  --brand-h: 348;
+  --brand-s: 100%;
+  --brand-l: 50%;
 
   --brand: hsl(var(--brand-h) var(--brand-s) var(--brand-l));
   --brand-soft: hsl(var(--brand-h) var(--brand-s) 78%);

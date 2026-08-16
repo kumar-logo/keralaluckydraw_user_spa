@@ -20,12 +20,50 @@ interface ReadPayload {
   lastReadId: number
 }
 
+interface DeliveredPayload {
+  groupId: number
+  userId: string
+  lastDeliveredId: number
+}
+
 interface MentionPayload {
   groupId: number
   groupName: string
   messageId: number
   senderName: string
   preview: string
+}
+
+interface MentionBadgePayload {
+  groupId: number
+}
+
+interface GroupUpdatePayload {
+  groupId: number
+  name: string
+  avatar: string
+  description: string
+  type: string
+  joinPolicy: string
+  postPolicy: string
+  visibility: string
+}
+
+interface JoinedPayload {
+  groupId: number
+  userId: string
+}
+
+interface LeftPayload {
+  groupId: number
+  userId: string
+}
+
+interface DmCreatedPayload {
+  groupId: number
+  dmKey: string
+  userId: string
+  scope: string
 }
 
 let socket: Socket | null = null
@@ -81,9 +119,39 @@ const handleRead = (payload: ReadPayload): void => {
   useChatStore.getState().receiveRead(payload.groupId, payload.userId, payload.lastReadId)
 }
 
+const handleDelivered = (payload: DeliveredPayload): void => {
+  if (!payload || !payload.groupId) return
+  useChatStore.getState().receiveDelivered(payload.groupId, payload.userId, payload.lastDeliveredId)
+}
+
 const handleMention = (payload: MentionPayload): void => {
   if (!payload || !payload.senderName) return
   toast.success(`${payload.senderName} mentioned you in ${payload.groupName}`)
+}
+
+const handleMentionBadge = (payload: MentionBadgePayload): void => {
+  if (!payload || !payload.groupId) return
+  useChatStore.getState().receiveMentionBadge(payload.groupId)
+}
+
+const handleGroupUpdate = (payload: GroupUpdatePayload): void => {
+  if (!payload || !payload.groupId) return
+  useChatStore.getState().handleGroupUpdate(payload)
+}
+
+const handleJoined = (payload: JoinedPayload): void => {
+  if (!payload || !payload.groupId) return
+  useChatStore.getState().handleJoined(payload.groupId, payload.userId)
+}
+
+const handleLeft = (payload: LeftPayload): void => {
+  if (!payload || !payload.groupId) return
+  useChatStore.getState().handleLeft(payload.groupId, payload.userId)
+}
+
+const handleDmCreated = (payload: DmCreatedPayload): void => {
+  if (!payload || !payload.groupId) return
+  useChatStore.getState().handleDmCreated(payload.groupId)
 }
 
 export const emitChatTyping = (groupId: number): void => {
@@ -99,8 +167,10 @@ const subscribeRooms = (ids: number[]): void => {
   }
 }
 
-const currentGroupIds = (): number[] =>
-  useChatStore.getState().groups.map((g) => g.id)
+const currentRoomIds = (): number[] => {
+  const state = useChatStore.getState()
+  return state.groups.map((g) => g.id).concat(state.dms.map((d) => d.id))
+}
 
 const connect = async (token: string): Promise<void> => {
   if (socket) {
@@ -128,10 +198,16 @@ const connect = async (token: string): Promise<void> => {
     socket.on('chat:cleared', handleCleared)
     socket.on('chat:typing', handleTyping)
     socket.on('chat:read', handleRead)
+    socket.on('chat:delivered', handleDelivered)
     socket.on('chat:mention', handleMention)
+    socket.on('chat:mention_badge', handleMentionBadge)
+    socket.on('chat:group_update', handleGroupUpdate)
+    socket.on('chat:joined', handleJoined)
+    socket.on('chat:left', handleLeft)
+    socket.on('chat:dm_created', handleDmCreated)
     socket.on('connect', () => {
       subscribed.clear()
-      subscribeRooms(currentGroupIds())
+      subscribeRooms(currentRoomIds())
       void useChatStore.getState().syncActiveGroup()
     })
   } catch {
@@ -144,7 +220,9 @@ const connect = async (token: string): Promise<void> => {
 export const useChatSocket = (): void => {
   const token = useAuthStore((s) => s.token)
   const enabled = useAppConfigStore((s) => s.groupChatEnabled)
-  const groupIdsKey = useChatStore((s) => s.groups.map((g) => g.id).join(','))
+  const roomIdsKey = useChatStore((s) =>
+    s.groups.map((g) => g.id).concat(s.dms.map((d) => d.id)).join(','),
+  )
 
   useEffect(() => {
     if (!token || !enabled) {
@@ -160,9 +238,9 @@ export const useChatSocket = (): void => {
   }, [token, enabled])
 
   useEffect(() => {
-    if (!token || !enabled || groupIdsKey === '') return
-    subscribeRooms(currentGroupIds())
-  }, [token, enabled, groupIdsKey])
+    if (!token || !enabled || roomIdsKey === '') return
+    subscribeRooms(currentRoomIds())
+  }, [token, enabled, roomIdsKey])
 
   useEffect(() => {
     if (!token || !enabled) return
