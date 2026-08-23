@@ -113,6 +113,17 @@ export interface DmReceipts {
   peerReadId: number
 }
 
+export interface ChatMuteState {
+  muted: boolean
+  mutedUntil: string | null
+  reason: string
+}
+
+export interface ChatGroupsResult {
+  groups: ChatGroup[]
+  mute: ChatMuteState
+}
+
 export interface ChatUnread {
   groupId: number
   unread: number
@@ -148,7 +159,7 @@ export const chatMediaUrl = (path: string): string => {
 }
 
 export const getChatGroups = () =>
-  apiGet<ChatGroup[]>('/hall/api/chat/v1/groups')
+  apiGet<ChatGroupsResult>('/hall/api/chat/v1/groups')
 
 export const getChatUnread = () =>
   apiGet<ChatUnread[]>('/hall/api/chat/v1/unread')

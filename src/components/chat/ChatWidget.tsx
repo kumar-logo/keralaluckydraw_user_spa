@@ -113,6 +113,14 @@ const formatTime = (iso: string): string => {
   if (Number.isNaN(d.getTime())) return ''
   return `${d.getHours().toString().padStart(2, '0')}:${d.getMinutes().toString().padStart(2, '0')}`
 }
+const MUTED_NOTICE = 'You are muted — you cannot send messages'
+const muteNotice = (until: string | null): string => {
+  if (until === null) return MUTED_NOTICE
+  const d = new Date(until)
+  if (Number.isNaN(d.getTime())) return MUTED_NOTICE
+  return `You are muted until ${dateLabel(until)} ${formatTime(until)}`
+}
+
 const formatDuration = (ms: number): string => {
   const total = Math.max(0, Math.round(ms / 1000))
   const m = Math.floor(total / 60)
@@ -751,6 +759,8 @@ const ChatPanel = ({ onClose }: { onClose: () => void }) => {
   const loadingHistory = useChatStore((s) => s.loadingHistory)
   const loadingMore = useChatStore((s) => s.loadingMore)
   const sending = useChatStore((s) => s.sending)
+  const muted = useChatStore((s) => s.muted)
+  const mutedUntil = useChatStore((s) => s.mutedUntil)
   const enterRoom = useChatStore((s) => s.enterRoom)
   const backToList = useChatStore((s) => s.backToList)
   const loadMore = useChatStore((s) => s.loadMore)
@@ -1056,6 +1066,11 @@ const ChatPanel = ({ onClose }: { onClose: () => void }) => {
                 >
                   {activeConv !== null && joiningId === activeConv.id ? <Spinner size={18} onPrimary /> : 'Join group'}
                 </button>
+              </div>
+            ) : muted ? (
+              <div className="kc-readonly">
+                <span className="kc-readonly-ic"><ChatGlyph /></span>
+                <span className="kc-readonly-text">{muteNotice(mutedUntil)}</span>
               </div>
             ) : readOnly ? (
               <div className="kc-readonly">

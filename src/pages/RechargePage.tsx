@@ -3,8 +3,9 @@ import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Button, Image, ScrollShadow } from '@nextui-org/react'
 import { useAuthStore } from '../stores/authStore'
-import { getRechargePanel, rechargeBalance, type PayChannelDto, type AmountBtnDto } from '../services/financeApi'
+import { getRechargePanel, rechargeBalance, PaymentGatewayMode, type PayChannelDto, type AmountBtnDto } from '../services/financeApi'
 import { toast } from '../utils/toast'
+import { copyToClipboard as copyWithFallback } from '../utils/clipboard'
 import { formatCurrency } from '../utils/format'
 import { withLoading, resolveAssetUrl } from '../utils/helpers'
 import { fetchAndSyncBalance } from '../utils/fetchBalance'
@@ -13,6 +14,16 @@ import { Spin } from '../components/shared/Spin'
 
 const UTR_LENGTH = 12
 const UTR_PATTERN = /^\d{12}$/
+
+const copyToClipboard = (text: string) => {
+  const nx = (window as Window & { nexuses?: { copyText?: (text: string) => void } }).nexuses
+  if (nx?.copyText) {
+    nx.copyText(text)
+    toast.success('Copied!')
+    return
+  }
+  copyWithFallback(text, 'Copied!')
+}
 
 export const RechargePage = () => {
   const { t } = useTranslation()
@@ -57,11 +68,16 @@ export const RechargePage = () => {
   }, [amount])
 
   const manualQr = useMemo(
-    () => (currentChannel?.mode === 'manual' && currentChannel.qr ? currentChannel.qr : ''),
+    () => (currentChannel?.mode === PaymentGatewayMode.Manual && currentChannel.qr ? currentChannel.qr : ''),
     [currentChannel],
   )
 
-  const isManual = currentChannel?.mode === 'manual'
+  const manualUpiId = useMemo(
+    () => (currentChannel?.mode === PaymentGatewayMode.Manual && currentChannel.upiId ? currentChannel.upiId : ''),
+    [currentChannel],
+  )
+
+  const isManual = currentChannel?.mode === PaymentGatewayMode.Manual
   const requireProof = currentChannel?.requireProof !== false
   const showProofUpload = isManual && requireProof
   const isUtrValid = UTR_PATTERN.test(paymentRef)
@@ -275,6 +291,21 @@ export const RechargePage = () => {
                     classNames={{ wrapper: 'size-56', img: 'size-full object-contain' }}
                   />
                 </>
+              )}
+              {manualUpiId && (
+                <div className="w-full mt-3">
+                  <div className="text-xs font-bold text-main mb-1">UPI ID</div>
+                  <div className="flex items-center gap-2 w-full p-2 rounded-sm border border-gray dark:border-text-acc bg-selected">
+                    <span className="flex-1 text-sm font-bold text-main break-all">{manualUpiId}</span>
+                    <Button
+                      size="sm"
+                      className="h-8 px-4 shrink-0 bg-linear-primary-tr rounded-full text-black font-bold"
+                      onPress={() => copyToClipboard(manualUpiId)}
+                    >
+                      Copy
+                    </Button>
+                  </div>
+                </div>
               )}
               {showProofUpload && (
                 <div className="w-full mt-3">

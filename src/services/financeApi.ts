@@ -29,6 +29,11 @@ export interface WithdrawPanelDto {
   withdrawExplain?: string
 }
 
+export enum PaymentGatewayMode {
+  Auto = 'auto',
+  Manual = 'manual',
+}
+
 export interface PayChannelDto {
   id: number
   name: string
@@ -36,8 +41,9 @@ export interface PayChannelDto {
   minAmount: number
   maxAmount: number
   isCustom: boolean
-  mode?: string
+  mode?: PaymentGatewayMode
   qr?: string
+  upiId?: string
   requireProof?: boolean
 }
 

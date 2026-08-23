@@ -66,6 +66,15 @@ interface DmCreatedPayload {
   scope: string
 }
 
+interface MuteStatePayload {
+  muted: boolean
+  mutedUntil: string | null
+  reason: string
+}
+
+const MUTED_MESSAGE = 'You are muted in the chat'
+const UNMUTED_MESSAGE = 'You can send messages in the chat again'
+
 let socket: Socket | null = null
 let connecting = false
 const subscribed = new Set<number>()
@@ -154,6 +163,19 @@ const handleDmCreated = (payload: DmCreatedPayload): void => {
   useChatStore.getState().handleDmCreated(payload.groupId)
 }
 
+const handleMuteState = (payload: MuteStatePayload): void => {
+  if (!payload || typeof payload.muted !== 'boolean') return
+  const wasMuted = useChatStore.getState().muted
+  useChatStore.getState().applyMuteState(payload)
+  const isMuted = useChatStore.getState().muted
+  if (isMuted === wasMuted) return
+  if (isMuted) {
+    toast.warning(payload.reason === '' ? MUTED_MESSAGE : `${MUTED_MESSAGE}: ${payload.reason}`)
+    return
+  }
+  toast.success(UNMUTED_MESSAGE)
+}
+
 export const emitChatTyping = (groupId: number): void => {
   if (socket && socket.connected) socket.emit('chat:typing', { groupId })
 }
@@ -205,6 +227,7 @@ const connect = async (token: string): Promise<void> => {
     socket.on('chat:joined', handleJoined)
     socket.on('chat:left', handleLeft)
     socket.on('chat:dm_created', handleDmCreated)
+    socket.on('chat:mute_state', handleMuteState)
     socket.on('connect', () => {
       subscribed.clear()
       subscribeRooms(currentRoomIds())

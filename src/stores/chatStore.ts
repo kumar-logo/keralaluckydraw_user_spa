@@ -1,5 +1,6 @@
 import { create } from 'zustand'
 import { useAppConfigStore } from './configStore'
+import { toast } from '../utils/toast'
 import { MessageKind, SenderRole, GroupType } from '../services/chatTypes'
 import {
   getChatGroups,
@@ -16,6 +17,7 @@ import {
   type ChatGroup,
   type ChatMessage,
   type ChatDm,
+  type ChatMuteState,
   type DiscoverGroup,
   type SendPayload,
 } from '../services/chatApi'
@@ -31,6 +33,41 @@ const SYNC_MAX_PAGES = 20
 const READ_DEBOUNCE_MS = 1200
 const DELIVERED_DEBOUNCE_MS = 1200
 const PEER_KEY = '__peer__'
+const MAX_TIMEOUT_MS = 2147483647
+const SEND_FAILED_MESSAGE = 'Message could not be sent'
+
+interface ApiErrorShape {
+  data?: { msg?: string }
+  response?: { data?: { msg?: string } }
+}
+
+const serverMessage = (err: unknown): string => {
+  if (typeof err === 'object' && err !== null) {
+    const shaped = err as ApiErrorShape
+    const direct = shaped.data === undefined ? undefined : shaped.data.msg
+    if (typeof direct === 'string' && direct !== '') return direct
+    const nested =
+      shaped.response === undefined || shaped.response.data === undefined
+        ? undefined
+        : shaped.response.data.msg
+    if (typeof nested === 'string' && nested !== '') return nested
+  }
+  if (err instanceof Error && err.message !== '') return err.message
+  return ''
+}
+
+const reportSendFailure = (err: unknown): void => {
+  const message = serverMessage(err)
+  toast.warning(message === '' ? SEND_FAILED_MESSAGE : message)
+}
+
+let muteExpiryTimer: ReturnType<typeof setTimeout> | undefined
+
+const clearMuteExpiry = (): void => {
+  if (muteExpiryTimer === undefined) return
+  clearTimeout(muteExpiryTimer)
+  muteExpiryTimer = undefined
+}
 
 const loadNumberMap = (key: string): Record<number, number> => {
   try {
@@ -149,8 +186,11 @@ interface ChatState {
   reply: ChatMessage | null
   lastMarkedRead: Record<number, number>
   myUserId: string | null
+  muted: boolean
+  mutedUntil: string | null
 
   setMyUserId: (id: string | null) => void
+  applyMuteState: (state: ChatMuteState) => void
   openPanel: () => void
   closePanel: () => void
   loadGroups: () => Promise<void>
@@ -219,8 +259,38 @@ export const useChatStore = create<ChatState>((set, get) => ({
   reply: null,
   lastMarkedRead: {},
   myUserId: null,
+  muted: false,
+  mutedUntil: null,
 
   setMyUserId: (id) => set({ myUserId: id }),
+
+  applyMuteState: (state) => {
+    clearMuteExpiry()
+    if (!state.muted) {
+      set({ muted: false, mutedUntil: null })
+      return
+    }
+    if (state.mutedUntil === null) {
+      set({ muted: true, mutedUntil: null })
+      return
+    }
+    const expiresAt = Date.parse(state.mutedUntil)
+    if (Number.isNaN(expiresAt)) {
+      set({ muted: true, mutedUntil: null })
+      return
+    }
+    const remaining = expiresAt - Date.now()
+    if (remaining <= 0) {
+      set({ muted: false, mutedUntil: null })
+      return
+    }
+    set({ muted: true, mutedUntil: state.mutedUntil })
+    if (remaining > MAX_TIMEOUT_MS) return
+    muteExpiryTimer = setTimeout(() => {
+      muteExpiryTimer = undefined
+      set({ muted: false, mutedUntil: null })
+    }, remaining)
+  },
 
   openPanel: () => {
     set({ open: true })
@@ -242,7 +312,9 @@ export const useChatStore = create<ChatState>((set, get) => ({
 
   loadGroups: async () => {
     try {
-      const groups = await getChatGroups()
+      const res = await getChatGroups()
+      const groups = res.groups
+      get().applyMuteState(res.mute)
       const unread: Record<number, number> = {}
       const mentionUnread: Record<number, number> = { ...get().mentionUnread }
       for (const g of groups) {
@@ -438,9 +510,11 @@ export const useChatStore = create<ChatState>((set, get) => ({
       get().receiveMessage(msg)
       set({ sending: false, reply: null })
       return true
-    } catch {
+    } catch (err) {
       set({ sending: false })
+      reportSendFailure(err)
       void useAppConfigStore.getState().refreshGroupChat()
+      void get().loadGroups()
       return false
     }
   },
@@ -509,14 +583,16 @@ export const useChatStore = create<ChatState>((set, get) => ({
         }
       })
       return true
-    } catch {
+    } catch (err) {
       URL.revokeObjectURL(blobUrl)
       set((state) => {
         const existing = state.messagesByGroup[activeGroupId]
         const base = existing === undefined ? [] : existing.filter((m) => m.id !== tempId)
         return { sending: false, messagesByGroup: { ...state.messagesByGroup, [activeGroupId]: base } }
       })
+      reportSendFailure(err)
       void useAppConfigStore.getState().refreshGroupChat()
+      void get().loadGroups()
       return false
     }
   },
@@ -770,6 +846,7 @@ export const useChatStore = create<ChatState>((set, get) => ({
   reset: () => {
     saveUnread({})
     saveMentions({})
+    clearMuteExpiry()
     set({
       open: false,
       inRoom: false,
@@ -795,6 +872,8 @@ export const useChatStore = create<ChatState>((set, get) => ({
       deliveries: {},
       reply: null,
       lastMarkedRead: {},
+      muted: false,
+      mutedUntil: null,
     })
   },
 }))
